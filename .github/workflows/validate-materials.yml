@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   validate:
-    name: Validate manifest and file layout
+    name: Validate manifest, file layout, and README catalog
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -26,3 +26,6 @@ jobs:
 
       - name: Validate materials
         run: node scripts/validate-materials.mjs
+
+      - name: Check generated README catalog
+        run: node scripts/update-readme.mjs --check
