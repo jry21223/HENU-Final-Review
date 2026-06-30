@@ -1,0 +1,48 @@
+name: 资料补充请求
+description: 请求补充某门课程的真题、课件、讲义或练习资料
+title: "request(<课程名>): <资料说明>"
+labels:
+  - material-request
+body:
+  - type: input
+    id: course
+    attributes:
+      label: 课程名
+      description: 使用正式中文课程名，例如“离散数学”。
+      placeholder: 离散数学
+    validations:
+      required: true
+  - type: dropdown
+    id: material_type
+    attributes:
+      label: 资料类型
+      options:
+        - 往年真题
+        - 复习讲义
+        - 课件PPT
+        - 课件资料
+        - 课件资料包
+        - 题库练习
+        - 答案解析
+        - 笔记总结
+        - 待复核课件PPT
+        - 待复核资料
+    validations:
+      required: true
+  - type: input
+    id: year_scope
+    attributes:
+      label: 年份 / 适用范围
+      placeholder: 软件学院 2023 级 / 2023-2024 学年 / 不确定
+  - type: textarea
+    id: source
+    attributes:
+      label: 来源线索
+      description: 说明资料可能来自哪里，例如老师公开课件、课程群、同学回忆版、个人整理等。
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 备注
+      description: 写明是否存在 OCR 不清晰、年份不确定、内容待校对等问题。
