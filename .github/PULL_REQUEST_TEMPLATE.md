@@ -18,7 +18,9 @@
 - [ ] 文件放在正确课程目录和资料类型目录下
 - [ ] 文件名符合 `docs/naming.md`
 - [ ] `manifest.json` 已更新
+- [ ] `node scripts/update-readme.mjs` 已重新生成 README 科目目录
 - [ ] `node scripts/validate-materials.mjs` 可以通过
+- [ ] `node scripts/update-readme.mjs --check` 可以通过
 - [ ] 没有个人隐私、账号信息、学生名单或成绩信息
 - [ ] 没有重复提交已有资料
 - [ ] 需要复核的问题已写清楚
