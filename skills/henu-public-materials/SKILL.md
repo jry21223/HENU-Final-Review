@@ -1,6 +1,6 @@
 ---
 name: henu-public-materials
-description: Standards and workflow for publishing or reviewing HENU public course materials. Use when organizing uploads to the henu-final-review-public repository, validating course material filenames, deciding whether a file may be public, removing paid review packages, adding true exams/courseware/lecture notes, or preparing community contribution docs and commits for public course-material repositories.
+description: Standards and workflow for publishing or reviewing HENU public course materials. Use when organizing uploads to the HENU-Final-Review repository, validating course material filenames, deciding whether a file may be public, removing paid review packages, adding true exams/courseware/lecture notes, or preparing community contribution docs and commits for public course-material repositories.
 ---
 
 # HENU Public Materials
@@ -32,7 +32,7 @@ Use this skill before adding, renaming, validating, or publishing files in the H
 Run:
 
 ```bash
-python3 /path/to/henu-public-materials/scripts/check_public_materials.py /path/to/henu-final-review-public
+python3 /path/to/henu-public-materials/scripts/check_public_materials.py /path/to/HENU-Final-Review
 ```
 
 Fix any `ERROR` before publishing. Treat `WARNING` items as review notes.
