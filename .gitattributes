@@ -1,0 +1,7 @@
+# Course material files should not render as text diffs in reviews.
+*.pdf binary
+*.ppt binary
+*.pptx binary
+*.doc binary
+*.docx binary
+*.zip binary
