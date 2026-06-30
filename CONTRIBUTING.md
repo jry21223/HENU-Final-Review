@@ -26,10 +26,12 @@
 1. Fork 仓库或在新分支工作。
 2. 按 [docs/naming.md](docs/naming.md) 放置和命名资料。
 3. 更新 `manifest.json`，确保新增文件有 `publicPath`、`bytes` 和 `sha256`。
-4. 运行校验：
+4. 重新生成 README 科目目录并运行校验：
 
 ```bash
+node scripts/update-readme.mjs
 node scripts/validate-materials.mjs
+node scripts/update-readme.mjs --check
 ```
 
 5. 按 [docs/commit-format.md](docs/commit-format.md) 写 commit message 和 PR 标题。
@@ -42,7 +44,9 @@ node scripts/validate-materials.mjs
 - Commit message 符合 [docs/commit-format.md](docs/commit-format.md)。
 - PR 描述写清楚资料来源、课程、年份和是否需要人工复核。
 - `manifest.json` 与实际文件一致。
+- `README.md` 的科目目录已由 `node scripts/update-readme.mjs` 重新生成。
 - `node scripts/validate-materials.mjs` 可以通过。
+- `node scripts/update-readme.mjs --check` 可以通过。
 - 没有个人隐私、账号信息、学生名单、成绩信息。
 - 没有把付费资料、会员资料或内部资料放入公开仓库。
 
