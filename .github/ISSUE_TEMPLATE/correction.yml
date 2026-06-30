@@ -1,0 +1,39 @@
+name: 资料勘误 / 分类修正
+description: 报告资料错误、错科、命名不规范、重复文件或内容问题
+title: "fix(<课程名>): <问题说明>"
+labels:
+  - correction
+body:
+  - type: input
+    id: file_path
+    attributes:
+      label: 文件路径
+      description: 填写仓库内路径，例如“离散数学/往年真题/xxx.pdf”。
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: 问题类型
+      options:
+        - 内容错误
+        - 文件重复
+        - 命名不规范
+        - 资料放错课程
+        - 年份 / 来源不清
+        - 文件损坏 / 无法打开
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 问题描述
+      description: 请尽量写清楚错误位置、正确内容或建议移动到哪里。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 依据或截图
+      description: 可粘贴截图、课程群说明、老师公告或其他可复核依据。
