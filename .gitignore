@@ -1,1 +1,34 @@
-.public-materials-export
+# Generated exports
+.public-materials-export/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# macOS archive leftovers
+__MACOSX/
+._*
+
+# Editor and temporary files
+*.swp
+*.swo
+*~
+.tmp/
+tmp/
+temp/
+
+# Download and browser leftovers
+*.crdownload
+*.download
+*.part
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local dependency/cache directories used by validation tooling
+node_modules/
+.cache/
