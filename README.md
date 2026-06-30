@@ -11,9 +11,29 @@
 - 资料命名规则见 [docs/naming.md](docs/naming.md)。
 - 提交信息和 PR 要求见 [docs/commit-format.md](docs/commit-format.md)。
 - 贡献流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+- 公开资料收录、隐私检查和下架规则见 [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md)。
 - 本地整理和上传校验可使用 [skills/henu-public-materials](skills/henu-public-materials/)。
 - 资料整理和 PR 描述模板来自 [jry21223/final-review-template-kit](https://github.com/jry21223/final-review-template-kit)。
 - 想参与贡献可以先 fork 仓库，按规范整理资料后提交 PR；PR 描述里写清课程、年份、来源和是否需要复核。
+
+## 仓库校验
+
+提交资料变更前运行：
+
+```bash
+node scripts/validate-materials.mjs
+```
+
+该脚本会检查：
+
+- `manifest.json` 是否能解析。
+- manifest 中的文件是否真实存在。
+- `bytes` 和 `sha256` 是否与实际文件一致。
+- 课程目录、资料类型目录和 `publicPath` 是否匹配。
+- 文件名是否包含临时文件、危险字符或明显未规范化词语。
+- 是否存在重复 `publicPath`。
+
+PR 和 `main` 分支 push 会通过 GitHub Actions 自动运行同一套校验。
 
 ## 友情链接
 
