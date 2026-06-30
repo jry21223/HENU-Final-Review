@@ -1,34 +1,44 @@
-# Generated exports
+# Repository-local export state
 .public-materials-export
 
-# Operating system files
+# Operating system metadata
 .DS_Store
+._*
+.AppleDouble
+.LSOverride
 Thumbs.db
 Desktop.ini
 
-# macOS archive leftovers
+# Archive extraction leftovers
 __MACOSX/
-._*
+# Do not ignore *.zip; courseware archives can be intentional public materials.
 
-# Editor and temporary files
+# Editor and IDE state
+.idea/
+.vscode/
 *.swp
 *.swo
 *~
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Temporary and download leftovers
 .tmp/
 tmp/
 temp/
-
-# Download and browser leftovers
 *.crdownload
 *.download
 *.part
 
-# Logs
+# Logs and diagnostics
 *.log
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
 
-# Local dependency/cache directories used by validation tooling
+# Local dependencies and caches
 node_modules/
 .cache/

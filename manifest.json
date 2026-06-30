@@ -548,7 +548,7 @@
     },
     {
       "name": "Web编程基础",
-      "note": "包含 22 真题、考前复习讲义和已拆分的 Web 课件资料。",
+      "note": "包含 22 真题、多份复习讲义和已拆分的 Web 课件资料。",
       "assets": [
         {
           "subject": "Web编程基础",
@@ -557,6 +557,22 @@
           "publicPath": "Web编程基础/复习讲义/Web编程基础_考前复习知识点讲义.pdf",
           "bytes": 261864,
           "sha256": "68c0f3b6a4ac2470141fea7388ab9afec2d23dc4bfdfb0eb64934d506a25da9d"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "复习讲义",
+          "title": "Web编程基础_复习讲义_期末复习V3.pdf",
+          "publicPath": "Web编程基础/复习讲义/Web编程基础_复习讲义_期末复习V3.pdf",
+          "bytes": 3642390,
+          "sha256": "0dd1cd6dfc649293a022b2a6028557a42c379a14e7ed22718eecb561def18b57"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "复习讲义",
+          "title": "Web编程基础_复习讲义_期末复习总结V2.pdf",
+          "publicPath": "Web编程基础/复习讲义/Web编程基础_复习讲义_期末复习总结V2.pdf",
+          "bytes": 403912,
+          "sha256": "199e79bc8a8f7581c7226fc4948543858cff9e0350604883786a39955749258e"
         },
         {
           "subject": "Web编程基础",

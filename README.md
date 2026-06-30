@@ -13,6 +13,7 @@
 - 贡献流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 - 公开资料收录、隐私检查和下架规则见 [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md)。
 - 本地整理和上传校验可使用 [skills/henu-public-materials](skills/henu-public-materials/)。
+- 资料整理和 PR 描述模板来自 [jry21223/final-review-template-kit](https://github.com/jry21223/final-review-template-kit)。
 - 想参与贡献可以先 fork 仓库，按规范整理资料后提交 PR；PR 描述里写清课程、年份、来源和是否需要复核。
 
 ## 仓库校验
@@ -62,9 +63,9 @@ PR 和 `main` 分支 push 会通过 GitHub Actions 自动检查资料结构与 R
 
 ### Web编程基础
 
-包含 22 真题、考前复习讲义和已拆分的 Web 课件资料。
+包含 22 真题、多份复习讲义和已拆分的 Web 课件资料。
 
-- 复习讲义: [Web编程基础_考前复习知识点讲义.pdf](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80_%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AE%B2%E4%B9%89.pdf)
+- 复习讲义: 3 个文件，见 [复习讲义/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/)。
 - 往年真题: [Web编程基础_真题_Web-22真题.pdf](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80_%E7%9C%9F%E9%A2%98_Web-22%E7%9C%9F%E9%A2%98.pdf)
 - 课件资料: 15 个文件，见 [课件资料/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E8%AF%BE%E4%BB%B6%E8%B5%84%E6%96%99/)。
 <!-- MATERIALS:END -->
