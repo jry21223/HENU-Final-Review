@@ -68,3 +68,7 @@ PR 和 `main` 分支 push 会通过 GitHub Actions 自动检查资料结构与 R
 - 往年真题: [Web编程基础_真题_Web-22真题.pdf](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80_%E7%9C%9F%E9%A2%98_Web-22%E7%9C%9F%E9%A2%98.pdf)
 - 课件资料: 15 个文件，见 [课件资料/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E8%AF%BE%E4%BB%B6%E8%B5%84%E6%96%99/)。
 <!-- MATERIALS:END -->
+
+## 友情链接
+
+- [Henu-Kaguya/Henu-Kaguya](https://github.com/Henu-Kaguya/Henu-Kaguya)：河南大学计算机科学与技术资料合集。
