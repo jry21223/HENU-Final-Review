@@ -13,7 +13,6 @@
 - 贡献流程见 [CONTRIBUTING.md](CONTRIBUTING.md)。
 - 公开资料收录、隐私检查和下架规则见 [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md)。
 - 本地整理和上传校验可使用 [skills/henu-public-materials](skills/henu-public-materials/)。
-- 资料整理和 PR 描述模板来自 [jry21223/final-review-template-kit](https://github.com/jry21223/final-review-template-kit)。
 - 想参与贡献可以先 fork 仓库，按规范整理资料后提交 PR；PR 描述里写清课程、年份、来源和是否需要复核。
 
 ## 仓库校验
@@ -22,26 +21,15 @@
 
 ```bash
 node scripts/validate-materials.mjs
+node scripts/update-readme.mjs
 ```
 
-该脚本会检查：
+PR 和 `main` 分支 push 会通过 GitHub Actions 自动检查资料结构与 README 目录是否和 `manifest.json` 同步。
 
-- `manifest.json` 是否能解析。
-- manifest 中的文件是否真实存在。
-- `bytes` 和 `sha256` 是否与实际文件一致。
-- 课程目录、资料类型目录和 `publicPath` 是否匹配。
-- 文件名是否包含临时文件、危险字符或明显未规范化词语。
-- 是否存在重复 `publicPath`。
-
-PR 和 `main` 分支 push 会通过 GitHub Actions 自动运行同一套校验。
-
-## 友情链接
-
-- [Henu-Kaguya/Henu-Kaguya](https://github.com/Henu-Kaguya/Henu-Kaguya)：计算机学院资料。
-
-最后更新：2026-06-30T14:03:15.474Z
-
+<!-- MATERIALS:START -->
 ## 科目目录
+
+> 此区块由 `manifest.json` 自动生成。请不要手动编辑；运行 `node scripts/update-readme.mjs` 更新。
 
 ### 高等数学A（二）
 
@@ -79,3 +67,4 @@ PR 和 `main` 分支 push 会通过 GitHub Actions 自动运行同一套校验�
 - 复习讲义: [Web编程基础_考前复习知识点讲义.pdf](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80_%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AE%B2%E4%B9%89.pdf)
 - 往年真题: [Web编程基础_真题_Web-22真题.pdf](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80_%E7%9C%9F%E9%A2%98_Web-22%E7%9C%9F%E9%A2%98.pdf)
 - 课件资料: 15 个文件，见 [课件资料/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E8%AF%BE%E4%BB%B6%E8%B5%84%E6%96%99/)。
+<!-- MATERIALS:END -->
