@@ -62,6 +62,7 @@ const OPTIONAL_METADATA_FIELDS = [
 
 const errors = [];
 const warnings = [];
+const metadataGaps = new Map();
 
 function fail(message) {
   errors.push(message);
@@ -71,12 +72,12 @@ function warn(message) {
   warnings.push(message);
 }
 
-function sha256(filePath) {
-  return createHash('sha256').update(readFileSync(filePath)).digest('hex');
+function recordMetadataGap(field) {
+  metadataGaps.set(field, (metadataGaps.get(field) || 0) + 1);
 }
 
-function normalizeSlash(value) {
-  return value.split(path.sep).join('/');
+function sha256(filePath) {
+  return createHash('sha256').update(readFileSync(filePath)).digest('hex');
 }
 
 function isSafeRelativePath(value) {
@@ -205,11 +206,15 @@ function validateAsset(subject, asset, seenPaths) {
     fail(`${label}: sha256 mismatch, manifest=${asset.sha256}, actual=${actualHash}.`);
   }
 
-  const missingMetadata = OPTIONAL_METADATA_FIELDS.filter((field) => !(field in asset));
-  if (missingMetadata.length > 0) {
-    const message = `${label}: missing optional provenance metadata: ${missingMetadata.join(', ')}.`;
-    if (strictMetadata) fail(message);
-    else warn(message);
+  for (const field of OPTIONAL_METADATA_FIELDS) {
+    if (!(field in asset)) recordMetadataGap(field);
+  }
+
+  if (strictMetadata) {
+    const missingMetadata = OPTIONAL_METADATA_FIELDS.filter((field) => !(field in asset));
+    if (missingMetadata.length > 0) {
+      fail(`${label}: missing provenance metadata: ${missingMetadata.join(', ')}.`);
+    }
   }
 
   if (asset.containsPersonalInfo === true) {
@@ -254,6 +259,13 @@ function main() {
     for (const asset of subject.assets) {
       validateAsset(subject, asset, seenPaths);
     }
+  }
+
+  if (metadataGaps.size > 0 && !strictMetadata) {
+    const summary = [...metadataGaps.entries()]
+      .map(([field, count]) => `${field}: ${count}`)
+      .join(', ');
+    warn(`Optional provenance metadata is incomplete. Run with --strict-metadata after backfilling fields. Missing counts: ${summary}.`);
   }
 
   for (const warning of warnings) {
