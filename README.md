@@ -16,6 +16,44 @@
 - 资料整理和 PR 描述模板来自 [jry21223/final-review-template-kit](https://github.com/jry21223/final-review-template-kit)。
 - 想参与贡献可以先 fork 仓库，按规范整理资料后提交 PR；PR 描述里写清课程、年份、来源和是否需要复核。
 
+## 使用 Agent 整理资料并提交 PR
+
+本仓库内置 `skills/henu-public-materials`，用于指导 AI Agent 按公开资料仓库规范整理文件。适合处理批量归类课件、规范文件名、拆分或移动资料包、剔除不应公开内容、更新 `manifest.json` 与 README 科目目录，并准备 Pull Request。
+
+使用 Agent 前，先让它读取：
+
+- [skills/henu-public-materials/SKILL.md](skills/henu-public-materials/SKILL.md)
+- [skills/henu-public-materials/references/upload-format.md](skills/henu-public-materials/references/upload-format.md)
+- [docs/naming.md](docs/naming.md)
+- [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md)
+
+推荐工作流：
+
+1. 将待整理资料放入临时目录，或在 Issue / PR 中说明来源。
+2. 让 Agent 逐个判断课程、资料类型、年份、来源和是否需要复核。
+3. 拒绝或移除付费复习包、会员资料包、个人隐私、账号凭据、成绩名单、来源明显不清的资料。
+4. 将可公开资料移动到正确的 `课程名/资料类型/` 目录。
+5. 按 `课程名_资料类型_关键信息[_年份或版本].扩展名` 重命名文件。
+6. 更新 `manifest.json`，至少写入 `subject`、`role`、`title`、`publicPath`、`bytes`、`sha256`。
+7. 运行 `node scripts/update-readme.mjs` 重新生成 README 科目目录。
+8. 运行 `node scripts/validate-materials.mjs` 和 `node scripts/update-readme.mjs --check`。
+9. 新建分支并提交 PR，PR 描述必须写清课程、年份、来源、整理动作和待复核问题。
+
+可以直接给 Agent 使用类似提示词：
+
+```text
+请按本仓库 skills/henu-public-materials 规范整理这些资料：
+1. 读取 upload-format、naming、publication policy。
+2. 判断每个文件所属课程、资料类型、来源和是否可公开。
+3. 过滤付费包、隐私信息、账号凭据、明显来源不清的资料。
+4. 规范文件名并放入正确目录。
+5. 更新 manifest.json 和 README 自动生成目录。
+6. 运行校验脚本，修复 ERROR，把 WARNING 写入 PR 说明。
+7. 新建分支提交，并打开 draft PR。
+```
+
+Agent 可以辅助整理，但不能替代人工复核。涉及来源不明、版权不确定、隐私风险或考试纪律风险的资料，应放入 `待复核资料` 或暂不公开。
+
 ## 仓库校验
 
 提交资料变更前运行：
