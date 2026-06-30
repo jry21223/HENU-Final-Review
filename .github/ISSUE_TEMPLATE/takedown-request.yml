@@ -1,0 +1,38 @@
+name: 公开资料下架请求
+description: 请求移除不适合公开分发、存在隐私或来源问题的资料
+title: "takedown: <文件或课程说明>"
+labels:
+  - takedown
+body:
+  - type: input
+    id: file_path
+    attributes:
+      label: 文件路径或链接
+      description: 填写仓库路径或相关链接。
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: 下架原因
+      options:
+        - 包含个人隐私 / 学号 / 成绩 / 账号信息
+        - 非公开来源资料
+        - 版权或授权不明确
+        - 错误资料可能误导复习
+        - 付费资料误入公开仓库
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: 具体说明
+      description: 请说明需要下架的原因。涉及隐私时不要在 Issue 中公开更多敏感信息。
+    validations:
+      required: true
+  - type: textarea
+    id: contact
+    attributes:
+      label: 可选联系方式
+      description: 如不方便公开说明，可留下联系方式或说明希望维护者私下处理。
