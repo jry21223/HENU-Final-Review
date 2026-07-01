@@ -262,6 +262,30 @@ function validateAsset(subject, asset, seenPaths) {
 
 function findActualMaterialFiles() {
   const actualFiles = new Set();
+  const unsupportedFiles = [];
+
+  function scanMaterialDir(dirPath, relativeDir) {
+    for (const entry of readdirSync(dirPath, { withFileTypes: true })) {
+      const relativePath = `${relativeDir}/${entry.name}`;
+
+      if (entry.isDirectory()) {
+        scanMaterialDir(path.join(dirPath, entry.name), relativePath);
+        continue;
+      }
+
+      if (!entry.isFile()) continue;
+      if (IGNORE_FILES.has(entry.name)) continue;
+
+      const ext = path.extname(entry.name).toLowerCase();
+
+      if (!ALLOWED_EXTENSIONS.has(ext)) {
+        unsupportedFiles.push(relativePath);
+        continue;
+      }
+
+      actualFiles.add(relativePath);
+    }
+  }
 
   for (const subject of readdirSync(root, { withFileTypes: true })) {
     if (!subject.isDirectory()) continue;
@@ -274,22 +298,11 @@ function findActualMaterialFiles() {
       if (!ALLOWED_TYPE_DIRS.has(role.name)) continue;
 
       const roleDir = path.join(subjectDir, role.name);
-
-      for (const file of readdirSync(roleDir, { withFileTypes: true })) {
-        if (!file.isFile()) continue;
-
-        if (IGNORE_FILES.has(file.name)) continue;
-
-        const ext = path.extname(file.name).toLowerCase();
-
-        if (!ALLOWED_EXTENSIONS.has(ext)) continue;
-
-        actualFiles.add(`${subject.name}/${role.name}/${file.name}`);
-      }
+      scanMaterialDir(roleDir, `${subject.name}/${role.name}`);
     }
   }
 
-  return actualFiles;
+  return { actualFiles, unsupportedFiles };
 }
 
 function main() {
@@ -333,7 +346,7 @@ function main() {
     }
   }
 
-  const actualFiles = findActualMaterialFiles();
+  const { actualFiles, unsupportedFiles } = findActualMaterialFiles();
 
   const unregistered = [];
 
@@ -346,6 +359,14 @@ function main() {
   if (unregistered.length > 0) {
     fail(
       `Unregistered material files:\n${unregistered
+        .map((file) => `  - ${file}`)
+        .join("\n")}`,
+    );
+  }
+
+  if (unsupportedFiles.length > 0) {
+    fail(
+      `Unsupported material files:\n${unsupportedFiles
         .map((file) => `  - ${file}`)
         .join("\n")}`,
     );
