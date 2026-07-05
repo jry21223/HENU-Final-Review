@@ -101,6 +101,7 @@ PR 和 `main` 分支 push 会通过 GitHub Actions 自动检查资料结构与 R
 - 复习讲义: [面向对象程序设计Java_考前复习知识点讲义.pdf](%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1Java/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1Java_%E8%80%83%E5%89%8D%E5%A4%8D%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E8%AE%B2%E4%B9%89.pdf)
 - 往年真题: 2 个文件，见 [往年真题/](%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1Java/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/)。
 - 课件PPT: 10 个文件，见 [课件PPT/](%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1Java/%E8%AF%BE%E4%BB%B6PPT/)。
+- 笔记总结: 10 个文件，见 [笔记总结/](%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1Java/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/)。
 
 ### Web编程基础
 
@@ -109,6 +110,7 @@ PR 和 `main` 分支 push 会通过 GitHub Actions 自动检查资料结构与 R
 - 复习讲义: 3 个文件，见 [复习讲义/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%A4%8D%E4%B9%A0%E8%AE%B2%E4%B9%89/)。
 - 往年真题: [Web编程基础_真题_Web-22真题.pdf](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%BE%80%E5%B9%B4%E7%9C%9F%E9%A2%98/Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80_%E7%9C%9F%E9%A2%98_Web-22%E7%9C%9F%E9%A2%98.pdf)
 - 课件资料: 15 个文件，见 [课件资料/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E8%AF%BE%E4%BB%B6%E8%B5%84%E6%96%99/)。
+- 笔记总结: 4 个文件，见 [笔记总结/](Web%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BB%93/)。
 
 ### 数据库系统
 
