@@ -24,6 +24,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Refresh manifest file metadata
+        run: node scripts/refresh-manifest-metadata.mjs --write
+
       - name: Validate materials
         run: node scripts/validate-materials.mjs
 
