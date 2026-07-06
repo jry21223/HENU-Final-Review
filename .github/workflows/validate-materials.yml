@@ -9,7 +9,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate:
@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -26,6 +28,19 @@ jobs:
 
       - name: Refresh manifest file metadata
         run: node scripts/refresh-manifest-metadata.mjs --write
+
+      - name: Commit refreshed manifest metadata
+        if: github.event_name == 'pull_request'
+        run: |
+          if git diff --quiet -- manifest.json; then
+            echo "manifest metadata already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json
+          git commit -m "chore(repo): refresh manifest metadata"
+          git push
 
       - name: Validate materials
         run: node scripts/validate-materials.mjs
