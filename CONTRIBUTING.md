@@ -26,7 +26,15 @@
 1. Fork 仓库或在新分支工作。
 2. 按 [docs/naming.md](docs/naming.md) 放置和命名资料。
 3. 更新 `manifest.json`，确保新增文件有 `publicPath`、`bytes` 和 `sha256`。
-4. 重新生成 README 科目目录并运行校验：
+4. 在所有资料文件最终写入后，刷新 manifest 里的文件元数据：
+
+```bash
+node scripts/refresh-manifest-metadata.mjs --write
+```
+
+不要手写 `bytes` 或 `sha256`；它们必须由脚本按最终文件内容计算。任何资料文件内容改动后，都要重新运行这一步。
+
+5. 重新生成 README 科目目录并运行校验：
 
 ```bash
 node scripts/update-readme.mjs
@@ -34,8 +42,8 @@ node scripts/validate-materials.mjs
 node scripts/update-readme.mjs --check
 ```
 
-5. 按 [docs/commit-format.md](docs/commit-format.md) 写 commit message 和 PR 标题。
-6. 在 PR 描述里写清楚资料来源、课程、年份、是否需要复核。
+6. 按 [docs/commit-format.md](docs/commit-format.md) 写 commit message 和 PR 标题。
+7. 在 PR 描述里写清楚资料来源、课程、年份、是否需要复核。
 
 ## 提交前检查
 
@@ -44,6 +52,7 @@ node scripts/update-readme.mjs --check
 - Commit message 符合 [docs/commit-format.md](docs/commit-format.md)。
 - PR 描述写清楚资料来源、课程、年份和是否需要人工复核。
 - `manifest.json` 与实际文件一致。
+- 不手写或猜测 `bytes` / `sha256`；使用 `node scripts/refresh-manifest-metadata.mjs --write` 生成。
 - `README.md` 的科目目录已由 `node scripts/update-readme.mjs` 重新生成。
 - `node scripts/validate-materials.mjs` 可以通过。
 - `node scripts/update-readme.mjs --check` 可以通过。
