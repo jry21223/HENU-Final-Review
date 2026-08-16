@@ -488,6 +488,20 @@
               "陈梓俊（Coder-Taylor）"
             ]
           }
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "笔记总结",
+          "title": "高等数学A（二）_笔记_高数重点笔记.md",
+          "publicPath": "高等数学A（二）/笔记总结/高等数学A（二）_笔记_高数重点笔记.md",
+          "year": 2026,
+          "sourceType": "personal_notes",
+          "sourceNote": "个人 Obsidian 复习笔记整理",
+          "reviewStatus": "reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "personal_notes",
+          "bytes": 69679,
+          "sha256": "30864211317aa28142250d40b5313daf1aefe84240239955ec1588e078f3ddd3"
         }
       ]
     },
@@ -1421,6 +1435,76 @@
           "licenseStatus": "public_review_only",
           "bytes": 2583144,
           "sha256": "a9c1a48e2672c5225950b83df6f15cf911d5a1a757ca1c9540dbc531e03d455a"
+        },
+        {
+          "subject": "大学物理",
+          "role": "笔记总结",
+          "title": "大学物理_笔记_第9章静电场复习.md",
+          "publicPath": "大学物理/笔记总结/大学物理_笔记_第9章静电场复习.md",
+          "year": 2026,
+          "sourceType": "personal_notes",
+          "sourceNote": "个人 Obsidian 复习笔记整理",
+          "reviewStatus": "reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "personal_notes",
+          "bytes": 30207,
+          "sha256": "927895ea0e7645f4cb42a4efdc9f4a84e7e59f6828f5f500271a99200abc5446"
+        },
+        {
+          "subject": "大学物理",
+          "role": "笔记总结",
+          "title": "大学物理_笔记_第10章导体与电介质.md",
+          "publicPath": "大学物理/笔记总结/大学物理_笔记_第10章导体与电介质.md",
+          "year": 2026,
+          "sourceType": "personal_notes",
+          "sourceNote": "个人 Obsidian 复习笔记整理",
+          "reviewStatus": "reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "personal_notes",
+          "bytes": 28428,
+          "sha256": "cb7a043f4ac4eead3a26bd6d0633d0a507e604f90cf231c1e4182345d8b324ae"
+        },
+        {
+          "subject": "大学物理",
+          "role": "笔记总结",
+          "title": "大学物理_笔记_第11章恒定磁场.md",
+          "publicPath": "大学物理/笔记总结/大学物理_笔记_第11章恒定磁场.md",
+          "year": 2026,
+          "sourceType": "personal_notes",
+          "sourceNote": "个人 Obsidian 复习笔记整理",
+          "reviewStatus": "reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "personal_notes",
+          "bytes": 27518,
+          "sha256": "daaf18bf5dc6d6744bfb23eeb7ec94a2c9ed4b546441d214c9dc4c93cbf6d95c"
+        },
+        {
+          "subject": "大学物理",
+          "role": "笔记总结",
+          "title": "大学物理_笔记_第12章电磁感应.md",
+          "publicPath": "大学物理/笔记总结/大学物理_笔记_第12章电磁感应.md",
+          "year": 2026,
+          "sourceType": "personal_notes",
+          "sourceNote": "个人 Obsidian 复习笔记整理",
+          "reviewStatus": "reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "personal_notes",
+          "bytes": 32218,
+          "sha256": "216e9ea69149fa8b7d3f7864e8b436cd212c15a0941344b90f1b190dbe02bc94"
+        },
+        {
+          "subject": "大学物理",
+          "role": "笔记总结",
+          "title": "大学物理_笔记_期末复习指南.md",
+          "publicPath": "大学物理/笔记总结/大学物理_笔记_期末复习指南.md",
+          "year": 2026,
+          "sourceType": "personal_notes",
+          "sourceNote": "个人 Obsidian 复习笔记整理",
+          "reviewStatus": "reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "personal_notes",
+          "bytes": 19974,
+          "sha256": "99478263e19747ebafc94dfcdd154b997ce1b3752ac07fa867b44833dcbd36f9"
         }
       ]
     },
@@ -3214,6 +3298,20 @@
           "licenseStatus": "teacher_shared_exception",
           "bytes": 802552,
           "sha256": "2202c6481c4e20484d2dee269d40203b3ce297903d81ccfa3b9e30d17ad1df2c"
+        },
+        {
+          "subject": "思想道德与法治",
+          "role": "笔记总结",
+          "title": "思想道德与法治_笔记_思修重点复习.md",
+          "publicPath": "思想道德与法治/笔记总结/思想道德与法治_笔记_思修重点复习.md",
+          "year": 2026,
+          "sourceType": "personal_notes",
+          "sourceNote": "个人 Obsidian 复习笔记整理",
+          "reviewStatus": "reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "personal_notes",
+          "bytes": 41705,
+          "sha256": "a5c97cca3aac60735e71877f7717c5c19a55930ccc1aaf03870c1e1e01847da4"
         }
       ]
     },
@@ -4956,6 +5054,20 @@
               "李浩宇"
             ]
           }
+        },
+        {
+          "subject": "算法",
+          "role": "笔记总结",
+          "title": "算法_笔记_算法基础.md",
+          "publicPath": "算法/笔记总结/算法_笔记_算法基础.md",
+          "year": 2026,
+          "sourceType": "personal_notes",
+          "sourceNote": "个人 Obsidian 复习笔记整理：整数表示、补码、位运算",
+          "reviewStatus": "reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "personal_notes",
+          "bytes": 5103,
+          "sha256": "8a2f690049edb3a6cfb1d6eba306ee32561ed3518d9401270df770cdac45108f"
         }
       ]
     },
