@@ -2536,6 +2536,34 @@
               "李浩宇"
             ]
           }
+        },
+        {
+          "bytes": 17060774,
+          "sha256": "0075f2b7f8ef4ee1fc79355298e7a26c657d5d9de76acedb30ebcdd3ab47cc0d",
+          "subject": "计算机组成原理",
+          "role": "电子版教材",
+          "title": "计算机组成原理_教材_学习指导与习题解答第2版.pdf",
+          "publicPath": "计算机组成原理/电子版教材/计算机组成原理_教材_学习指导与习题解答第2版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution"
+        },
+        {
+          "bytes": 48562632,
+          "sha256": "290ed409514d4b076a15dcb0e233f0ed7fdc4c2e121ff190100f316bfbee75f6",
+          "subject": "计算机组成原理",
+          "role": "电子版教材",
+          "title": "计算机组成原理_教材_学习指导与习题解析第4版.pdf",
+          "publicPath": "计算机组成原理/电子版教材/计算机组成原理_教材_学习指导与习题解析第4版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution"
         }
       ]
     },
@@ -6515,6 +6543,108 @@
           "licenseStatus": "authorized-redistribution",
           "bytes": 88247676,
           "sha256": "95ff29d106c701f7b2f90edd57111b4848e8a571574c7cea0fdbb20b6ca0cf8a"
+        }
+      ]
+    },
+    {
+      "name": "概率论与数理统计",
+      "note": "收录待复核资料两份:扫描版期末试卷(年份未知)与习题全解指南电子版。",
+      "assets": [
+        {
+          "bytes": 870381,
+          "sha256": "537a19db9ab803f2047734ea5e4865777753c9235607dc566ddf66925ccbebf7",
+          "subject": "概率论与数理统计",
+          "role": "待复核资料",
+          "title": "概率论与数理统计_待复核_期末试卷.pdf",
+          "publicPath": "概率论与数理统计/待复核资料/概率论与数理统计_待复核_期末试卷.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "扫描版期末试卷,年份与来源未确认,内容未经OCR复核;确认课程归属与公开边界后建议归档至往年真题。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "source_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only"
+        },
+        {
+          "bytes": 25672561,
+          "sha256": "e524481fdb21e14ccc446ac759400e1849f0925a04a3e3222da2663e023744fa",
+          "subject": "概率论与数理统计",
+          "role": "待复核资料",
+          "title": "概率论与数理统计_待复核_习题全解指南.pdf",
+          "publicPath": "概率论与数理统计/待复核资料/概率论与数理统计_待复核_习题全解指南.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "《概率论与数理统计》(浙大第5版)配套习题全解指南(盛骤、谢式千等,高等教育出版社)电子版,来源为下载站,商业出版物再分发授权未核实,需人工复核。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only"
+        }
+      ]
+    },
+    {
+      "name": "中华民族共同体概论",
+      "note": "收录待复核资料两份:教材课后习题答案与教材电子版。",
+      "assets": [
+        {
+          "bytes": 1127030,
+          "sha256": "baed1bb222a1a11177ea5f22d413a7892c44e4ad9cf158b3daf36cc4916821c6",
+          "subject": "中华民族共同体概论",
+          "role": "待复核资料",
+          "title": "中华民族共同体概论_待复核_课后习题答案.pdf",
+          "publicPath": "中华民族共同体概论/待复核资料/中华民族共同体概论_待复核_课后习题答案.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "内容为《中华民族共同体概论》教材课后习题答案(判断题/选择题/简答题),来源未确认,原文件名含疑似下载站编号;确认公开边界后建议归档至答案解析。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "source_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only"
+        },
+        {
+          "bytes": 85989150,
+          "sha256": "1a404cd5c9467c8f4fc0468b7ef4bc3f0def949ee17e95d968a529b489990414",
+          "subject": "中华民族共同体概论",
+          "role": "待复核资料",
+          "title": "中华民族共同体概论_待复核_教材.pdf",
+          "publicPath": "中华民族共同体概论/待复核资料/中华民族共同体概论_待复核_教材.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "《中华民族共同体概论》教材电子版(编写组,高等教育出版社),原文件来源为 z-library 下载站;官方(国家民委)曾公开发布该书电子版,但本副本与官方版本是否一致、再分发授权是否成立均未核实,需人工复核。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only"
+        }
+      ]
+    },
+    {
+      "name": "数字逻辑",
+      "note": "收录数字逻辑学习辅导类教材(学习与解题指南、学习辅导)。",
+      "assets": [
+        {
+          "bytes": 6497936,
+          "sha256": "ecc06c31c192615d8c22d68ed6adb0441754cc633207f953348278fe84b4e556",
+          "subject": "数字逻辑",
+          "role": "电子版教材",
+          "title": "数字逻辑_教材_学习与解题指南第2版.pdf",
+          "publicPath": "数字逻辑/电子版教材/数字逻辑_教材_学习与解题指南第2版.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution"
+        },
+        {
+          "bytes": 7358561,
+          "sha256": "0064a6a586b51deb97010630e8f90ef053449ba8f0095252ae834cb6f7b7f1a8",
+          "subject": "数字逻辑",
+          "role": "电子版教材",
+          "title": "数字逻辑_教材_学习辅导.pdf",
+          "publicPath": "数字逻辑/电子版教材/数字逻辑_教材_学习辅导.pdf",
+          "year": 2026,
+          "sourceType": "other",
+          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution"
         }
       ]
     }
