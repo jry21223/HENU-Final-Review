@@ -502,6 +502,43 @@
           "licenseStatus": "authorized-redistribution",
           "bytes": 79729033,
           "sha256": "d9c4dfc1336082eb073e946d78e3cdcf5e268de19265bd72ff35fa4961b50c84"
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "待复核资料",
+          "title": "高等数学A（二）_待复核_高等数学上册第八版.pdf",
+          "publicPath": "高等数学A（二）/待复核资料/高等数学A（二）_待复核_高等数学上册第八版.pdf",
+          "bytes": 89408866,
+          "sha256": "3934a64a80cefdd0d61061f8805fba7203d31f5fe2f04de85fa13ea14ac33a29",
+          "containsPersonalInfo": false,
+          "sourceType": "other",
+          "sourceNote": "同济版高等数学第八版上册，与仓库已有下册配套。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
+        },
+        {
+          "subject": "高等数学A（二）",
+          "role": "待复核资料",
+          "title": "高等数学A（二）_待复核_河南大学出版社下册.pdf",
+          "publicPath": "高等数学A（二）/待复核资料/高等数学A（二）_待复核_河南大学出版社下册.pdf",
+          "bytes": 49332699,
+          "sha256": "1c6ba91ee4d59f0d874056af28cc8d6f813af103514769b8df174d3d41dcd861",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "河南大学出版社自编教材，来源与公开边界待确认。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "source_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -1477,6 +1514,62 @@
           "licenseStatus": "authorized-redistribution",
           "bytes": 55766259,
           "sha256": "c45859a89a4b921946f6d4ea03971997e916197a3e8d962f91f63c07b653c3e7"
+        },
+        {
+          "subject": "大学物理",
+          "role": "待复核资料",
+          "title": "大学物理_待复核_物理学教程第4版上册.pdf",
+          "publicPath": "大学物理/待复核资料/大学物理_待复核_物理学教程第4版上册.pdf",
+          "bytes": 44711341,
+          "sha256": "b9e0654e8cfa59a77a21a017dff35e9dda190571cae275e8cbc5fe0204d7404d",
+          "containsPersonalInfo": false,
+          "sourceType": "other",
+          "sourceNote": "与仓库已有下册配套。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
+        },
+        {
+          "subject": "大学物理",
+          "role": "待复核资料",
+          "title": "大学物理_待复核_普通物理实验_第1部分.pdf",
+          "publicPath": "大学物理/待复核资料/大学物理_待复核_普通物理实验_第1部分.pdf",
+          "bytes": 71867379,
+          "sha256": "1c970c7412ea104f92c750ca129280c21a457aa68d763b9dcb19d6392cb684a0",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "other",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "原文件 134MB 超过 GitHub 单文件限制，拆分为两部分上传，内容无损失。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
+        },
+        {
+          "subject": "大学物理",
+          "role": "待复核资料",
+          "title": "大学物理_待复核_普通物理实验_第2部分.pdf",
+          "publicPath": "大学物理/待复核资料/大学物理_待复核_普通物理实验_第2部分.pdf",
+          "bytes": 68893776,
+          "sha256": "ed42e0cb7c2c123d347d7aeb5c2061d284145b3e5bb871ae7d8d736babc57fa9",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "other",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "普通物理实验第2部分，与第1部分合为完整教材。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -1593,8 +1686,8 @@
           "role": "笔记总结",
           "title": "面向对象程序设计Java_笔记_第1章Java概述.md",
           "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_第1章Java概述.md",
-          "bytes": 10410,
-          "sha256": "4af05fac90f57d5f838c90ab5302011111ff97b0c56a3b8fcad4a873783fdba5",
+          "bytes": 10709,
+          "sha256": "0f7c7794af7cd58b6b3e2fa2c0d9472cf6dd5ae62fc176ed488e0b5ba3fa9c9b",
           "year": "2026",
           "sourceType": "个人整理",
           "sourceNote": "整理自 E:\\2026obsidian笔记\\2026 中的 Java/Web 相关 Obsidian 笔记；已排除插件目录、Copilot 对话、项目/服务器日志、空文件和非课程笔记。",
@@ -1613,8 +1706,8 @@
           "role": "笔记总结",
           "title": "面向对象程序设计Java_笔记_Java综合学习.md",
           "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_Java综合学习.md",
-          "bytes": 68014,
-          "sha256": "5519b3ffe590f7bf8976d40aea4c8754e2b228c92c2c28ad2d3ebcafc3c3512d",
+          "bytes": 69739,
+          "sha256": "6bfee4e9586a3d6a5df114e55b4f1af2441a4bdd9d1bde6f38ad64e6e1ed43f9",
           "year": "2026",
           "sourceType": "个人整理",
           "sourceNote": "整理自 E:\\2026obsidian笔记\\2026 中的 Java/Web 相关 Obsidian 笔记；已排除插件目录、Copilot 对话、项目/服务器日志、空文件和非课程笔记。",
@@ -1633,8 +1726,8 @@
           "role": "笔记总结",
           "title": "面向对象程序设计Java_笔记_第5章JavaAPI.md",
           "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_第5章JavaAPI.md",
-          "bytes": 22324,
-          "sha256": "8b7ef98ccc7631c850ef8f0d1abc64c7edc6c83a66b8efcead022cbc064cf265",
+          "bytes": 22932,
+          "sha256": "cb0d0e90e87131af64635b8931ea9799dd847eb1b7569d088d689ad1c09b6e58",
           "year": "2026",
           "sourceType": "个人整理",
           "sourceNote": "整理自 E:\\2026obsidian笔记\\2026 中的 Java/Web 相关 Obsidian 笔记；已排除插件目录、Copilot 对话、项目/服务器日志、空文件和非课程笔记。",
@@ -1653,8 +1746,8 @@
           "role": "笔记总结",
           "title": "面向对象程序设计Java_笔记_第5章集合.md",
           "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_第5章集合.md",
-          "bytes": 15097,
-          "sha256": "5209bfa2528d2f5fe282a6482c41c4b0b370f8c856c6f9d67d473abbc0baa6e3",
+          "bytes": 15623,
+          "sha256": "e4708714498b0dc6bce0085f8bff4c8cfca15c30bd8a769b6bf31375ec7de208",
           "year": "2026",
           "sourceType": "个人整理",
           "sourceNote": "整理自 E:\\2026obsidian笔记\\2026 中的 Java/Web 相关 Obsidian 笔记；已排除插件目录、Copilot 对话、项目/服务器日志、空文件和非课程笔记。",
@@ -1673,8 +1766,8 @@
           "role": "笔记总结",
           "title": "面向对象程序设计Java_笔记_第7章JavaIO流.md",
           "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_第7章JavaIO流.md",
-          "bytes": 16439,
-          "sha256": "4e2a7725160360d338ceb52953602c89e08abd4fe9042403870c6e83d6391dbb",
+          "bytes": 16949,
+          "sha256": "9e51d680772031d2e139de60f94e00e0809a708c34c8962fb6cb3b0a26c43692",
           "year": "2026",
           "sourceType": "个人整理",
           "sourceNote": "整理自 E:\\2026obsidian笔记\\2026 中的 Java/Web 相关 Obsidian 笔记；已排除插件目录、Copilot 对话、项目/服务器日志、空文件和非课程笔记。",
@@ -1693,8 +1786,8 @@
           "role": "笔记总结",
           "title": "面向对象程序设计Java_笔记_第6章异常处理.md",
           "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_第6章异常处理.md",
-          "bytes": 12947,
-          "sha256": "9d33f39efe89c14a3e97f53d6065a73a8d6e8a6160d97d787faad8c3b779a0ce",
+          "bytes": 13377,
+          "sha256": "a2adbc2f4c4aa9ffcd3776b26224162334e975a2c5ae470cbcfb2a93dbea4ae5",
           "year": "2026",
           "sourceType": "个人整理",
           "sourceNote": "整理自 E:\\2026obsidian笔记\\2026 中的 Java/Web 相关 Obsidian 笔记；已排除插件目录、Copilot 对话、项目/服务器日志、空文件和非课程笔记。",
@@ -1713,8 +1806,8 @@
           "role": "笔记总结",
           "title": "面向对象程序设计Java_笔记_第8章多线程.md",
           "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_第8章多线程.md",
-          "bytes": 18014,
-          "sha256": "53ebc4f88b52dc28f4cf5f1a11206adc744a7e4af164476a57fd45ae975406b2",
+          "bytes": 18551,
+          "sha256": "186f11e0dfcaa316b940fbbfad6c1723e5ad9a201e71ee37d4866f33d711d19b",
           "year": "2026",
           "sourceType": "个人整理",
           "sourceNote": "整理自 E:\\2026obsidian笔记\\2026 中的 Java/Web 相关 Obsidian 笔记；已排除插件目录、Copilot 对话、项目/服务器日志、空文件和非课程笔记。",
@@ -1733,8 +1826,8 @@
           "role": "笔记总结",
           "title": "面向对象程序设计Java_笔记_内部类.md",
           "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_内部类.md",
-          "bytes": 6604,
-          "sha256": "bdc8e07e51f1d87ad46ec4a2f8c0228b9bbc1421245a89fa6ea1e940a4b33bc3",
+          "bytes": 6834,
+          "sha256": "41e3566c9cc1165bfa7d5652300685c3829eedc522e128d3bc20c1b56c500873",
           "year": "2026",
           "sourceType": "个人整理",
           "sourceNote": "整理自 E:\\2026obsidian笔记\\2026 中的 Java/Web 相关 Obsidian 笔记；已排除插件目录、Copilot 对话、项目/服务器日志、空文件和非课程笔记。",
@@ -1753,8 +1846,8 @@
           "role": "笔记总结",
           "title": "面向对象程序设计Java_笔记_Java泛型.md",
           "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_Java泛型.md",
-          "bytes": 19148,
-          "sha256": "382f49c1b1a1b05bc22cdbcdaedf9acfda5435d3b23b4348b996a25cbe9b079b",
+          "bytes": 19830,
+          "sha256": "72ae40486a8cf435d57ec258d6360cffda3d004fe8e8e31a91de01949a4854a6",
           "year": "2026",
           "sourceType": "个人整理",
           "sourceNote": "整理自 E:\\2026obsidian笔记\\2026 中的 Java/Web 相关 Obsidian 笔记；已排除插件目录、Copilot 对话、项目/服务器日志、空文件和非课程笔记。",
@@ -1773,8 +1866,8 @@
           "role": "笔记总结",
           "title": "面向对象程序设计Java_笔记_注解.md",
           "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_注解.md",
-          "bytes": 38512,
-          "sha256": "9339748f190ca3419d17d7c80cde8ab33bd58767ae114b3d762043c07bcc790e",
+          "bytes": 39415,
+          "sha256": "f6be8d6a4c262ec850e1eea0ce31a731435bbb4fcbd6a6c0fed0e34057481041",
           "year": "2026",
           "sourceType": "个人整理",
           "sourceNote": "整理自 E:\\2026obsidian笔记\\2026 中的 Java/Web 相关 Obsidian 笔记；已排除插件目录、Copilot 对话、项目/服务器日志、空文件和非课程笔记。",
@@ -1903,6 +1996,44 @@
           "licenseStatus": "public_review_only",
           "bytes": 91620,
           "sha256": "948b15f4e47484c90d3b9b3a89ff55a777ebc9d3e74847dac11830f4569e19bd"
+        },
+        {
+          "subject": "面向对象程序设计Java",
+          "role": "待复核资料",
+          "title": "面向对象程序设计Java_待复核_Java核心技术卷I第12版_第1部分.pdf",
+          "publicPath": "面向对象程序设计Java/待复核资料/面向对象程序设计Java_待复核_Java核心技术卷I第12版_第1部分.pdf",
+          "bytes": 59937272,
+          "sha256": "a4bb12d4e974cf73cde3cad3dca180f90251ad5d63efaabb687e3d346e1c4e25",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "other",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "原文件 138MB 超过 GitHub 单文件限制，拆分为两部分上传，内容无损失。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
+        },
+        {
+          "subject": "面向对象程序设计Java",
+          "role": "待复核资料",
+          "title": "面向对象程序设计Java_待复核_Java核心技术卷I第12版_第2部分.pdf",
+          "publicPath": "面向对象程序设计Java/待复核资料/面向对象程序设计Java_待复核_Java核心技术卷I第12版_第2部分.pdf",
+          "bytes": 84914608,
+          "sha256": "c85575c9e974409d9db1cb96ba9b3212988ae66db7398289c4753ca8912fa746",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "other",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "Java核心技术卷I第12版第2部分，与第1部分合为完整教材。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -2067,8 +2198,8 @@
           "role": "笔记总结",
           "title": "Web编程基础_笔记_前端学习.md",
           "publicPath": "Web编程基础/笔记总结/Web编程基础_笔记_前端学习.md",
-          "bytes": 41814,
-          "sha256": "6ae40b749f6d3d164d9f3683855fa35949e8f3be7dfe1914a4d2028946b61ad4",
+          "bytes": 43020,
+          "sha256": "f09ad5ed7cc0fb8a351bd70c585325de437079947f59d6523f3a70687d386975",
           "year": "2026",
           "sourceType": "个人整理",
           "sourceNote": "整理自 E:\\2026obsidian笔记\\2026 中的 Java/Web 相关 Obsidian 笔记；已排除插件目录、Copilot 对话、项目/服务器日志、空文件和非课程笔记。",
@@ -2138,6 +2269,44 @@
           "licenseStatus": "public_review_only",
           "bytes": 1317283,
           "sha256": "b54127a67cc8c165bff28fd8e6d16b7abaf09483fd00b557426faeba7afb3f56"
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "待复核资料",
+          "title": "Web编程基础_待复核_HeadFirstHTMLCSS_第1部分.pdf",
+          "publicPath": "Web编程基础/待复核资料/Web编程基础_待复核_HeadFirstHTMLCSS_第1部分.pdf",
+          "bytes": 90608783,
+          "sha256": "b102986b6229da86cdc9fa8c5380ea29cae3c37d2eb39703f9c8a67f9d5f234f",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "other",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "原文件 176MB 超过 GitHub 单文件限制，拆分为两部分上传，内容无损失。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
+        },
+        {
+          "subject": "Web编程基础",
+          "role": "待复核资料",
+          "title": "Web编程基础_待复核_HeadFirstHTMLCSS_第2部分.pdf",
+          "publicPath": "Web编程基础/待复核资料/Web编程基础_待复核_HeadFirstHTMLCSS_第2部分.pdf",
+          "bytes": 94584825,
+          "sha256": "bcc91ac49db489d9138cb214ef456a6ad6429e281a55da020d585e72f81ed50b",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "other",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "Head First HTML&CSS 第2部分，与第1部分合为完整教材。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -2400,6 +2569,25 @@
               "李浩宇"
             ]
           }
+        },
+        {
+          "subject": "数据库系统",
+          "role": "待复核资料",
+          "title": "数据库系统_待复核_数据库系统概论第6版.pdf",
+          "publicPath": "数据库系统/待复核资料/数据库系统_待复核_数据库系统概论第6版.pdf",
+          "bytes": 69615697,
+          "sha256": "56275e1f4f21a6d222a7484e561c1101bac264f972b81a6ef44fc984a9dede7d",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "other",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "原文件 209MB 超过 GitHub 单文件限制，重渲染压缩为 66MB，质量有损（format_lossy）；公开边界待维护者复核。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -2436,6 +2624,44 @@
           "licenseStatus": "authorized-redistribution",
           "bytes": 85314464,
           "sha256": "aba21c54b017e6f633dbd3e8cf8e6d9bd0b63880beebcfb59b41de59e7abfb27"
+        },
+        {
+          "subject": "计算机网络",
+          "role": "待复核资料",
+          "title": "计算机网络_待复核_自顶向下方法.pdf",
+          "publicPath": "计算机网络/待复核资料/计算机网络_待复核_自顶向下方法.pdf",
+          "bytes": 32828031,
+          "sha256": "b8942f160c8178721ca691b8d4c53e263f48808bff24752c59132ddcfeaeeb65",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "版本信息不明确（疑似第6版，仓库已有第7版），需人工确认。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "source_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
+        },
+        {
+          "subject": "计算机网络",
+          "role": "待复核资料",
+          "title": "计算机网络_待复核_谢希仁第8版.pdf",
+          "publicPath": "计算机网络/待复核资料/计算机网络_待复核_谢希仁第8版.pdf",
+          "bytes": 87439275,
+          "sha256": "22dd47f0c8256ced8f2c237147550207890293a509533e1bda90530ea6a4f76c",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "other",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "原文件 122MB 超过 GitHub 单文件限制，重渲染压缩为 83MB，质量有损（format_lossy）；公开边界待维护者复核。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -2564,6 +2790,24 @@
           "reviewStatus": "verified",
           "containsPersonalInfo": false,
           "licenseStatus": "authorized-redistribution"
+        },
+        {
+          "subject": "计算机组成原理",
+          "role": "待复核资料",
+          "title": "计算机组成原理_待复核_第3版唐朔飞.pdf",
+          "publicPath": "计算机组成原理/待复核资料/计算机组成原理_待复核_第3版唐朔飞.pdf",
+          "bytes": 25516665,
+          "sha256": "43c04ae23d8e7698436d29d6e2a83cd557e1741a97d3c899e234ebfb809219a1",
+          "containsPersonalInfo": false,
+          "sourceType": "other",
+          "sourceNote": "课程教材电子版，公开边界待维护者复核。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -2994,6 +3238,24 @@
               "李浩宇"
             ]
           }
+        },
+        {
+          "subject": "软件工程",
+          "role": "待复核资料",
+          "title": "软件工程_待复核_方法与实践.pdf",
+          "publicPath": "软件工程/待复核资料/软件工程_待复核_方法与实践.pdf",
+          "bytes": 57359679,
+          "sha256": "0e623b1d21bd5560cb81fb2df006932e17f1400e075c90aa050ab3504963f6ec",
+          "containsPersonalInfo": false,
+          "sourceType": "other",
+          "sourceNote": "课程教材电子版，公开边界待维护者复核。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -3358,6 +3620,25 @@
           "attribution": {
             "collectors": [
               "李浩宇"
+            ]
+          }
+        },
+        {
+          "subject": "Python程序设计",
+          "role": "待复核资料",
+          "title": "Python程序设计_待复核_流畅Python进阶指南.pdf",
+          "publicPath": "Python程序设计/待复核资料/Python程序设计_待复核_流畅Python进阶指南.pdf",
+          "bytes": 549721,
+          "sha256": "032081aa1956d2ec14d3fa431a63e2b1ac1ed2f1668ae6458f0623e6ffb1d328",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "文件内容待确认（疑似《流畅的Python》相关整理笔记）。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "content_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
             ]
           }
         }
@@ -6503,6 +6784,24 @@
           "licenseStatus": "authorized-redistribution",
           "bytes": 42137682,
           "sha256": "1b35f057c438220ec73440aa3e7e509b13b92a66fd5ad0dec7044bfbae93500c"
+        },
+        {
+          "subject": "C++",
+          "role": "待复核资料",
+          "title": "C++_待复核_CPrimerPlus第六版.pdf",
+          "publicPath": "C++/待复核资料/C++_待复核_CPrimerPlus第六版.pdf",
+          "bytes": 22725649,
+          "sha256": "b1829667f79d15948a21a1520eaeea6bea1c46443cad622874fd8d9d36acac94",
+          "containsPersonalInfo": false,
+          "sourceType": "other",
+          "sourceNote": "C 语言经典教材电子版，公开边界待维护者复核。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -6543,6 +6842,25 @@
           "licenseStatus": "authorized-redistribution",
           "bytes": 88247676,
           "sha256": "95ff29d106c701f7b2f90edd57111b4848e8a571574c7cea0fdbb20b6ca0cf8a"
+        },
+        {
+          "subject": "计算机科学导论",
+          "role": "待复核资料",
+          "title": "计算机科学导论_待复核_原书第3版.pdf",
+          "publicPath": "计算机科学导论/待复核资料/计算机科学导论_待复核_原书第3版.pdf",
+          "bytes": 71932830,
+          "sha256": "c631c3a0745c25c4fdd022462e862cba0ccd06e641ca0294f399f161ed11d701",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "other",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "原文件 126MB 超过 GitHub 单文件限制，重渲染压缩为 69MB，质量有损（format_lossy）；公开边界待维护者复核。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -6577,6 +6895,25 @@
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only"
+        },
+        {
+          "subject": "概率论与数理统计",
+          "role": "待复核资料",
+          "title": "概率论与数理统计_待复核_第五版盛骤.pdf",
+          "publicPath": "概率论与数理统计/待复核资料/概率论与数理统计_待复核_第五版盛骤.pdf",
+          "bytes": 49527119,
+          "sha256": "46566807110da3bebd5da464563e92414b9aa58f72081d9dfc48deffd14fd4b6",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "other",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "原文件 225MB 超过 GitHub 单文件限制，重渲染压缩为 47MB，质量有损（format_lossy）；公开边界待维护者复核。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -6611,6 +6948,24 @@
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only"
+        },
+        {
+          "subject": "中华民族共同体概论",
+          "role": "待复核资料",
+          "title": "中华民族共同体概论_待复核_2025年3月重印版.pdf",
+          "publicPath": "中华民族共同体概论/待复核资料/中华民族共同体概论_待复核_2025年3月重印版.pdf",
+          "bytes": 35371866,
+          "sha256": "dbd60ffc6063b4d4437ea77b0d75f199c7fabb16533530f4711fef1c4fb9468b",
+          "containsPersonalInfo": false,
+          "sourceType": "other",
+          "sourceNote": "课程教材电子版，公开边界待维护者复核。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -6645,6 +7000,90 @@
           "reviewStatus": "verified",
           "containsPersonalInfo": false,
           "licenseStatus": "authorized-redistribution"
+        },
+        {
+          "subject": "数字逻辑",
+          "role": "笔记总结",
+          "title": "数字逻辑_笔记_第四章芯片总结.pdf",
+          "publicPath": "数字逻辑/笔记总结/数字逻辑_笔记_第四章芯片总结.pdf",
+          "bytes": 19957296,
+          "sha256": "807b5c882cc81bff80caa90b376a72d2d80e91872bb3be591346eff6c39d05a8",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的第四章芯片结构总结笔记。",
+          "reviewStatus": "basic-reviewed",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
+        },
+        {
+          "subject": "数字逻辑",
+          "role": "待复核资料",
+          "title": "数字逻辑_待复核_数字逻辑电路与系统设计第3版.pdf",
+          "publicPath": "数字逻辑/待复核资料/数字逻辑_待复核_数字逻辑电路与系统设计第3版.pdf",
+          "bytes": 63406006,
+          "sha256": "2e5ac189f18569643d9887838c8e9035676fb3ee0c25323e7eb979372f1dca87",
+          "containsPersonalInfo": false,
+          "sourceType": "other",
+          "sourceNote": "课程教材电子版，公开边界待维护者复核。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "数据结构",
+      "note": "",
+      "assets": [
+        {
+          "subject": "数据结构",
+          "role": "待复核资料",
+          "title": "数据结构_待复核_C语言版严蔚敏.pdf",
+          "publicPath": "数据结构/待复核资料/数据结构_待复核_C语言版严蔚敏.pdf",
+          "bytes": 19673284,
+          "sha256": "bce3d6d54eafffedb63cf80a7e2e7267250573b71e622a6c9e50829142114a8b",
+          "containsPersonalInfo": false,
+          "sourceType": "other",
+          "sourceNote": "数据结构课程经典教材电子版，公开边界待维护者复核。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "汇编语言",
+      "note": "",
+      "assets": [
+        {
+          "subject": "汇编语言",
+          "role": "待复核资料",
+          "title": "汇编语言_待复核_第4版王爽.pdf",
+          "publicPath": "汇编语言/待复核资料/汇编语言_待复核_第4版王爽.pdf",
+          "bytes": 92563516,
+          "sha256": "93d39d77ea31b4ecc6214af0b082b3b1d36853892e36767f8edf6e62c9959170",
+          "containsPersonalInfo": false,
+          "sourceType": "other",
+          "sourceNote": "汇编语言课程经典教材电子版，公开边界待维护者复核。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     }
