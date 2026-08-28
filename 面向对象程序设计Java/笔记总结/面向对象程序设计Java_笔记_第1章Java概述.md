@@ -1,4 +1,4 @@
-﻿# 第1章 Java 概述 笔记
+# 第1章 Java 概述 笔记
 
 > 来源：第1章 Java概述.pptx (69页)  
 > 涵盖：Java语言特点、JDK/JRE/JVM、第一个程序、环境变量、运行机制、IDEA

@@ -1,4 +1,4 @@
-﻿# 第5章 Java API 笔记
+# 第5章 Java API 笔记
 
 > 来源：第5章 Java API.pptx (135页)  
 > 涵盖：String/StringBuffer/StringBuilder、System/Runtime、Math/Random、日期时间、包装类、正则表达式

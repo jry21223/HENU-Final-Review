@@ -1,4 +1,4 @@
-﻿# Java 泛型 (Generics) 详解笔记
+# Java 泛型 (Generics) 详解笔记
 
 > 视频来源：Java中的泛型 Generics in Java  
 > 时长：约 24 分钟  
