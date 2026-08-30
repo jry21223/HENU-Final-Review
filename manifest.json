@@ -4,21 +4,20 @@
   "subjects": [
     {
       "name": "高等数学A（一）",
-      "note": "收录高等数学A（一）相关资料，当前教材仍在待复核区。",
+      "note": "收录高等数学A（一）电子版教材。",
       "assets": [
         {
           "subject": "高等数学A（一）",
-          "role": "待复核资料",
-          "title": "高等数学A（一）_待复核_高等数学上册第八版.pdf",
-          "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_高等数学上册第八版.pdf",
+          "role": "电子版教材",
+          "title": "高等数学A（一）_教材_高等数学第8版上册（同济大学数学科学学院）.pdf",
+          "publicPath": "高等数学A（一）/电子版教材/高等数学A（一）_教材_高等数学第8版上册（同济大学数学科学学院）.pdf",
           "bytes": 89408866,
           "sha256": "3934a64a80cefdd0d61061f8805fba7203d31f5fe2f04de85fa13ea14ac33a29",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "sourceNote": "同济版《高等数学》第八版上册，课程归属已核对为高等数学A（一），公开再分发授权待确认。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "课程归属、书名、版本与作者已经人工核对。资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -530,17 +529,16 @@
         },
         {
           "subject": "高等数学A（二）",
-          "role": "待复核资料",
-          "title": "高等数学A（二）_待复核_高等数学下册河南大学版.pdf",
-          "publicPath": "高等数学A（二）/待复核资料/高等数学A（二）_待复核_高等数学下册河南大学版.pdf",
+          "role": "电子版教材",
+          "title": "高等数学A（二）_教材_高等数学下册（河南大学数学与统计学院）.pdf",
+          "publicPath": "高等数学A（二）/电子版教材/高等数学A（二）_教材_高等数学下册（河南大学数学与统计学院）.pdf",
           "bytes": 49332699,
           "sha256": "1c6ba91ee4d59f0d874056af28cc8d6f813af103514769b8df174d3d41dcd861",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only",
-          "sourceType": "unknown-reviewing",
-          "sourceNote": "《高等数学》下册河南大学版，河南大学出版社，2019年第1版、2021年第3次印刷；公开再分发授权待确认。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "source_uncertain",
+          "licenseStatus": "authorized-redistribution",
+          "sourceType": "other",
+          "sourceNote": "课程归属、书名、版本与作者已经人工核对。资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -1524,35 +1522,34 @@
         },
         {
           "subject": "大学物理",
-          "role": "待复核资料",
-          "title": "大学物理_待复核_物理学教程第4版上册.pdf",
-          "publicPath": "大学物理/待复核资料/大学物理_待复核_物理学教程第4版上册.pdf",
+          "role": "电子版教材",
+          "title": "大学物理_教材_物理学教程第4版上册（马文蔚、周雨青、解希顺）.pdf",
+          "publicPath": "大学物理/电子版教材/大学物理_教材_物理学教程第4版上册（马文蔚、周雨青、解希顺）.pdf",
           "bytes": 44711341,
           "sha256": "b9e0654e8cfa59a77a21a017dff35e9dda190571cae275e8cbc5fe0204d7404d",
           "containsPersonalInfo": false,
           "sourceType": "other",
-          "sourceNote": "与仓库已有下册配套。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "课程归属、书名、版本与作者已经人工核对。资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
           "attribution": {
             "collectors": [
               "程芷嘉"
             ]
-          }
+          },
+          "licenseStatus": "authorized-redistribution"
         },
         {
           "subject": "大学物理",
-          "role": "待复核资料",
-          "title": "大学物理_待复核_普通物理实验_第1部分.pdf",
-          "publicPath": "大学物理/待复核资料/大学物理_待复核_普通物理实验_第1部分.pdf",
+          "role": "电子版教材",
+          "title": "大学物理_教材_普通物理实验（刘平安）_第1部分.pdf",
+          "publicPath": "大学物理/电子版教材/大学物理_教材_普通物理实验（刘平安）_第1部分.pdf",
           "bytes": 71867379,
           "sha256": "1c970c7412ea104f92c750ca129280c21a457aa68d763b9dcb19d6392cb684a0",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
-          "sourceNote": "原文件 134MB 超过 GitHub 单文件限制，拆分为两部分上传，内容无损失。",
+          "reviewStatus": "verified",
+          "sourceNote": "因GitHub单文件限制拆分；两部分页码156接157，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -1561,17 +1558,16 @@
         },
         {
           "subject": "大学物理",
-          "role": "待复核资料",
-          "title": "大学物理_待复核_普通物理实验_第2部分.pdf",
-          "publicPath": "大学物理/待复核资料/大学物理_待复核_普通物理实验_第2部分.pdf",
+          "role": "电子版教材",
+          "title": "大学物理_教材_普通物理实验（刘平安）_第2部分.pdf",
+          "publicPath": "大学物理/电子版教材/大学物理_教材_普通物理实验（刘平安）_第2部分.pdf",
           "bytes": 68893776,
           "sha256": "ed42e0cb7c2c123d347d7aeb5c2061d284145b3e5bb871ae7d8d736babc57fa9",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
-          "sourceNote": "普通物理实验第2部分，与第1部分合为完整教材。",
+          "reviewStatus": "verified",
+          "sourceNote": "因GitHub单文件限制拆分；两部分页码156接157，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -1581,118 +1577,118 @@
       ]
     },
     {
-      "name": "面向对象程序设计Java",
+      "name": "Java程序设计",
       "note": "包含 2023-2024、24 真题、考前复习讲义、Java 章节 PPT 和公开学习笔记。",
       "assets": [
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "复习讲义",
-          "title": "面向对象程序设计Java_考前复习知识点讲义.pdf",
-          "publicPath": "面向对象程序设计Java/复习讲义/面向对象程序设计Java_考前复习知识点讲义.pdf",
+          "title": "Java程序设计_考前复习知识点讲义.pdf",
+          "publicPath": "Java程序设计/复习讲义/Java程序设计_考前复习知识点讲义.pdf",
           "bytes": 316835,
           "sha256": "a42a421e50c31ac4b94728a5805404023e81e552c46fd015a4caa002425ba19c"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "往年真题",
-          "title": "面向对象程序设计Java_真题_Java-24真题.pdf",
-          "publicPath": "面向对象程序设计Java/往年真题/面向对象程序设计Java_真题_Java-24真题.pdf",
+          "title": "Java程序设计_真题_Java-24真题.pdf",
+          "publicPath": "Java程序设计/往年真题/Java程序设计_真题_Java-24真题.pdf",
           "bytes": 5598999,
           "sha256": "ba851844a16f5a2635a0ccc21b4264647cdf502213390497df1b45beea5dc053"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "往年真题",
-          "title": "面向对象程序设计Java_真题_Java程序设计2023-2024.pdf",
-          "publicPath": "面向对象程序设计Java/往年真题/面向对象程序设计Java_真题_Java程序设计2023-2024.pdf",
+          "title": "Java程序设计_真题_Java程序设计2023-2024.pdf",
+          "publicPath": "Java程序设计/往年真题/Java程序设计_真题_Java程序设计2023-2024.pdf",
           "bytes": 226887,
           "sha256": "4ce81c943b3cc1bbda6e153780ea4fd595e7e268208058b9bb77b92bc0cdfb99"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "课件",
-          "title": "面向对象程序设计Java_课件_第1章Java概述.pptx",
-          "publicPath": "面向对象程序设计Java/课件/面向对象程序设计Java_课件_第1章Java概述.pptx",
+          "title": "Java程序设计_课件_第1章Java概述.pptx",
+          "publicPath": "Java程序设计/课件/Java程序设计_课件_第1章Java概述.pptx",
           "bytes": 2536209,
           "sha256": "38d06ded69303d4b19e0d205bdce752ce744e4d11e9592d460ee1ef0e10664d6"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "课件",
-          "title": "面向对象程序设计Java_课件_第2章Java语法基础.pptx",
-          "publicPath": "面向对象程序设计Java/课件/面向对象程序设计Java_课件_第2章Java语法基础.pptx",
+          "title": "Java程序设计_课件_第2章Java语法基础.pptx",
+          "publicPath": "Java程序设计/课件/Java程序设计_课件_第2章Java语法基础.pptx",
           "bytes": 1484473,
           "sha256": "21a6acd01c92bd400b671becda1e9dc6dcb19ac6aadf3af8c522ef0eca8a5274"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "课件",
-          "title": "面向对象程序设计Java_课件_第3章面向对象基础.pptx",
-          "publicPath": "面向对象程序设计Java/课件/面向对象程序设计Java_课件_第3章面向对象基础.pptx",
+          "title": "Java程序设计_课件_第3章面向对象基础.pptx",
+          "publicPath": "Java程序设计/课件/Java程序设计_课件_第3章面向对象基础.pptx",
           "bytes": 3440377,
           "sha256": "5cda4b59219efc5d5b2abf3ee4f0205243d0fb1fc11447866832a97b7ba1ac9c"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "课件",
-          "title": "面向对象程序设计Java_课件_第4章面向对象高级技术.pptx",
-          "publicPath": "面向对象程序设计Java/课件/面向对象程序设计Java_课件_第4章面向对象高级技术.pptx",
+          "title": "Java程序设计_课件_第4章面向对象高级技术.pptx",
+          "publicPath": "Java程序设计/课件/Java程序设计_课件_第4章面向对象高级技术.pptx",
           "bytes": 3388347,
           "sha256": "9f1f5614a502ac78be4f96c41430a5d973a1e9f79cef4255b11d6049ef8f85a4"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "课件",
-          "title": "面向对象程序设计Java_课件_第5章JavaAPI.pptx",
-          "publicPath": "面向对象程序设计Java/课件/面向对象程序设计Java_课件_第5章JavaAPI.pptx",
+          "title": "Java程序设计_课件_第5章JavaAPI.pptx",
+          "publicPath": "Java程序设计/课件/Java程序设计_课件_第5章JavaAPI.pptx",
           "bytes": 4209491,
           "sha256": "53b36ead4a4fb06c6a8e362b7903ccfe7366930a3462dd0dbeca879fe601de1d"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "课件",
-          "title": "面向对象程序设计Java_课件_第5章集合.pptx",
-          "publicPath": "面向对象程序设计Java/课件/面向对象程序设计Java_课件_第5章集合.pptx",
+          "title": "Java程序设计_课件_第5章集合.pptx",
+          "publicPath": "Java程序设计/课件/Java程序设计_课件_第5章集合.pptx",
           "bytes": 4770915,
           "sha256": "3d23ba56566f4dde64111013f4acd07540d7a4ff4634914b655a39377cf06fc6"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "课件",
-          "title": "面向对象程序设计Java_课件_第6章异常处理机制.pptx",
-          "publicPath": "面向对象程序设计Java/课件/面向对象程序设计Java_课件_第6章异常处理机制.pptx",
+          "title": "Java程序设计_课件_第6章异常处理机制.pptx",
+          "publicPath": "Java程序设计/课件/Java程序设计_课件_第6章异常处理机制.pptx",
           "bytes": 1348553,
           "sha256": "e0ca6452f8be425dcb21f0baf4040768b5faad662f5ac9f93ed2f678b69d9ad8"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "课件",
-          "title": "面向对象程序设计Java_课件_第7章JavaIO流.pptx",
-          "publicPath": "面向对象程序设计Java/课件/面向对象程序设计Java_课件_第7章JavaIO流.pptx",
+          "title": "Java程序设计_课件_第7章JavaIO流.pptx",
+          "publicPath": "Java程序设计/课件/Java程序设计_课件_第7章JavaIO流.pptx",
           "bytes": 2965187,
           "sha256": "f7cdca25e685e75cab0dd8e90e074e70f56eb3f4bb1e3bb375daf17388490eb7"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "课件",
-          "title": "面向对象程序设计Java_课件_第8章多线程.pptx",
-          "publicPath": "面向对象程序设计Java/课件/面向对象程序设计Java_课件_第8章多线程.pptx",
+          "title": "Java程序设计_课件_第8章多线程.pptx",
+          "publicPath": "Java程序设计/课件/Java程序设计_课件_第8章多线程.pptx",
           "bytes": 3321806,
           "sha256": "8337bb9b63a3119b60791ac6b440e385bc4f9089a86c649de21de72ec06ff34d"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "课件",
-          "title": "面向对象程序设计Java_课件_第9章JavaGUI编程.pptx",
-          "publicPath": "面向对象程序设计Java/课件/面向对象程序设计Java_课件_第9章JavaGUI编程.pptx",
+          "title": "Java程序设计_课件_第9章JavaGUI编程.pptx",
+          "publicPath": "Java程序设计/课件/Java程序设计_课件_第9章JavaGUI编程.pptx",
           "bytes": 1806792,
           "sha256": "265939ecfc9b08add97a82c0cde0a49f0268fe1ceab72e47bb3ea8619d49d3f6"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "笔记总结",
-          "title": "面向对象程序设计Java_笔记_第1章Java概述.md",
-          "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_第1章Java概述.md",
+          "title": "Java程序设计_笔记_第1章Java概述.md",
+          "publicPath": "Java程序设计/笔记总结/Java程序设计_笔记_第1章Java概述.md",
           "bytes": 10407,
           "sha256": "1541fee77febba01084355c50395badb8a5828cf08190469e885ae73823300fd",
           "year": "2026",
@@ -1709,10 +1705,10 @@
           }
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "笔记总结",
-          "title": "面向对象程序设计Java_笔记_Java综合学习.md",
-          "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_Java综合学习.md",
+          "title": "Java程序设计_笔记_Java综合学习.md",
+          "publicPath": "Java程序设计/笔记总结/Java程序设计_笔记_Java综合学习.md",
           "bytes": 68011,
           "sha256": "5c9a5ef77bed761003ec67e632b1607331303da3993fde5f898ad44482a386ad",
           "year": "2026",
@@ -1729,10 +1725,10 @@
           }
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "笔记总结",
-          "title": "面向对象程序设计Java_笔记_第5章JavaAPI.md",
-          "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_第5章JavaAPI.md",
+          "title": "Java程序设计_笔记_第5章JavaAPI.md",
+          "publicPath": "Java程序设计/笔记总结/Java程序设计_笔记_第5章JavaAPI.md",
           "bytes": 22321,
           "sha256": "dacf1563414c37e72e3aaacac397829721df771015e250f66d9b816335ad7e78",
           "year": "2026",
@@ -1749,10 +1745,10 @@
           }
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "笔记总结",
-          "title": "面向对象程序设计Java_笔记_第5章集合.md",
-          "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_第5章集合.md",
+          "title": "Java程序设计_笔记_第5章集合.md",
+          "publicPath": "Java程序设计/笔记总结/Java程序设计_笔记_第5章集合.md",
           "bytes": 15094,
           "sha256": "1ec06b6a096f92c72830bb0cba1f716f11c9f63d54c2d4f00f3162bb452ebfbc",
           "year": "2026",
@@ -1769,10 +1765,10 @@
           }
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "笔记总结",
-          "title": "面向对象程序设计Java_笔记_第7章JavaIO流.md",
-          "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_第7章JavaIO流.md",
+          "title": "Java程序设计_笔记_第7章JavaIO流.md",
+          "publicPath": "Java程序设计/笔记总结/Java程序设计_笔记_第7章JavaIO流.md",
           "bytes": 16436,
           "sha256": "e5883bea662c80c8c4df0030608346544cfada9000dd1ac17cab6084b92c6b45",
           "year": "2026",
@@ -1789,10 +1785,10 @@
           }
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "笔记总结",
-          "title": "面向对象程序设计Java_笔记_第6章异常处理.md",
-          "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_第6章异常处理.md",
+          "title": "Java程序设计_笔记_第6章异常处理.md",
+          "publicPath": "Java程序设计/笔记总结/Java程序设计_笔记_第6章异常处理.md",
           "bytes": 12944,
           "sha256": "a9fcf155532c5e93e8eab5a31509a42b7690dd05329831cd61c99ef7784f2e61",
           "year": "2026",
@@ -1809,10 +1805,10 @@
           }
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "笔记总结",
-          "title": "面向对象程序设计Java_笔记_第8章多线程.md",
-          "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_第8章多线程.md",
+          "title": "Java程序设计_笔记_第8章多线程.md",
+          "publicPath": "Java程序设计/笔记总结/Java程序设计_笔记_第8章多线程.md",
           "bytes": 18011,
           "sha256": "03f9277e086768a77951d35190c9a5a1b6740a3e5601999469cde91deac8ce8a",
           "year": "2026",
@@ -1829,10 +1825,10 @@
           }
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "笔记总结",
-          "title": "面向对象程序设计Java_笔记_内部类.md",
-          "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_内部类.md",
+          "title": "Java程序设计_笔记_内部类.md",
+          "publicPath": "Java程序设计/笔记总结/Java程序设计_笔记_内部类.md",
           "bytes": 6601,
           "sha256": "b4f93d4318dc41a4be1e652ea0f0fc52797da40decf49cc8566962cbf2e0d3c7",
           "year": "2026",
@@ -1849,10 +1845,10 @@
           }
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "笔记总结",
-          "title": "面向对象程序设计Java_笔记_Java泛型.md",
-          "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_Java泛型.md",
+          "title": "Java程序设计_笔记_Java泛型.md",
+          "publicPath": "Java程序设计/笔记总结/Java程序设计_笔记_Java泛型.md",
           "bytes": 19145,
           "sha256": "002f36e193c4c7620564f6ed55064626e250e94d83425ad5ec6fb32a06e254ec",
           "year": "2026",
@@ -1869,10 +1865,10 @@
           }
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "笔记总结",
-          "title": "面向对象程序设计Java_笔记_注解.md",
-          "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_注解.md",
+          "title": "Java程序设计_笔记_注解.md",
+          "publicPath": "Java程序设计/笔记总结/Java程序设计_笔记_注解.md",
           "bytes": 38509,
           "sha256": "cfa478d0c152e9fa8eea975fa9a1362f1fd18d307a9c5972fe1c3e09ac45c930",
           "year": "2026",
@@ -1889,10 +1885,10 @@
           }
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "笔记总结",
-          "title": "面向对象程序设计Java_笔记_期末复习_V3.pdf",
-          "publicPath": "面向对象程序设计Java/笔记总结/面向对象程序设计Java_笔记_期末复习_V3.pdf",
+          "title": "Java程序设计_笔记_期末复习_V3.pdf",
+          "publicPath": "Java程序设计/笔记总结/Java程序设计_笔记_期末复习_V3.pdf",
           "bytes": 4446044,
           "sha256": "10eabd68805fbb0903579efdf186cf56043e9e201ad42bb4e6f4e119259ffbe9",
           "year": "2026",
@@ -1904,10 +1900,10 @@
           "licenseStatus": "learning-reference"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "待复核资料",
-          "title": "面向对象程序设计Java_待复核_复习题.docx",
-          "publicPath": "面向对象程序设计Java/待复核资料/面向对象程序设计Java_待复核_复习题.docx",
+          "title": "Java程序设计_待复核_复习题.docx",
+          "publicPath": "Java程序设计/待复核资料/Java程序设计_待复核_复习题.docx",
           "sourceType": "unknown_reviewing",
           "sourceNote": "Downloads 中的课程资料，来源、课程版本或公开边界待复核。",
           "reviewStatus": "needs_review",
@@ -1918,10 +1914,10 @@
           "sha256": "7548c3ea29093f82f2a339f56eb5bacf21597147360e51f7b2f797e023d36c5a"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "待复核资料",
-          "title": "面向对象程序设计Java_待复核_练习题1.pdf",
-          "publicPath": "面向对象程序设计Java/待复核资料/面向对象程序设计Java_待复核_练习题1.pdf",
+          "title": "Java程序设计_待复核_练习题1.pdf",
+          "publicPath": "Java程序设计/待复核资料/Java程序设计_待复核_练习题1.pdf",
           "sourceType": "unknown_reviewing",
           "sourceNote": "Downloads 中的课程资料，来源、课程版本或公开边界待复核。",
           "reviewStatus": "needs_review",
@@ -1932,10 +1928,10 @@
           "sha256": "032936a8f93100884aea522083c1c670c314f5d64e2dd4a003ddceda793783cf"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "待复核资料",
-          "title": "面向对象程序设计Java_待复核_面向对象程序设计题库.docx",
-          "publicPath": "面向对象程序设计Java/待复核资料/面向对象程序设计Java_待复核_面向对象程序设计题库.docx",
+          "title": "Java程序设计_待复核_面向对象程序设计题库.docx",
+          "publicPath": "Java程序设计/待复核资料/Java程序设计_待复核_面向对象程序设计题库.docx",
           "sourceType": "unknown_reviewing",
           "sourceNote": "Downloads 中的课程资料，来源、课程版本或公开边界待复核。",
           "reviewStatus": "needs_review",
@@ -1946,10 +1942,10 @@
           "sha256": "765113f59aade0fff3592b8a7398af30c3d31754badb7217b8c23835614ac447"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "待复核资料",
-          "title": "面向对象程序设计Java_待复核_Java程序设计2022-2023期末试卷.pdf",
-          "publicPath": "面向对象程序设计Java/待复核资料/面向对象程序设计Java_待复核_Java程序设计2022-2023期末试卷.pdf",
+          "title": "Java程序设计_待复核_Java程序设计2022-2023期末试卷.pdf",
+          "publicPath": "Java程序设计/待复核资料/Java程序设计_待复核_Java程序设计2022-2023期末试卷.pdf",
           "sourceType": "unknown_reviewing",
           "sourceNote": "卷面为河南大学 Java 期末试卷，但 PDF 元数据标题不一致，待核对。",
           "reviewStatus": "needs_review",
@@ -1961,10 +1957,10 @@
           "sha256": "d5f8125102e95556b1276f410b8b40a4aa6b6642af7cc09661e7059282ab8b07"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "待复核资料",
-          "title": "面向对象程序设计Java_待复核_Java面向对象程序设计真题.pdf",
-          "publicPath": "面向对象程序设计Java/待复核资料/面向对象程序设计Java_待复核_Java面向对象程序设计真题.pdf",
+          "title": "Java程序设计_待复核_Java面向对象程序设计真题.pdf",
+          "publicPath": "Java程序设计/待复核资料/Java程序设计_待复核_Java面向对象程序设计真题.pdf",
           "sourceType": "unknown_reviewing",
           "sourceNote": "Downloads 中的课程资料，来源、课程版本或公开边界待复核。",
           "reviewStatus": "needs_review",
@@ -1975,10 +1971,10 @@
           "sha256": "64c9ef980222fe0e5d74343edd377f080a9082eba231a8bef1f7b455566a60af"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "往年真题",
-          "title": "面向对象程序设计Java_真题_Java语言程序设计2022-2023学年.pdf",
-          "publicPath": "面向对象程序设计Java/往年真题/面向对象程序设计Java_真题_Java语言程序设计2022-2023学年.pdf",
+          "title": "Java程序设计_真题_Java语言程序设计2022-2023学年.pdf",
+          "publicPath": "Java程序设计/往年真题/Java程序设计_真题_Java语言程序设计2022-2023学年.pdf",
           "year": "2022-2023",
           "college": "软件学院",
           "sourceType": "course_group",
@@ -1990,10 +1986,10 @@
           "sha256": "70c4121b3355b84f8d0e7f393d6bfc526278206657fb3e2dd1221f1120139434"
         },
         {
-          "subject": "面向对象程序设计Java",
+          "subject": "Java程序设计",
           "role": "往年真题",
-          "title": "面向对象程序设计Java_真题_Java语言程序设计2023-2024学年.pdf",
-          "publicPath": "面向对象程序设计Java/往年真题/面向对象程序设计Java_真题_Java语言程序设计2023-2024学年.pdf",
+          "title": "Java程序设计_真题_Java语言程序设计2023-2024学年.pdf",
+          "publicPath": "Java程序设计/往年真题/Java程序设计_真题_Java语言程序设计2023-2024学年.pdf",
           "year": "2023-2024",
           "college": "软件学院",
           "sourceType": "course_group",
@@ -2005,18 +2001,17 @@
           "sha256": "948b15f4e47484c90d3b9b3a89ff55a777ebc9d3e74847dac11830f4569e19bd"
         },
         {
-          "subject": "面向对象程序设计Java",
-          "role": "待复核资料",
-          "title": "面向对象程序设计Java_待复核_Java核心技术卷I第12版_第1部分.pdf",
-          "publicPath": "面向对象程序设计Java/待复核资料/面向对象程序设计Java_待复核_Java核心技术卷I第12版_第1部分.pdf",
+          "subject": "Java程序设计",
+          "role": "电子版教材",
+          "title": "Java程序设计_教材_Java核心技术卷I开发基础（原书第12版）_第1部分.pdf",
+          "publicPath": "Java程序设计/电子版教材/Java程序设计_教材_Java核心技术卷I开发基础（原书第12版）_第1部分.pdf",
           "bytes": 59937272,
           "sha256": "a4bb12d4e974cf73cde3cad3dca180f90251ad5d63efaabb687e3d346e1c4e25",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
-          "sourceNote": "原文件 138MB 超过 GitHub 单文件限制，拆分为两部分上传，内容无损失。",
+          "reviewStatus": "verified",
+          "sourceNote": "因GitHub单文件限制拆分；两部分页码320接321，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -2024,18 +2019,17 @@
           }
         },
         {
-          "subject": "面向对象程序设计Java",
-          "role": "待复核资料",
-          "title": "面向对象程序设计Java_待复核_Java核心技术卷I第12版_第2部分.pdf",
-          "publicPath": "面向对象程序设计Java/待复核资料/面向对象程序设计Java_待复核_Java核心技术卷I第12版_第2部分.pdf",
+          "subject": "Java程序设计",
+          "role": "电子版教材",
+          "title": "Java程序设计_教材_Java核心技术卷I开发基础（原书第12版）_第2部分.pdf",
+          "publicPath": "Java程序设计/电子版教材/Java程序设计_教材_Java核心技术卷I开发基础（原书第12版）_第2部分.pdf",
           "bytes": 84914608,
           "sha256": "c85575c9e974409d9db1cb96ba9b3212988ae66db7398289c4753ca8912fa746",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
-          "sourceNote": "Java核心技术卷I第12版第2部分，与第1部分合为完整教材。",
+          "reviewStatus": "verified",
+          "sourceNote": "因GitHub单文件限制拆分；两部分页码320接321，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -2279,17 +2273,16 @@
         },
         {
           "subject": "Web编程基础",
-          "role": "待复核资料",
-          "title": "Web编程基础_待复核_HeadFirstHTMLCSS_第1部分.pdf",
-          "publicPath": "Web编程基础/待复核资料/Web编程基础_待复核_HeadFirstHTMLCSS_第1部分.pdf",
+          "role": "电子版教材",
+          "title": "Web编程基础_教材_Head First HTML与CSS第2版_第1部分.pdf",
+          "publicPath": "Web编程基础/电子版教材/Web编程基础_教材_Head First HTML与CSS第2版_第1部分.pdf",
           "bytes": 90608783,
           "sha256": "b102986b6229da86cdc9fa8c5380ea29cae3c37d2eb39703f9c8a67f9d5f234f",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
-          "sourceNote": "原文件 176MB 超过 GitHub 单文件限制，拆分为两部分上传，内容无损失。",
+          "reviewStatus": "verified",
+          "sourceNote": "因GitHub单文件限制拆分；两部分页码345接346，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -2298,17 +2291,16 @@
         },
         {
           "subject": "Web编程基础",
-          "role": "待复核资料",
-          "title": "Web编程基础_待复核_HeadFirstHTMLCSS_第2部分.pdf",
-          "publicPath": "Web编程基础/待复核资料/Web编程基础_待复核_HeadFirstHTMLCSS_第2部分.pdf",
+          "role": "电子版教材",
+          "title": "Web编程基础_教材_Head First HTML与CSS第2版_第2部分.pdf",
+          "publicPath": "Web编程基础/电子版教材/Web编程基础_教材_Head First HTML与CSS第2版_第2部分.pdf",
           "bytes": 94584825,
           "sha256": "bcc91ac49db489d9138cb214ef456a6ad6429e281a55da020d585e72f81ed50b",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
-          "sourceNote": "Head First HTML&CSS 第2部分，与第1部分合为完整教材。",
+          "reviewStatus": "verified",
+          "sourceNote": "因GitHub单文件限制拆分；两部分页码345接346，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -2318,118 +2310,118 @@
       ]
     },
     {
-      "name": "数据库系统",
-      "note": "包含考前复习讲义、数据库系统课程 PPT 课件、章节习题与答案解析。",
+      "name": "数据库系统原理",
+      "note": "包含考前复习讲义、数据库系统原理课程 PPT 课件、章节习题与答案解析。",
       "assets": [
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "复习讲义",
-          "title": "数据库系统_考前复习知识点讲义.pdf",
-          "publicPath": "数据库系统/复习讲义/数据库系统_考前复习知识点讲义.pdf",
+          "title": "数据库系统原理_考前复习知识点讲义.pdf",
+          "publicPath": "数据库系统原理/复习讲义/数据库系统原理_考前复习知识点讲义.pdf",
           "bytes": 258894,
           "sha256": "e54a183aa5887cabc5120c4d647acd23c3f7d1e77e014cc74a05019291d013ce"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_00-课前的话.pptx",
-          "publicPath": "数据库系统/课件/数据库系统_课件_00-课前的话.pptx",
+          "title": "数据库系统原理_课件_00-课前的话.pptx",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_00-课前的话.pptx",
           "bytes": 353113,
           "sha256": "ed22de933f650f2c933da5407cb3aee316924534c22e08ba69afcfff98b6b43e"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_01-绪论.pptx",
-          "publicPath": "数据库系统/课件/数据库系统_课件_01-绪论.pptx",
+          "title": "数据库系统原理_课件_01-绪论.pptx",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_01-绪论.pptx",
           "bytes": 766478,
           "sha256": "5c208e6cb4dcbf24f371c772e14a3865663283bd8c6973f0833165f8b52685fd"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_02-关系数据库.pptx",
-          "publicPath": "数据库系统/课件/数据库系统_课件_02-关系数据库.pptx",
+          "title": "数据库系统原理_课件_02-关系数据库.pptx",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_02-关系数据库.pptx",
           "bytes": 780257,
           "sha256": "a33f489038f50db68c128a287e027d9287a5478777fe3962f9320405277d80ee"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_03-2数据查询1.pptx",
-          "publicPath": "数据库系统/课件/数据库系统_课件_03-2数据查询1.pptx",
+          "title": "数据库系统原理_课件_03-2数据查询1.pptx",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_03-2数据查询1.pptx",
           "bytes": 752628,
           "sha256": "61b8cea7db45d6ae4fc50924b348a89fcb55301756d95fb9dca05d7c51410f63"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_03-2数据查询2.pptx",
-          "publicPath": "数据库系统/课件/数据库系统_课件_03-2数据查询2.pptx",
+          "title": "数据库系统原理_课件_03-2数据查询2.pptx",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_03-2数据查询2.pptx",
           "bytes": 570905,
           "sha256": "8f4c45f85946cd36809d73b1699feb96e531c13123b70fd14e807ec180082cf8"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_03-3数据更新和视图.pptx",
-          "publicPath": "数据库系统/课件/数据库系统_课件_03-3数据更新和视图.pptx",
+          "title": "数据库系统原理_课件_03-3数据更新和视图.pptx",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_03-3数据更新和视图.pptx",
           "bytes": 679940,
           "sha256": "73c62061f339f6148573f9471bfd2f524ca59bab1049e202ad8524472c440b15"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_03-4复习案例.ppt",
-          "publicPath": "数据库系统/课件/数据库系统_课件_03-4复习案例.ppt",
+          "title": "数据库系统原理_课件_03-4复习案例.ppt",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_03-4复习案例.ppt",
           "bytes": 1700864,
           "sha256": "6a184ce6ae60e02db48093ad8f03d27c590e54fde3f652b76a0d6b9d013e8dbb"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_04-数据库安全性.pptx",
-          "publicPath": "数据库系统/课件/数据库系统_课件_04-数据库安全性.pptx",
+          "title": "数据库系统原理_课件_04-数据库安全性.pptx",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_04-数据库安全性.pptx",
           "bytes": 731677,
           "sha256": "8427331a685e6454202ae8a8d25fbcb2589c4177a1c5b492193b2d9b1da0f96f"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_06-关系数据理论.pptx",
-          "publicPath": "数据库系统/课件/数据库系统_课件_06-关系数据理论.pptx",
+          "title": "数据库系统原理_课件_06-关系数据理论.pptx",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_06-关系数据理论.pptx",
           "bytes": 830644,
           "sha256": "bb1b0228dea95f00afb2310948bc0863bbb3430b53fe362f98b596d5319662c2"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_07-1数据库设计.pptx",
-          "publicPath": "数据库系统/课件/数据库系统_课件_07-1数据库设计.pptx",
+          "title": "数据库系统原理_课件_07-1数据库设计.pptx",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_07-1数据库设计.pptx",
           "bytes": 2149125,
           "sha256": "3ccab5df7f3b516eebf41ee3543b0a1c5a2ea4850d6671014bd5f79fe1b42a90"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_11-数据库恢复技术.pptx",
-          "publicPath": "数据库系统/课件/数据库系统_课件_11-数据库恢复技术.pptx",
+          "title": "数据库系统原理_课件_11-数据库恢复技术.pptx",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_11-数据库恢复技术.pptx",
           "bytes": 748417,
           "sha256": "b2ebbf62645104b92af9610c5d7f54f4c4a5761d0a00408eb9911c1d97a8c286"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_12-并发控制.pptx",
-          "publicPath": "数据库系统/课件/数据库系统_课件_12-并发控制.pptx",
+          "title": "数据库系统原理_课件_12-并发控制.pptx",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_12-并发控制.pptx",
           "bytes": 525666,
           "sha256": "4b9b01cb9af5c4d436aabfc19fedb7fc0627f56064500311e2df4a2244bff865"
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "答案解析",
-          "title": "数据库系统_答案解析_第1章绪论_文字版.txt",
-          "publicPath": "数据库系统/答案解析/数据库系统_答案解析_第1章绪论_文字版.txt",
+          "title": "数据库系统原理_答案解析_第1章绪论_文字版.txt",
+          "publicPath": "数据库系统原理/答案解析/数据库系统原理_答案解析_第1章绪论_文字版.txt",
           "bytes": 495,
           "sha256": "6e532697c934972caaaceb9a00db9c3c86ca93c768287045e4eeb2d881f180d8",
           "sourceType": "doc-converted",
@@ -2445,10 +2437,10 @@
           }
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "答案解析",
-          "title": "数据库系统_答案解析_第4章数据库安全性_文字版.txt",
-          "publicPath": "数据库系统/答案解析/数据库系统_答案解析_第4章数据库安全性_文字版.txt",
+          "title": "数据库系统原理_答案解析_第4章数据库安全性_文字版.txt",
+          "publicPath": "数据库系统原理/答案解析/数据库系统原理_答案解析_第4章数据库安全性_文字版.txt",
           "bytes": 2012,
           "sha256": "cd1e6a90cd675eff592f5647ed8cccb19391660a38af9ad38b5329d715ba4621",
           "sourceType": "doc-converted",
@@ -2464,10 +2456,10 @@
           }
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "答案解析",
-          "title": "数据库系统_答案解析_第5章数据库完整性.docx",
-          "publicPath": "数据库系统/答案解析/数据库系统_答案解析_第5章数据库完整性.docx",
+          "title": "数据库系统原理_答案解析_第5章数据库完整性.docx",
+          "publicPath": "数据库系统原理/答案解析/数据库系统原理_答案解析_第5章数据库完整性.docx",
           "bytes": 14566,
           "sha256": "3a8434a4aad5b35939baec860d5f53f3e889f0cc5cc38ddd823346b7ca1b2485",
           "sourceType": "community-note",
@@ -2483,10 +2475,10 @@
           }
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_05-数据完整性.ppt",
-          "publicPath": "数据库系统/课件/数据库系统_课件_05-数据完整性.ppt",
+          "title": "数据库系统原理_课件_05-数据完整性.ppt",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_05-数据完整性.ppt",
           "bytes": 697856,
           "sha256": "76d731b19ced10e4f71c4e4cfb7d1fcababc15c26ec4d46ed71bc36edb55b02c",
           "sourceType": "teacher-courseware",
@@ -2502,10 +2494,10 @@
           }
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "课件",
-          "title": "数据库系统_课件_07-2数据库的设计案例1.ppt",
-          "publicPath": "数据库系统/课件/数据库系统_课件_07-2数据库的设计案例1.ppt",
+          "title": "数据库系统原理_课件_07-2数据库的设计案例1.ppt",
+          "publicPath": "数据库系统原理/课件/数据库系统原理_课件_07-2数据库的设计案例1.ppt",
           "bytes": 256000,
           "sha256": "30c46c6482870c82b29539815a5935d49287cc9ddaec4da105f26b6a5c949fd2",
           "sourceType": "teacher-courseware",
@@ -2521,10 +2513,10 @@
           }
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "题库练习",
-          "title": "数据库系统_题库练习_第2章关系数据库_文字版.txt",
-          "publicPath": "数据库系统/题库练习/数据库系统_题库练习_第2章关系数据库_文字版.txt",
+          "title": "数据库系统原理_题库练习_第2章关系数据库_文字版.txt",
+          "publicPath": "数据库系统原理/题库练习/数据库系统原理_题库练习_第2章关系数据库_文字版.txt",
           "bytes": 3892,
           "sha256": "e35e1c1e511e0ff1bf208b33d5cc3a9eb3761d0781330877bffba9e5f0e8a6ea",
           "sourceType": "doc-converted",
@@ -2540,10 +2532,10 @@
           }
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "题库练习",
-          "title": "数据库系统_题库练习_第6章关系数据理论.docx",
-          "publicPath": "数据库系统/题库练习/数据库系统_题库练习_第6章关系数据理论.docx",
+          "title": "数据库系统原理_题库练习_第6章关系数据理论.docx",
+          "publicPath": "数据库系统原理/题库练习/数据库系统原理_题库练习_第6章关系数据理论.docx",
           "bytes": 118094,
           "sha256": "146e0e0997be10f41122c6b168140219b66e3deff944445c0cd8393b44aaa7b2",
           "sourceType": "community-note",
@@ -2559,10 +2551,10 @@
           }
         },
         {
-          "subject": "数据库系统",
+          "subject": "数据库系统原理",
           "role": "题库练习",
-          "title": "数据库系统_题库练习_第7章数据库设计.docx",
-          "publicPath": "数据库系统/题库练习/数据库系统_题库练习_第7章数据库设计.docx",
+          "title": "数据库系统原理_题库练习_第7章数据库设计.docx",
+          "publicPath": "数据库系统原理/题库练习/数据库系统原理_题库练习_第7章数据库设计.docx",
           "bytes": 202613,
           "sha256": "87ccf26d09509aa91a95ae2311c17f664436cb2590fa0ba41d4888f7f1f9f9d7",
           "sourceType": "community-note",
@@ -2578,18 +2570,18 @@
           }
         },
         {
-          "subject": "数据库系统",
-          "role": "待复核资料",
-          "title": "数据库系统_待复核_数据库系统概论第6版.pdf",
-          "publicPath": "数据库系统/待复核资料/数据库系统_待复核_数据库系统概论第6版.pdf",
+          "subject": "数据库系统原理",
+          "role": "电子版教材",
+          "title": "数据库系统原理_教材_数据库系统概论第6版（王珊、杜小勇、陈红）.pdf",
+          "publicPath": "数据库系统原理/电子版教材/数据库系统原理_教材_数据库系统概论第6版（王珊、杜小勇、陈红）.pdf",
           "bytes": 69615697,
           "sha256": "56275e1f4f21a6d222a7484e561c1101bac264f972b81a6ef44fc984a9dede7d",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
-          "sourceNote": "原文件 209MB 超过 GitHub 单文件限制，重渲染压缩为 66MB，质量有损（format_lossy）；公开边界待维护者复核。",
+          "reviewStatus": "verified",
+          "uncertainty": "format_lossy",
+          "sourceNote": "书名、版本与作者已经人工核对；因GitHub单文件限制使用有损压缩版，抽样页面可读。资料维护者已确认取得本文件的公开再分发授权。",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -2634,17 +2626,16 @@
         },
         {
           "subject": "计算机网络",
-          "role": "待复核资料",
-          "title": "计算机网络_待复核_自顶向下方法.pdf",
-          "publicPath": "计算机网络/待复核资料/计算机网络_待复核_自顶向下方法.pdf",
-          "bytes": 32828031,
-          "sha256": "b8942f160c8178721ca691b8d4c53e263f48808bff24752c59132ddcfeaeeb65",
+          "role": "电子版教材",
+          "title": "计算机网络_教材_计算机网络教程自顶向下方法（Forouzan、Mosharraf，2013年第1版）.pdf",
+          "publicPath": "计算机网络/电子版教材/计算机网络_教材_计算机网络教程自顶向下方法（Forouzan、Mosharraf，2013年第1版）.pdf",
+          "bytes": 32825323,
+          "sha256": "84051e43accbbfb6c703c9c46b0daacbd3b0b10bcf4ae4cd5e42dd3007f711a8",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
-          "sourceType": "unknown-reviewing",
-          "sourceNote": "版本信息不明确（疑似第6版，仓库已有第7版），需人工确认。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "source_uncertain",
+          "licenseStatus": "authorized-redistribution",
+          "sourceType": "other",
+          "sourceNote": "书名、作者与版本已经人工核对；原PDF第16页和第188页的非教材推广页已移除。资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -2653,17 +2644,17 @@
         },
         {
           "subject": "计算机网络",
-          "role": "待复核资料",
-          "title": "计算机网络_待复核_谢希仁第8版.pdf",
-          "publicPath": "计算机网络/待复核资料/计算机网络_待复核_谢希仁第8版.pdf",
+          "role": "电子版教材",
+          "title": "计算机网络_教材_计算机网络第8版（谢希仁）.pdf",
+          "publicPath": "计算机网络/电子版教材/计算机网络_教材_计算机网络第8版（谢希仁）.pdf",
           "bytes": 87439275,
           "sha256": "22dd47f0c8256ced8f2c237147550207890293a509533e1bda90530ea6a4f76c",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
-          "sourceNote": "原文件 122MB 超过 GitHub 单文件限制，重渲染压缩为 83MB，质量有损（format_lossy）；公开边界待维护者复核。",
+          "reviewStatus": "verified",
+          "uncertainty": "format_lossy",
+          "sourceNote": "书名、版本与作者已经人工核对；因GitHub单文件限制使用有损压缩版，抽样页面可读。资料维护者已确认取得本文件的公开再分发授权。",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -2800,17 +2791,16 @@
         },
         {
           "subject": "计算机组成原理",
-          "role": "待复核资料",
-          "title": "计算机组成原理_待复核_计算机组成原理第3版（唐朔飞）.pdf",
-          "publicPath": "计算机组成原理/待复核资料/计算机组成原理_待复核_计算机组成原理第3版（唐朔飞）.pdf",
+          "role": "电子版教材",
+          "title": "计算机组成原理_教材_计算机组成原理第3版（唐朔飞）.pdf",
+          "publicPath": "计算机组成原理/电子版教材/计算机组成原理_教材_计算机组成原理第3版（唐朔飞）.pdf",
           "bytes": 25516665,
           "sha256": "43c04ae23d8e7698436d29d6e2a83cd557e1741a97d3c899e234ebfb809219a1",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "sourceNote": "《计算机组成原理》第3版（唐朔飞）教材电子版，书名与版本已核对，公开再分发授权待确认。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "课程归属、书名、版本与作者已经人工核对。资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -3249,21 +3239,21 @@
         },
         {
           "subject": "软件工程",
-          "role": "待复核资料",
-          "title": "软件工程_待复核_方法与实践.pdf",
-          "publicPath": "软件工程/待复核资料/软件工程_待复核_方法与实践.pdf",
+          "role": "电子版教材",
+          "title": "软件工程_教材_软件工程方法与实践第3版（许家珆）.pdf",
+          "publicPath": "软件工程/电子版教材/软件工程_教材_软件工程方法与实践第3版（许家珆）.pdf",
           "bytes": 57359679,
           "sha256": "0e623b1d21bd5560cb81fb2df006932e17f1400e075c90aa050ab3504963f6ec",
           "containsPersonalInfo": false,
           "sourceType": "other",
-          "sourceNote": "课程教材电子版，公开边界待维护者复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "课程归属、书名、版本与作者已经人工核对。资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
           "attribution": {
             "collectors": [
               "程芷嘉"
             ]
-          }
+          },
+          "licenseStatus": "authorized-redistribution"
         }
       ]
     },
@@ -3596,8 +3586,8 @@
         {
           "subject": "Python程序设计",
           "role": "笔记总结",
-          "title": "Python程序设计_笔记总结_思维导图.pdf",
-          "publicPath": "Python程序设计/笔记总结/Python程序设计_笔记总结_思维导图.pdf",
+          "title": "Python程序设计_笔记_思维导图.pdf",
+          "publicPath": "Python程序设计/笔记总结/Python程序设计_笔记_思维导图.pdf",
           "bytes": 3873168,
           "sha256": "3fb5af8d81e883000059e158412c10b006a1f363d633bbcb416a0e6d2753b9ce",
           "sourceType": "community-note",
@@ -3633,17 +3623,16 @@
         },
         {
           "subject": "Python程序设计",
-          "role": "待复核资料",
-          "title": "Python程序设计_待复核_Pythonic开发进阶指南.pdf",
-          "publicPath": "Python程序设计/待复核资料/Python程序设计_待复核_Pythonic开发进阶指南.pdf",
+          "role": "复习讲义",
+          "title": "Python程序设计_讲义_Pythonic开发进阶指南.pdf",
+          "publicPath": "Python程序设计/复习讲义/Python程序设计_讲义_Pythonic开发进阶指南.pdf",
           "bytes": 549721,
           "sha256": "032081aa1956d2ec14d3fa431a63e2b1ac1ed2f1668ae6458f0623e6ffb1d328",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only",
-          "sourceType": "unknown-reviewing",
-          "sourceNote": "19页 Pythonic 进阶学习指南，原创作者与许可待确认。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "content_uncertain",
+          "licenseStatus": "authorized-redistribution",
+          "sourceType": "community-note",
+          "sourceNote": "19页Pythonic进阶学习指南，内容与课程归属已完成基本检查；资料维护者已确认取得公开再分发授权。",
+          "reviewStatus": "basic-reviewed",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -4431,14 +4420,14 @@
       ]
     },
     {
-      "name": "机器学习",
-      "note": "包含机器学习课程章节 PPT/PDF 课件、课程知识点总结、2023-2024 期末真题与回忆版。",
+      "name": "机器学习与智能数据处理",
+      "note": "包含机器学习与智能数据处理课程章节 PPT/PDF 课件、课程知识点总结、2023-2024 期末真题与回忆版。",
       "assets": [
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "复习讲义",
-          "title": "机器学习_复习讲义_课程知识点总结.pdf",
-          "publicPath": "机器学习/复习讲义/机器学习_复习讲义_课程知识点总结.pdf",
+          "title": "机器学习与智能数据处理_复习讲义_课程知识点总结.pdf",
+          "publicPath": "机器学习与智能数据处理/复习讲义/机器学习与智能数据处理_复习讲义_课程知识点总结.pdf",
           "bytes": 14413103,
           "sha256": "40502062aef33af8ea91052d71ff669226a3519940215f4fc53f8f6067810c69",
           "sourceType": "community-note",
@@ -4454,10 +4443,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "往年真题",
-          "title": "机器学习_真题_2023-2024学年第二学期A卷_文字整理版.docx",
-          "publicPath": "机器学习/往年真题/机器学习_真题_2023-2024学年第二学期A卷_文字整理版.docx",
+          "title": "机器学习与智能数据处理_真题_2023-2024学年第二学期A卷_文字整理版.docx",
+          "publicPath": "机器学习与智能数据处理/往年真题/机器学习与智能数据处理_真题_2023-2024学年第二学期A卷_文字整理版.docx",
           "bytes": 24710,
           "sha256": "1b3085a808fe964d35a1ca9db6fa176a45f3c20abfd39df850621e994bc98f84",
           "sourceType": "student-recall",
@@ -4474,10 +4463,10 @@
           "college": "软件学院"
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "往年真题",
-          "title": "机器学习_真题_2023-2024学年第二学期A卷_原卷实拍.docx",
-          "publicPath": "机器学习/往年真题/机器学习_真题_2023-2024学年第二学期A卷_原卷实拍.docx",
+          "title": "机器学习与智能数据处理_真题_2023-2024学年第二学期A卷_原卷实拍.docx",
+          "publicPath": "机器学习与智能数据处理/往年真题/机器学习与智能数据处理_真题_2023-2024学年第二学期A卷_原卷实拍.docx",
           "bytes": 8623959,
           "sha256": "e5a86dbbb4e140e80f48a717bc048c640e619c005ba7f3c2e5f8d36c7774990c",
           "sourceType": "student-recall",
@@ -4494,10 +4483,10 @@
           "college": "软件学院"
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "待复核资料",
-          "title": "机器学习_待复核_选择题回忆版.docx",
-          "publicPath": "机器学习/待复核资料/机器学习_待复核_选择题回忆版.docx",
+          "title": "机器学习与智能数据处理_待复核_选择题回忆版.docx",
+          "publicPath": "机器学习与智能数据处理/待复核资料/机器学习与智能数据处理_待复核_选择题回忆版.docx",
           "bytes": 341356,
           "sha256": "decee818438992bd05666017e010043293d7102bdf38f0114efb364490910ce3",
           "sourceType": "student-recall",
@@ -4513,10 +4502,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第10章K-means.pptx",
-          "publicPath": "机器学习/课件/机器学习_课件_第10章K-means.pptx",
+          "title": "机器学习与智能数据处理_课件_第10章K-means.pptx",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第10章K-means.pptx",
           "bytes": 6314805,
           "sha256": "6d24edb98bd518f2f74349b7897feac98541cf643ad6146172e99a4380c71c36",
           "sourceType": "teacher-courseware",
@@ -4532,10 +4521,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第11章神经网络与深度学习.pptx",
-          "publicPath": "机器学习/课件/机器学习_课件_第11章神经网络与深度学习.pptx",
+          "title": "机器学习与智能数据处理_课件_第11章神经网络与深度学习.pptx",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第11章神经网络与深度学习.pptx",
           "bytes": 21738622,
           "sha256": "b0ed9ff44b1fbb3da8a32368dbe3c9560a7a3ea0350b263f9a11ec5d66928757",
           "sourceType": "teacher-courseware",
@@ -4551,10 +4540,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第1章机器学习基础.pptx",
-          "publicPath": "机器学习/课件/机器学习_课件_第1章机器学习基础.pptx",
+          "title": "机器学习与智能数据处理_课件_第1章机器学习基础.pptx",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第1章机器学习基础.pptx",
           "bytes": 16111367,
           "sha256": "aa97a785aa30eb63d773b3c5fa3700326a8d10df3844ea97d10aea5cb2a56057",
           "sourceType": "teacher-courseware",
@@ -4570,10 +4559,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第2章线性回归1最小二乘.pptx",
-          "publicPath": "机器学习/课件/机器学习_课件_第2章线性回归1最小二乘.pptx",
+          "title": "机器学习与智能数据处理_课件_第2章线性回归1最小二乘.pptx",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第2章线性回归1最小二乘.pptx",
           "bytes": 2855433,
           "sha256": "93a852665ebdf7e25cf6a0640177af0f4fced8cb5f79ea72b063e807a2935662",
           "sourceType": "teacher-courseware",
@@ -4589,10 +4578,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第2章线性回归2梯度下降与逻辑回归.pptx",
-          "publicPath": "机器学习/课件/机器学习_课件_第2章线性回归2梯度下降与逻辑回归.pptx",
+          "title": "机器学习与智能数据处理_课件_第2章线性回归2梯度下降与逻辑回归.pptx",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第2章线性回归2梯度下降与逻辑回归.pptx",
           "bytes": 5207187,
           "sha256": "88835d7263f833049d4b965c53562f54f72c48da300611c658d479fa41215fbb",
           "sourceType": "teacher-courseware",
@@ -4608,10 +4597,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第3章KNN.pptx",
-          "publicPath": "机器学习/课件/机器学习_课件_第3章KNN.pptx",
+          "title": "机器学习与智能数据处理_课件_第3章KNN.pptx",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第3章KNN.pptx",
           "bytes": 5419257,
           "sha256": "dc5cca2db1731378278961ac7a06af733d4b16a3fe099c9ff9fac21298902370",
           "sourceType": "teacher-courseware",
@@ -4627,10 +4616,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第4章决策树.pptx",
-          "publicPath": "机器学习/课件/机器学习_课件_第4章决策树.pptx",
+          "title": "机器学习与智能数据处理_课件_第4章决策树.pptx",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第4章决策树.pptx",
           "bytes": 11286773,
           "sha256": "34f6d1d5c91633e5675872518d4300034e14f3f34b71ae101ce18a2e4ea79432",
           "sourceType": "teacher-courseware",
@@ -4646,10 +4635,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第5章朴素贝叶斯算法.pptx",
-          "publicPath": "机器学习/课件/机器学习_课件_第5章朴素贝叶斯算法.pptx",
+          "title": "机器学习与智能数据处理_课件_第5章朴素贝叶斯算法.pptx",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第5章朴素贝叶斯算法.pptx",
           "bytes": 9128507,
           "sha256": "848c42f3a4ab4a365b4c16838c0f2f2ea2c141bdcc820f71b943765d3963662e",
           "sourceType": "teacher-courseware",
@@ -4665,10 +4654,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第6章支持向量机算法.pptx",
-          "publicPath": "机器学习/课件/机器学习_课件_第6章支持向量机算法.pptx",
+          "title": "机器学习与智能数据处理_课件_第6章支持向量机算法.pptx",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第6章支持向量机算法.pptx",
           "bytes": 8677235,
           "sha256": "6b844f69bbd01792209b3f588a72e6e7de311e3f9b295c9a42eaa2f5edf4ef38",
           "sourceType": "teacher-courseware",
@@ -4684,10 +4673,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第7章集成学习.pptx",
-          "publicPath": "机器学习/课件/机器学习_课件_第7章集成学习.pptx",
+          "title": "机器学习与智能数据处理_课件_第7章集成学习.pptx",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第7章集成学习.pptx",
           "bytes": 3443596,
           "sha256": "5af845fab9c411453a3effcc465f152ed9d79be2d339c7c900f75af0fe1b8e65",
           "sourceType": "teacher-courseware",
@@ -4703,10 +4692,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第9章降维算法PCA.pptx",
-          "publicPath": "机器学习/课件/机器学习_课件_第9章降维算法PCA.pptx",
+          "title": "机器学习与智能数据处理_课件_第9章降维算法PCA.pptx",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第9章降维算法PCA.pptx",
           "bytes": 8143713,
           "sha256": "323a3128d73c3de3e020b1772f88d380ecbbfb7b9bc07795267764629779e11f",
           "sourceType": "teacher-courseware",
@@ -4722,10 +4711,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第一章机器学习基础.pdf",
-          "publicPath": "机器学习/课件/机器学习_课件_第一章机器学习基础.pdf",
+          "title": "机器学习与智能数据处理_课件_第一章机器学习基础.pdf",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第一章机器学习基础.pdf",
           "bytes": 1131333,
           "sha256": "b345f5ce7edf52f02850cc5cb28c677de509f894ee7b224fa96407aeec80ea11",
           "sourceType": "teacher-courseware",
@@ -4741,10 +4730,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第七章集成学习.pdf",
-          "publicPath": "机器学习/课件/机器学习_课件_第七章集成学习.pdf",
+          "title": "机器学习与智能数据处理_课件_第七章集成学习.pdf",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第七章集成学习.pdf",
           "bytes": 257363,
           "sha256": "764714b6ea4b3c45c1834688552c4a8d02269880cdc8bed9db4bc42dcb9e1227",
           "sourceType": "teacher-courseware",
@@ -4760,10 +4749,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第三章KNN.pdf",
-          "publicPath": "机器学习/课件/机器学习_课件_第三章KNN.pdf",
+          "title": "机器学习与智能数据处理_课件_第三章KNN.pdf",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第三章KNN.pdf",
           "bytes": 435276,
           "sha256": "42f6f62375d3e4c036edd0a62f0619fc9e2db55f5e9743e1122c42b3d057e7b9",
           "sourceType": "teacher-courseware",
@@ -4779,10 +4768,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第九章PCA降维.pdf",
-          "publicPath": "机器学习/课件/机器学习_课件_第九章PCA降维.pdf",
+          "title": "机器学习与智能数据处理_课件_第九章PCA降维.pdf",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第九章PCA降维.pdf",
           "bytes": 277808,
           "sha256": "b023d7959f5682d3c3943a1386d8ba97569f62ab7e6e65d36b932e8a87b2473c",
           "sourceType": "teacher-courseware",
@@ -4798,10 +4787,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第二章.pdf",
-          "publicPath": "机器学习/课件/机器学习_课件_第二章.pdf",
+          "title": "机器学习与智能数据处理_课件_第二章.pdf",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第二章.pdf",
           "bytes": 1519841,
           "sha256": "7d3b3cdf03c27fd09d3730b95896fb626c25b47eb10e9c381cf88fb2d7c25d69",
           "sourceType": "teacher-courseware",
@@ -4817,10 +4806,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第五章朴素贝叶斯分类器.pdf",
-          "publicPath": "机器学习/课件/机器学习_课件_第五章朴素贝叶斯分类器.pdf",
+          "title": "机器学习与智能数据处理_课件_第五章朴素贝叶斯分类器.pdf",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第五章朴素贝叶斯分类器.pdf",
           "bytes": 1815436,
           "sha256": "6181f4eb87c92b763211fea63b7cfa511b7bba310873520b58a67751737c4b82",
           "sourceType": "teacher-courseware",
@@ -4836,10 +4825,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第六章支持向量机.pdf",
-          "publicPath": "机器学习/课件/机器学习_课件_第六章支持向量机.pdf",
+          "title": "机器学习与智能数据处理_课件_第六章支持向量机.pdf",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第六章支持向量机.pdf",
           "bytes": 2130346,
           "sha256": "cae02510f298ecc6c8006fc2705c08e98ed855b7bd39da583108850b843d6cec",
           "sourceType": "teacher-courseware",
@@ -4855,10 +4844,10 @@
           }
         },
         {
-          "subject": "机器学习",
+          "subject": "机器学习与智能数据处理",
           "role": "课件",
-          "title": "机器学习_课件_第四章决策树算法.pdf",
-          "publicPath": "机器学习/课件/机器学习_课件_第四章决策树算法.pdf",
+          "title": "机器学习与智能数据处理_课件_第四章决策树算法.pdf",
+          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第四章决策树算法.pdf",
           "bytes": 989444,
           "sha256": "8b984ade111ce3abf1fd1e71f3ba06cde545a634a0fd1bb89d455b99b03ffba8",
           "sourceType": "teacher-courseware",
@@ -4876,14 +4865,14 @@
       ]
     },
     {
-      "name": "算法",
+      "name": "算法设计与分析",
       "note": "包含《算法设计与分析》课程课件（分治、贪心、动态规划、回溯、分支限界等）和章节习题、作业。",
       "assets": [
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "复习讲义",
-          "title": "算法_复习讲义_总复习.pptx",
-          "publicPath": "算法/复习讲义/算法_复习讲义_总复习.pptx",
+          "title": "算法设计与分析_复习讲义_总复习.pptx",
+          "publicPath": "算法设计与分析/复习讲义/算法设计与分析_复习讲义_总复习.pptx",
           "bytes": 409615,
           "sha256": "849d4ee50fc6f7bb93c02a79cca065121e475ccdfe33717a483b2c2c6a0674a8",
           "sourceType": "community-note",
@@ -4899,10 +4888,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_分支限界法.pptx",
-          "publicPath": "算法/课件/算法_课件_分支限界法.pptx",
+          "title": "算法设计与分析_课件_分支限界法.pptx",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_分支限界法.pptx",
           "bytes": 912212,
           "sha256": "39e20c059eae7206e851987e15b076c9550a9120bf3aff7d2816a78f760a0966",
           "sourceType": "teacher-courseware",
@@ -4918,10 +4907,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_回溯法.pptx",
-          "publicPath": "算法/课件/算法_课件_回溯法.pptx",
+          "title": "算法设计与分析_课件_回溯法.pptx",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_回溯法.pptx",
           "bytes": 1710477,
           "sha256": "a9094914b8cc9cf2b348fde3db3366aa0736941fe9a252698f5277ec38f1c871",
           "sourceType": "teacher-courseware",
@@ -4937,10 +4926,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_第1章基础知识.ppt",
-          "publicPath": "算法/课件/算法_课件_第1章基础知识.ppt",
+          "title": "算法设计与分析_课件_第1章基础知识.ppt",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_第1章基础知识.ppt",
           "bytes": 4773888,
           "sha256": "a7e2381d0651d10de1d7fa45394493fcfae73a175f8e4eb84e635c2e74ba4278",
           "sourceType": "teacher-courseware",
@@ -4956,10 +4945,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_第2章准备知识第三次课.pptx",
-          "publicPath": "算法/课件/算法_课件_第2章准备知识第三次课.pptx",
+          "title": "算法设计与分析_课件_第2章准备知识第三次课.pptx",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_第2章准备知识第三次课.pptx",
           "bytes": 188904,
           "sha256": "e91c3bb8ce0a6dc6cd79329e4e08c68475e68f20bec176c737cbc315681b0011",
           "sourceType": "teacher-courseware",
@@ -4975,10 +4964,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_第2章分治策略1.pptx",
-          "publicPath": "算法/课件/算法_课件_第2章分治策略1.pptx",
+          "title": "算法设计与分析_课件_第2章分治策略1.pptx",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_第2章分治策略1.pptx",
           "bytes": 2270579,
           "sha256": "a8494bdb1ab6c8febd6796e570827f78a2d19f5074f8014df26f4e2f77426093",
           "sourceType": "teacher-courseware",
@@ -4994,10 +4983,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_第2章分治策略2.ppt",
-          "publicPath": "算法/课件/算法_课件_第2章分治策略2.ppt",
+          "title": "算法设计与分析_课件_第2章分治策略2.ppt",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_第2章分治策略2.ppt",
           "bytes": 1521664,
           "sha256": "f092091691d34b8842464d85447d55a3a98ae1dc59e61d67d35a204dfad55c2b",
           "sourceType": "teacher-courseware",
@@ -5013,10 +5002,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_第2章分治策略3.ppt",
-          "publicPath": "算法/课件/算法_课件_第2章分治策略3.ppt",
+          "title": "算法设计与分析_课件_第2章分治策略3.ppt",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_第2章分治策略3.ppt",
           "bytes": 475136,
           "sha256": "72501a5e99abfc5e174df6407a61070fb4fe274b9d7db7075a7d4253d52d78e3",
           "sourceType": "teacher-courseware",
@@ -5032,10 +5021,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_第2章递归算法1.ppt",
-          "publicPath": "算法/课件/算法_课件_第2章递归算法1.ppt",
+          "title": "算法设计与分析_课件_第2章递归算法1.ppt",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_第2章递归算法1.ppt",
           "bytes": 1907712,
           "sha256": "0dd90fdce327d820dc0b889c5012b551eb9ea16da5d6c79b19d095d815418913",
           "sourceType": "teacher-courseware",
@@ -5051,10 +5040,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_第2章递归算法2.ppt",
-          "publicPath": "算法/课件/算法_课件_第2章递归算法2.ppt",
+          "title": "算法设计与分析_课件_第2章递归算法2.ppt",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_第2章递归算法2.ppt",
           "bytes": 3572736,
           "sha256": "414d9aa370710d8101196552f0edd6098bd950276f0b9675d9e4d0811237f8bd",
           "sourceType": "teacher-courseware",
@@ -5070,10 +5059,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_第3章贪心策略.ppt",
-          "publicPath": "算法/课件/算法_课件_第3章贪心策略.ppt",
+          "title": "算法设计与分析_课件_第3章贪心策略.ppt",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_第3章贪心策略.ppt",
           "bytes": 5623808,
           "sha256": "6839473ccb39cb2134198a364341d98dae6447ca4544c7e860a81d8311246ffc",
           "sourceType": "teacher-courseware",
@@ -5089,10 +5078,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_第4章动态规划.ppt",
-          "publicPath": "算法/课件/算法_课件_第4章动态规划.ppt",
+          "title": "算法设计与分析_课件_第4章动态规划.ppt",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_第4章动态规划.ppt",
           "bytes": 2706944,
           "sha256": "12bab801d7400c73e29db90eec51ebe9c68c1586f20ad772bc5d9fbb17358e1d",
           "sourceType": "teacher-courseware",
@@ -5108,10 +5097,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_第4章动态规划总结和习题.pptx",
-          "publicPath": "算法/课件/算法_课件_第4章动态规划总结和习题.pptx",
+          "title": "算法设计与分析_课件_第4章动态规划总结和习题.pptx",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_第4章动态规划总结和习题.pptx",
           "bytes": 240873,
           "sha256": "fca2059ab1709e19d6d6ca6b73104cf05e493ca96df7ed0ad438912754d98203",
           "sourceType": "teacher-courseware",
@@ -5127,10 +5116,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_第5章搜索法.ppt",
-          "publicPath": "算法/课件/算法_课件_第5章搜索法.ppt",
+          "title": "算法设计与分析_课件_第5章搜索法.ppt",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_第5章搜索法.ppt",
           "bytes": 3435008,
           "sha256": "c5d381fa300147608d856813170a7ed9b3f1f2504d24be39dd0274efd22a63f5",
           "sourceType": "teacher-courseware",
@@ -5146,10 +5135,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "课件",
-          "title": "算法_课件_第6章基本检索与周游方法.pptx",
-          "publicPath": "算法/课件/算法_课件_第6章基本检索与周游方法.pptx",
+          "title": "算法设计与分析_课件_第6章基本检索与周游方法.pptx",
+          "publicPath": "算法设计与分析/课件/算法设计与分析_课件_第6章基本检索与周游方法.pptx",
           "bytes": 1846398,
           "sha256": "4e2f4ab02fdd542c8b7130514fec1c3655702e36c3760e725da79a7524d5e16e",
           "sourceType": "teacher-courseware",
@@ -5165,10 +5154,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "题库练习",
-          "title": "算法_题库练习_作业1.docx",
-          "publicPath": "算法/题库练习/算法_题库练习_作业1.docx",
+          "title": "算法设计与分析_题库练习_作业1.docx",
+          "publicPath": "算法设计与分析/题库练习/算法设计与分析_题库练习_作业1.docx",
           "bytes": 40280,
           "sha256": "307d31e6b23a6900a6a52b42954493140461c9a3523b316f5ab0e2cafc5a3ee4",
           "sourceType": "community-note",
@@ -5184,10 +5173,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "题库练习",
-          "title": "算法_题库练习_分章习题.docx",
-          "publicPath": "算法/题库练习/算法_题库练习_分章习题.docx",
+          "title": "算法设计与分析_题库练习_分章习题.docx",
+          "publicPath": "算法设计与分析/题库练习/算法设计与分析_题库练习_分章习题.docx",
           "bytes": 30343,
           "sha256": "cfb02068a3d255e8f471c5f989531c6fc57707a708fc7d35ce3d9bd5a21ad0e5",
           "sourceType": "community-note",
@@ -5203,10 +5192,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "题库练习",
-          "title": "算法_题库练习_前3章测试题A.docx",
-          "publicPath": "算法/题库练习/算法_题库练习_前3章测试题A.docx",
+          "title": "算法设计与分析_题库练习_前3章测试题A.docx",
+          "publicPath": "算法设计与分析/题库练习/算法设计与分析_题库练习_前3章测试题A.docx",
           "bytes": 29216,
           "sha256": "effbc73ac248d012c3258b291bc8c240941e376f3748a928b3288a16548257c9",
           "sourceType": "community-note",
@@ -5222,10 +5211,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "题库练习",
-          "title": "算法_题库练习_综合练习B.docx",
-          "publicPath": "算法/题库练习/算法_题库练习_综合练习B.docx",
+          "title": "算法设计与分析_题库练习_综合练习B.docx",
+          "publicPath": "算法设计与分析/题库练习/算法设计与分析_题库练习_综合练习B.docx",
           "bytes": 56913,
           "sha256": "3f8a9db1f1dc4db6d20df7d4407ac263ba2aced284d3ae130150f2c73301b5b7",
           "sourceType": "community-note",
@@ -5241,10 +5230,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "题库练习",
-          "title": "算法_题库练习_综合练习题.docx",
-          "publicPath": "算法/题库练习/算法_题库练习_综合练习题.docx",
+          "title": "算法设计与分析_题库练习_综合练习题.docx",
+          "publicPath": "算法设计与分析/题库练习/算法设计与分析_题库练习_综合练习题.docx",
           "bytes": 57788,
           "sha256": "a55a5875ad158e95a8537158b533a44534e7c0345b2975585de3603eac0d4ca4",
           "sourceType": "community-note",
@@ -5260,10 +5249,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "题库练习",
-          "title": "算法_题库练习_贪心习题.docx",
-          "publicPath": "算法/题库练习/算法_题库练习_贪心习题.docx",
+          "title": "算法设计与分析_题库练习_贪心习题.docx",
+          "publicPath": "算法设计与分析/题库练习/算法设计与分析_题库练习_贪心习题.docx",
           "bytes": 56825,
           "sha256": "62c32a22020f065d9791a79bcec9c9566678573fcf61b53710d43d6ddd29ddad",
           "sourceType": "community-note",
@@ -5279,10 +5268,10 @@
           }
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "电子版教材",
-          "title": "算法_教材_算法导论第三版.pdf",
-          "publicPath": "算法/电子版教材/算法_教材_算法导论第三版.pdf",
+          "title": "算法设计与分析_教材_算法导论第三版.pdf",
+          "publicPath": "算法设计与分析/电子版教材/算法设计与分析_教材_算法导论第三版.pdf",
           "year": 2026,
           "sourceType": "other",
           "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
@@ -5293,10 +5282,10 @@
           "sha256": "51d63f231ab522c15e1f7b60f235fc891fd585c8419f113c13447d7241ce7eec"
         },
         {
-          "subject": "算法",
+          "subject": "算法设计与分析",
           "role": "电子版教材",
-          "title": "算法_教材_算法竞赛上册.pdf",
-          "publicPath": "算法/电子版教材/算法_教材_算法竞赛上册.pdf",
+          "title": "算法设计与分析_教材_算法竞赛上册.pdf",
+          "publicPath": "算法设计与分析/电子版教材/算法设计与分析_教材_算法竞赛上册.pdf",
           "year": 2026,
           "sourceType": "other",
           "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
@@ -5957,14 +5946,14 @@
       ]
     },
     {
-      "name": "软件质量测试",
-      "note": "包含软件质量测试课程课件 PPT/PDF、测试工具使用说明、雨课堂作业和笔记。",
+      "name": "软件质量与测试",
+      "note": "包含软件质量与测试课程课件 PPT/PDF、测试工具使用说明、雨课堂作业和笔记。",
       "assets": [
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "复习讲义",
-          "title": "软件质量测试_复习讲义_软件测试基础概念.pdf",
-          "publicPath": "软件质量测试/复习讲义/软件质量测试_复习讲义_软件测试基础概念.pdf",
+          "title": "软件质量与测试_复习讲义_软件测试基础概念.pdf",
+          "publicPath": "软件质量与测试/复习讲义/软件质量与测试_复习讲义_软件测试基础概念.pdf",
           "bytes": 150883,
           "sha256": "9e8e0895e8882482ec0fc2effd50d02453f4337384be5bb31a14fab2d39d788e",
           "sourceType": "community-note",
@@ -5980,10 +5969,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "待复核资料",
-          "title": "软件质量测试_待复核_选择题回忆版.docx",
-          "publicPath": "软件质量测试/待复核资料/软件质量测试_待复核_选择题回忆版.docx",
+          "title": "软件质量与测试_待复核_选择题回忆版.docx",
+          "publicPath": "软件质量与测试/待复核资料/软件质量与测试_待复核_选择题回忆版.docx",
           "bytes": 92599,
           "sha256": "4ad111305d155dd828116c6465059361ce3271eb3ea33136e034984b0abd84f5",
           "sourceType": "student-recall",
@@ -5999,10 +5988,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "笔记总结",
-          "title": "软件质量测试_笔记_测试笔记.pdf",
-          "publicPath": "软件质量测试/笔记总结/软件质量测试_笔记_测试笔记.pdf",
+          "title": "软件质量与测试_笔记_测试笔记.pdf",
+          "publicPath": "软件质量与测试/笔记总结/软件质量与测试_笔记_测试笔记.pdf",
           "bytes": 1789919,
           "sha256": "3440763fed9dccc11e7ea36ba661f5760ed51b1d8c923c18aef43b79f13b4309",
           "sourceType": "community-note",
@@ -6018,10 +6007,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Ch1引论.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Ch1引论.pptx",
+          "title": "软件质量与测试_课件_Ch1引论.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Ch1引论.pptx",
           "bytes": 7596126,
           "sha256": "e88a6f377619e12dc533e9a1bbe18548bc5d448bf38a9ebe4ba54650b9130a2c",
           "sourceType": "teacher-courseware",
@@ -6037,10 +6026,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Ch2软件测试基本概念.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Ch2软件测试基本概念.pptx",
+          "title": "软件质量与测试_课件_Ch2软件测试基本概念.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Ch2软件测试基本概念.pptx",
           "bytes": 10450379,
           "sha256": "25ead86285ab07869d0804be7ff59fa0e09b2274049eb8cf18620209f0ec5209",
           "sourceType": "teacher-courseware",
@@ -6056,10 +6045,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Ch3软件测试方法1.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Ch3软件测试方法1.pptx",
+          "title": "软件质量与测试_课件_Ch3软件测试方法1.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Ch3软件测试方法1.pptx",
           "bytes": 3851456,
           "sha256": "f4abf32e7d6debdbea12eab226710b010818cf87bfdfc523c4be1de0c64190b6",
           "sourceType": "teacher-courseware",
@@ -6075,10 +6064,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Ch3软件测试方法2.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Ch3软件测试方法2.pptx",
+          "title": "软件质量与测试_课件_Ch3软件测试方法2.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Ch3软件测试方法2.pptx",
           "bytes": 1931730,
           "sha256": "3d22797400bac4be2d9b3142a978e7d83d9d97dd8eab91015e13f466264964cf",
           "sourceType": "teacher-courseware",
@@ -6094,10 +6083,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Ch3软件测试方法3.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Ch3软件测试方法3.pptx",
+          "title": "软件质量与测试_课件_Ch3软件测试方法3.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Ch3软件测试方法3.pptx",
           "bytes": 5434559,
           "sha256": "87ed5156172a192a0a92b91e14dced8eb23494e5b0aa8f36d5b774d35b72f0e1",
           "sourceType": "teacher-courseware",
@@ -6113,10 +6102,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Ch4软件测试流程和规范.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Ch4软件测试流程和规范.pptx",
+          "title": "软件质量与测试_课件_Ch4软件测试流程和规范.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Ch4软件测试流程和规范.pptx",
           "bytes": 10968373,
           "sha256": "9f3d72f2f86b82d7c759c81ca46ce864a14d33d7069274f56749ce75e1cb9c3d",
           "sourceType": "teacher-courseware",
@@ -6132,10 +6121,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Ch5单元测试与集成测试1.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Ch5单元测试与集成测试1.pptx",
+          "title": "软件质量与测试_课件_Ch5单元测试与集成测试1.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Ch5单元测试与集成测试1.pptx",
           "bytes": 24323289,
           "sha256": "8cb36214ca292e7671fc4118999b33230902ebb09df17f1d9e283d3a4a7992a6",
           "sourceType": "teacher-courseware",
@@ -6151,10 +6140,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Ch5单元测试与集成测试2.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Ch5单元测试与集成测试2.pptx",
+          "title": "软件质量与测试_课件_Ch5单元测试与集成测试2.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Ch5单元测试与集成测试2.pptx",
           "bytes": 17154896,
           "sha256": "44d64f9fd3695982e6d1f11c54fcbe7aae29deaec69921197f57abd3aff52c20",
           "sourceType": "teacher-courseware",
@@ -6170,10 +6159,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Ch6系统功能测试2.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Ch6系统功能测试2.pptx",
+          "title": "软件质量与测试_课件_Ch6系统功能测试2.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Ch6系统功能测试2.pptx",
           "bytes": 40188105,
           "sha256": "319a69c4e06c8b06648844d669bd0752a5c5706ae378c4d35be713540a856627",
           "sourceType": "teacher-courseware",
@@ -6189,10 +6178,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Ch7专项测试.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Ch7专项测试.pptx",
+          "title": "软件质量与测试_课件_Ch7专项测试.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Ch7专项测试.pptx",
           "bytes": 12786709,
           "sha256": "c413d3a56a2a4239af6b7220fcebab1529c986178d5dddd041ba0f07f3892408",
           "sourceType": "teacher-courseware",
@@ -6208,10 +6197,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Mockito测试工具.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Mockito测试工具.pptx",
+          "title": "软件质量与测试_课件_Mockito测试工具.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Mockito测试工具.pptx",
           "bytes": 290100,
           "sha256": "0f9f32fbe4e503afb5ec8dbc6f0ac8f8f1f9f9b6e60398f8bdce4fb8cd13d2b4",
           "sourceType": "teacher-courseware",
@@ -6227,10 +6216,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_白盒测试判定测试.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_白盒测试判定测试.pptx",
+          "title": "软件质量与测试_课件_白盒测试判定测试.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_白盒测试判定测试.pptx",
           "bytes": 4229446,
           "sha256": "79d95387c701aecaea0d7a1e8e7cb683f182ef5a0ef8970ff7c3a6d64aa3ea15",
           "sourceType": "teacher-courseware",
@@ -6246,10 +6235,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_白盒测试路径测试.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_白盒测试路径测试.pptx",
+          "title": "软件质量与测试_课件_白盒测试路径测试.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_白盒测试路径测试.pptx",
           "bytes": 5874047,
           "sha256": "e7e4efa6d2ea64d0814a956fc607bc796623a5ddd8549a956cdacbab9174c5fe",
           "sourceType": "teacher-courseware",
@@ -6265,10 +6254,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_白盒测试静态白盒测试.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_白盒测试静态白盒测试.pptx",
+          "title": "软件质量与测试_课件_白盒测试静态白盒测试.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_白盒测试静态白盒测试.pptx",
           "bytes": 8655288,
           "sha256": "bcfd88f114c451d7c0fbd034359ba4bc739fff7162fd6b4312019dfee291af93",
           "sourceType": "teacher-courseware",
@@ -6284,10 +6273,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_黑盒测试场景法.pptx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_黑盒测试场景法.pptx",
+          "title": "软件质量与测试_课件_黑盒测试场景法.pptx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_黑盒测试场景法.pptx",
           "bytes": 5423863,
           "sha256": "3d27971877365e4cffcb54b6b2805d276ce9a861046fa8a7b7453b187e8568b4",
           "sourceType": "teacher-courseware",
@@ -6303,10 +6292,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_JUnit使用说明.docx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_JUnit使用说明.docx",
+          "title": "软件质量与测试_课件_JUnit使用说明.docx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_JUnit使用说明.docx",
           "bytes": 11428,
           "sha256": "ffd241b1a781339383c7e8fff557a9c5cd2112b0c2972fb748e767831761bb71",
           "sourceType": "teacher-courseware",
@@ -6322,10 +6311,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_JaCoCo使用说明.docx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_JaCoCo使用说明.docx",
+          "title": "软件质量与测试_课件_JaCoCo使用说明.docx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_JaCoCo使用说明.docx",
           "bytes": 10335,
           "sha256": "e05064560351f5948752b42e39c5905ea7a583b3f257f8917dd40a0194214381",
           "sourceType": "teacher-courseware",
@@ -6341,10 +6330,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Mockito测试工具详解.docx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Mockito测试工具详解.docx",
+          "title": "软件质量与测试_课件_Mockito测试工具详解.docx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Mockito测试工具详解.docx",
           "bytes": 10501,
           "sha256": "fa59f61df86d1abb0e1e5999300ee454f68314978e275edb0f304d8a5577cf57",
           "sourceType": "teacher-courseware",
@@ -6360,10 +6349,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_Mock使用方法详解.docx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_Mock使用方法详解.docx",
+          "title": "软件质量与测试_课件_Mock使用方法详解.docx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_Mock使用方法详解.docx",
           "bytes": 10298,
           "sha256": "d25013838214a922c6c24f687abf50ac3225e4812a06b2b8c42bdbb35dae59ac",
           "sourceType": "teacher-courseware",
@@ -6379,10 +6368,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_unittest使用说明.docx",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_unittest使用说明.docx",
+          "title": "软件质量与测试_课件_unittest使用说明.docx",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_unittest使用说明.docx",
           "bytes": 13516,
           "sha256": "0b24a8dec2d0f7d6ae8b1b5ea7e81d71022f98c1ae19e3b87608d380530f789b",
           "sourceType": "teacher-courseware",
@@ -6398,10 +6387,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_第一章引论.pdf",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_第一章引论.pdf",
+          "title": "软件质量与测试_课件_第一章引论.pdf",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_第一章引论.pdf",
           "bytes": 1586582,
           "sha256": "cc787e02f50a40322e4b65636a5c262e613e9e4f3f8cd64176739d3bce4e0482",
           "sourceType": "teacher-courseware",
@@ -6417,10 +6406,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_第七章专项测试.pdf",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_第七章专项测试.pdf",
+          "title": "软件质量与测试_课件_第七章专项测试.pdf",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_第七章专项测试.pdf",
           "bytes": 3695098,
           "sha256": "03695a843b4d9711a879a1c7e2b81b29c092fc4452a627b4946c54524d9fb63b",
           "sourceType": "teacher-courseware",
@@ -6436,10 +6425,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_第三章软件测试方法.pdf",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_第三章软件测试方法.pdf",
+          "title": "软件质量与测试_课件_第三章软件测试方法.pdf",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_第三章软件测试方法.pdf",
           "bytes": 11386648,
           "sha256": "a92a43674e5565bca907a62cd6d443fe3736d54ce9f66ce8d43fcea12cca499a",
           "sourceType": "teacher-courseware",
@@ -6455,10 +6444,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_第二章软件测试基本概念.pdf",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_第二章软件测试基本概念.pdf",
+          "title": "软件质量与测试_课件_第二章软件测试基本概念.pdf",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_第二章软件测试基本概念.pdf",
           "bytes": 4156858,
           "sha256": "1ad2c5f7b5bdad339809413670e5d0141b04151bd31368ed2d87e1eda2a5beeb",
           "sourceType": "teacher-courseware",
@@ -6474,10 +6463,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_第五章单元测试与集成测试.pdf",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_第五章单元测试与集成测试.pdf",
+          "title": "软件质量与测试_课件_第五章单元测试与集成测试.pdf",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_第五章单元测试与集成测试.pdf",
           "bytes": 2482324,
           "sha256": "77033b3f80aa293fd733aab6a037cddd601416c741543c4c2719f53655797059",
           "sourceType": "teacher-courseware",
@@ -6493,10 +6482,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "课件",
-          "title": "软件质量测试_课件_第四章软件测试流程和规范.pdf",
-          "publicPath": "软件质量测试/课件/软件质量测试_课件_第四章软件测试流程和规范.pdf",
+          "title": "软件质量与测试_课件_第四章软件测试流程和规范.pdf",
+          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_第四章软件测试流程和规范.pdf",
           "bytes": 2915030,
           "sha256": "206941d02f51bb1684942236adde1a9fc8f599873b8aca7ff6f5147661626a54",
           "sourceType": "teacher-courseware",
@@ -6512,10 +6501,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "题库练习",
-          "title": "软件质量测试_题库练习_选择题练习.pdf",
-          "publicPath": "软件质量测试/题库练习/软件质量测试_题库练习_选择题练习.pdf",
+          "title": "软件质量与测试_题库练习_选择题练习.pdf",
+          "publicPath": "软件质量与测试/题库练习/软件质量与测试_题库练习_选择题练习.pdf",
           "bytes": 479036,
           "sha256": "cca7fe9c37cbd88eeaeeb10023c8c56d066adf8b8759b7973c5d7ff690fc9750",
           "sourceType": "community-note",
@@ -6531,10 +6520,10 @@
           }
         },
         {
-          "subject": "软件质量测试",
+          "subject": "软件质量与测试",
           "role": "题库练习",
-          "title": "软件质量测试_题库练习_雨课堂作业参考.pdf",
-          "publicPath": "软件质量测试/题库练习/软件质量测试_题库练习_雨课堂作业参考.pdf",
+          "title": "软件质量与测试_题库练习_雨课堂作业参考.pdf",
+          "publicPath": "软件质量与测试/题库练习/软件质量与测试_题库练习_雨课堂作业参考.pdf",
           "bytes": 432240,
           "sha256": "68999b90f167f54abf69a7259b53dcf43a8ec89a49f7191b1e06a6af1be4fb53",
           "sourceType": "community-note",
@@ -6776,40 +6765,46 @@
       ]
     },
     {
-      "name": "C++",
-      "note": "C++ 语言学习教材（C++ Primer Plus 等）。",
+      "name": "C++程序设计",
+      "note": "C++语言学习教材（C++ Primer Plus 等）。",
       "assets": [
         {
-          "subject": "C++",
+          "subject": "C++程序设计",
           "role": "电子版教材",
-          "title": "C++_教材_C++PrimerPlus第6版.pdf",
-          "publicPath": "C++/电子版教材/C++_教材_C++PrimerPlus第6版.pdf",
+          "title": "C++程序设计_教材_C++ Primer Plus第6版（Stephen Prata）.pdf",
+          "publicPath": "C++程序设计/电子版教材/C++程序设计_教材_C++ Primer Plus第6版（Stephen Prata）.pdf",
           "year": 2026,
           "sourceType": "other",
-          "sourceNote": "资料维护者已确认取得本文件的公开再分发授权。线性代数、计算机网络版本为适配 GitHub 单文件限制的重新编码压缩版。",
+          "sourceNote": "Stephen Prata《C++ Primer Plus》第6版中文版，书名、版本与作者已经人工核对；资料维护者已确认取得本文件的公开再分发授权。",
           "reviewStatus": "verified",
           "containsPersonalInfo": false,
           "licenseStatus": "authorized-redistribution",
           "bytes": 42137682,
           "sha256": "1b35f057c438220ec73440aa3e7e509b13b92a66fd5ad0dec7044bfbae93500c"
-        },
+        }
+      ]
+    },
+    {
+      "name": "C语言程序设计",
+      "note": "收录河南大学C语言程序设计课程电子版教材。",
+      "assets": [
         {
-          "subject": "C++",
-          "role": "待复核资料",
-          "title": "C++_待复核_CPrimerPlus第六版.pdf",
-          "publicPath": "C++/待复核资料/C++_待复核_CPrimerPlus第六版.pdf",
+          "subject": "C语言程序设计",
+          "role": "电子版教材",
+          "title": "C语言程序设计_教材_C Primer Plus第6版（Stephen Prata）.pdf",
+          "publicPath": "C语言程序设计/电子版教材/C语言程序设计_教材_C Primer Plus第6版（Stephen Prata）.pdf",
           "bytes": 22725649,
           "sha256": "b1829667f79d15948a21a1520eaeea6bea1c46443cad622874fd8d9d36acac94",
           "containsPersonalInfo": false,
           "sourceType": "other",
-          "sourceNote": "C 语言经典教材电子版，公开边界待维护者复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "内容为C语言而非C++，已按河南大学正式课程名归入C语言程序设计；书名、版本与作者已经人工核对。资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
           "attribution": {
             "collectors": [
               "程芷嘉"
             ]
-          }
+          },
+          "licenseStatus": "authorized-redistribution"
         }
       ]
     },
@@ -6853,17 +6848,17 @@
         },
         {
           "subject": "计算机科学导论",
-          "role": "待复核资料",
-          "title": "计算机科学导论_待复核_原书第3版.pdf",
-          "publicPath": "计算机科学导论/待复核资料/计算机科学导论_待复核_原书第3版.pdf",
+          "role": "电子版教材",
+          "title": "计算机科学导论_教材_计算机科学导论原书第3版（Forouzan）.pdf",
+          "publicPath": "计算机科学导论/电子版教材/计算机科学导论_教材_计算机科学导论原书第3版（Forouzan）.pdf",
           "bytes": 71932830,
           "sha256": "c631c3a0745c25c4fdd022462e862cba0ccd06e641ca0294f399f161ed11d701",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
-          "sourceNote": "原文件 126MB 超过 GitHub 单文件限制，重渲染压缩为 69MB，质量有损（format_lossy）；公开边界待维护者复核。",
+          "reviewStatus": "verified",
+          "uncertainty": "format_lossy",
+          "sourceNote": "书名、版本与作者已经人工核对；因GitHub单文件限制使用有损压缩版，抽样页面可读。资料维护者已确认取得本文件的公开再分发授权。",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -6874,7 +6869,7 @@
     },
     {
       "name": "概率论与数理统计",
-      "note": "收录待复核资料两份:扫描版期末试卷(年份未知)与习题全解指南电子版。",
+      "note": "收录概率论与数理统计待复核资料与已复核电子版教材。",
       "assets": [
         {
           "bytes": 870381,
@@ -6906,17 +6901,17 @@
         },
         {
           "subject": "概率论与数理统计",
-          "role": "待复核资料",
-          "title": "概率论与数理统计_待复核_第五版盛骤.pdf",
-          "publicPath": "概率论与数理统计/待复核资料/概率论与数理统计_待复核_第五版盛骤.pdf",
+          "role": "电子版教材",
+          "title": "概率论与数理统计_教材_概率论与数理统计第5版（盛骤、谢式千、潘承毅）.pdf",
+          "publicPath": "概率论与数理统计/电子版教材/概率论与数理统计_教材_概率论与数理统计第5版（盛骤、谢式千、潘承毅）.pdf",
           "bytes": 49527119,
           "sha256": "46566807110da3bebd5da464563e92414b9aa58f72081d9dfc48deffd14fd4b6",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
-          "sourceNote": "原文件 225MB 超过 GitHub 单文件限制，重渲染压缩为 47MB，质量有损（format_lossy）；公开边界待维护者复核。",
+          "reviewStatus": "verified",
+          "uncertainty": "format_lossy",
+          "sourceNote": "书名、版本与作者已经人工核对；因GitHub单文件限制使用有损压缩版，抽样页面可读。资料维护者已确认取得本文件的公开再分发授权。",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -6927,7 +6922,7 @@
     },
     {
       "name": "中华民族共同体概论",
-      "note": "收录待复核资料两份:教材课后习题答案与教材电子版。",
+      "note": "收录中华民族共同体概论答案资料、待复核教材与已复核电子版教材。",
       "assets": [
         {
           "bytes": 1127030,
@@ -6959,27 +6954,27 @@
         },
         {
           "subject": "中华民族共同体概论",
-          "role": "待复核资料",
-          "title": "中华民族共同体概论_待复核_2025年3月重印版.pdf",
-          "publicPath": "中华民族共同体概论/待复核资料/中华民族共同体概论_待复核_2025年3月重印版.pdf",
-          "bytes": 35371866,
-          "sha256": "dbd60ffc6063b4d4437ea77b0d75f199c7fabb16533530f4711fef1c4fb9468b",
+          "role": "电子版教材",
+          "title": "中华民族共同体概论_教材_中华民族共同体概论（2023年第1版，2025年2月第22次印刷）.pdf",
+          "publicPath": "中华民族共同体概论/电子版教材/中华民族共同体概论_教材_中华民族共同体概论（2023年第1版，2025年2月第22次印刷）.pdf",
+          "bytes": 35452019,
+          "sha256": "5a03b72366fbdf82e297845283d513b18796e327c8edf76f755ed1bbc36e34e4",
           "containsPersonalInfo": false,
           "sourceType": "other",
-          "sourceNote": "课程教材电子版，公开边界待维护者复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "版权页核对为2023年12月第1版、2025年2月第22次印刷；Quite Imposing Plus附加XML命令记录已移除。资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
           "attribution": {
             "collectors": [
               "程芷嘉"
             ]
-          }
+          },
+          "licenseStatus": "authorized-redistribution"
         }
       ]
     },
     {
       "name": "数字逻辑",
-      "note": "收录数字逻辑学习辅导类教材(学习与解题指南、学习辅导)。",
+      "note": "收录数字逻辑教材、学习辅导与笔记。",
       "assets": [
         {
           "bytes": 6497936,
@@ -7012,14 +7007,14 @@
         {
           "subject": "数字逻辑",
           "role": "笔记总结",
-          "title": "数字逻辑_笔记_第四章芯片总结.pdf",
-          "publicPath": "数字逻辑/笔记总结/数字逻辑_笔记_第四章芯片总结.pdf",
+          "title": "数字逻辑_笔记_编码器译码器与数据选择器总结.pdf",
+          "publicPath": "数字逻辑/笔记总结/数字逻辑_笔记_编码器译码器与数据选择器总结.pdf",
           "bytes": 19957296,
           "sha256": "807b5c882cc81bff80caa90b376a72d2d80e91872bb3be591346eff6c39d05a8",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "community-note",
-          "sourceNote": "同学整理的第四章芯片结构总结笔记。",
+          "sourceNote": "内容为编码器、译码器、数据选择器与加法器学习笔记，未发现个人信息；资料维护者已确认取得公开再分发授权。",
           "reviewStatus": "basic-reviewed",
           "attribution": {
             "collectors": [
@@ -7029,41 +7024,40 @@
         },
         {
           "subject": "数字逻辑",
-          "role": "待复核资料",
-          "title": "数字逻辑_待复核_数字逻辑电路与系统设计第3版.pdf",
-          "publicPath": "数字逻辑/待复核资料/数字逻辑_待复核_数字逻辑电路与系统设计第3版.pdf",
+          "role": "电子版教材",
+          "title": "数字逻辑_教材_数字逻辑电路与系统设计第3版（蒋立平）.pdf",
+          "publicPath": "数字逻辑/电子版教材/数字逻辑_教材_数字逻辑电路与系统设计第3版（蒋立平）.pdf",
           "bytes": 63406006,
           "sha256": "2e5ac189f18569643d9887838c8e9035676fb3ee0c25323e7eb979372f1dca87",
           "containsPersonalInfo": false,
           "sourceType": "other",
-          "sourceNote": "课程教材电子版，公开边界待维护者复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "课程归属、书名、版本与作者已经人工核对。资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
           "attribution": {
             "collectors": [
               "程芷嘉"
             ]
-          }
+          },
+          "licenseStatus": "authorized-redistribution"
         }
       ]
     },
     {
       "name": "数据结构",
-      "note": "收录数据结构课程相关资料，当前教材仍在待复核区。",
+      "note": "收录数据结构课程电子版教材。",
       "assets": [
         {
           "subject": "数据结构",
-          "role": "待复核资料",
-          "title": "数据结构_待复核_数据结构C语言版（严蔚敏、吴伟民）.pdf",
-          "publicPath": "数据结构/待复核资料/数据结构_待复核_数据结构C语言版（严蔚敏、吴伟民）.pdf",
+          "role": "电子版教材",
+          "title": "数据结构_教材_数据结构C语言版（严蔚敏、吴伟民）.pdf",
+          "publicPath": "数据结构/电子版教材/数据结构_教材_数据结构C语言版（严蔚敏、吴伟民）.pdf",
           "bytes": 19673284,
           "sha256": "bce3d6d54eafffedb63cf80a7e2e7267250573b71e622a6c9e50829142114a8b",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only",
-          "sourceType": "unknown-reviewing",
-          "sourceNote": "严蔚敏、吴伟民编著《数据结构（C语言版）》，清华大学出版社，2007年版；书名、作者与版本已核对，公开再分发授权待确认。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
+          "licenseStatus": "authorized-redistribution",
+          "sourceType": "other",
+          "sourceNote": "课程归属、书名、版本与作者已经人工核对。资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
           "attribution": {
             "collectors": [
               "程芷嘉"
@@ -7074,21 +7068,20 @@
     },
     {
       "name": "汇编语言",
-      "note": "收录汇编语言课程相关资料，当前教材仍在待复核区。",
+      "note": "收录汇编语言课程电子版教材。",
       "assets": [
         {
           "subject": "汇编语言",
-          "role": "待复核资料",
-          "title": "汇编语言_待复核_汇编语言第4版（王爽）.pdf",
-          "publicPath": "汇编语言/待复核资料/汇编语言_待复核_汇编语言第4版（王爽）.pdf",
+          "role": "电子版教材",
+          "title": "汇编语言_教材_汇编语言第4版（王爽）.pdf",
+          "publicPath": "汇编语言/电子版教材/汇编语言_教材_汇编语言第4版（王爽）.pdf",
           "bytes": 92563516,
           "sha256": "93d39d77ea31b4ecc6214af0b082b3b1d36853892e36767f8edf6e62c9959170",
           "containsPersonalInfo": false,
-          "licenseStatus": "public-review-only",
+          "licenseStatus": "authorized-redistribution",
           "sourceType": "other",
-          "sourceNote": "《汇编语言》第4版（王爽）教材电子版，书名与版本已核对，公开再分发授权待确认。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
+          "sourceNote": "课程归属、书名、版本与作者已经人工核对。资料维护者已确认取得本文件的公开再分发授权。",
+          "reviewStatus": "verified",
           "attribution": {
             "collectors": [
               "程芷嘉"
