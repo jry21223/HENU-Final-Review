@@ -14,6 +14,19 @@
 - 资料整理和 PR 描述模板来自 [jry21223/final-review-template-kit](https://github.com/jry21223/final-review-template-kit)。
 - 想参与贡献可以先 fork 仓库，按规范整理资料后提交 PR；PR 描述里写清课程、年份、来源和是否需要复核。
 
+## 手动复核资料
+
+拥有仓库写权限的维护者可在 GitHub 中打开 `Actions` → `资料复核` → `Run workflow`：
+
+1. 粘贴 `manifest.json` 中资料的完整 `publicPath`。
+2. 选择确认后的正式资料类型。
+3. 如果选择“电子版教材”，填写可公开的权利人、许可类型或证据链接；其他类型留空即可。
+4. 核对课程、来源、隐私和公开边界后勾选确认，运行工作流。
+
+工作流会自动改名并移动文件、更新 `manifest.json` 和 README、运行校验，然后创建 PR；它不会直接写入 `main`。电子版教材会记录为 `verified / authorized-redistribution`，其他正式资料记录为 `basic-reviewed / learning-reference`。
+
+该入口只有在工作流文件合并到默认分支后才会出现。
+
 ## 使用 Agent 整理资料并提交 PR
 
 本仓库内置 `skills/henu-public-materials`，用于指导 AI Agent 按公开资料仓库规范整理文件。适合处理批量归类课件、规范文件名、拆分或移动资料包、剔除不应公开内容、更新 `manifest.json` 与 README 科目目录，并准备 Pull Request。

@@ -1,0 +1,130 @@
+name: 资料复核
+
+run-name: 资料复核 · ${{ inputs.target_role }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      public_path:
+        description: "manifest 中的完整 publicPath"
+        required: true
+        type: string
+      target_role:
+        description: "确认后的正式资料类型"
+        required: true
+        type: choice
+        options:
+          - 电子版教材
+          - 笔记总结
+          - 复习讲义
+          - 课件
+          - 往年真题
+          - 题库练习
+          - 答案解析
+      review_evidence:
+        description: "教材授权依据（仅选电子版教材时必填；只填可公开信息）"
+        required: false
+        type: string
+      confirm_public:
+        description: "我已核对课程、来源、隐私和公开/再分发授权"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  review:
+    name: 复核并创建 PR
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PUBLIC_PATH: ${{ inputs.public_path }}
+      TARGET_ROLE: ${{ inputs.target_role }}
+      REVIEW_EVIDENCE: ${{ inputs.review_evidence }}
+      BASE_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - name: Checkout selected branch
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Require public-boundary confirmation
+        if: ${{ !inputs.confirm_public }}
+        run: |
+          echo "You must confirm the course, source, privacy, and public boundary." >&2
+          exit 1
+
+      - name: Test review behavior
+        run: node --test tests/*.test.mjs
+
+      - name: Validate current catalog
+        run: |
+          node scripts/refresh-manifest-metadata.mjs --check
+          node scripts/validate-materials.mjs
+          node scripts/update-readme.mjs --check
+
+      - name: Archive reviewed material
+        run: |
+          review_args=(
+            --public-path "$PUBLIC_PATH"
+            --target-role "$TARGET_ROLE"
+            --confirm-public
+          )
+          if [[ -n "$REVIEW_EVIDENCE" ]]; then
+            review_args+=(
+              --evidence "GitHub 维护者 @${GITHUB_ACTOR} 于 $(date -u +%F) 确认：${REVIEW_EVIDENCE}"
+            )
+          fi
+          node scripts/review-material.mjs "${review_args[@]}"
+
+      - name: Regenerate and validate catalog
+        run: |
+          node scripts/refresh-manifest-metadata.mjs --check
+          node scripts/update-readme.mjs
+          node scripts/validate-materials.mjs
+          node scripts/update-readme.mjs --check
+          python3 scripts/audit-material-duplicates.py .
+          git diff --check
+
+      - name: Commit reviewed material
+        id: commit
+        run: |
+          review_branch="review-material/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git switch -c "$review_branch"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          if git diff --cached --quiet; then
+            echo "Review produced no changes." >&2
+            exit 1
+          fi
+          git commit -m "review(material): archive selected material"
+          git push --set-upstream origin "$review_branch"
+          echo "branch=$review_branch" >> "$GITHUB_OUTPUT"
+
+      - name: Create review pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REVIEW_BRANCH: ${{ steps.commit.outputs.branch }}
+        run: |
+          body_file="$(mktemp)"
+          {
+            echo "## 资料复核"
+            echo
+            printf -- '- 原路径: `%s`\n' "$PUBLIC_PATH"
+            printf -- '- 归档类型: `%s`\n' "$TARGET_ROLE"
+            printf -- '- 复核人: `@%s`\n' "$GITHUB_ACTOR"
+            printf -- '- 校验记录: %s/%s/actions/runs/%s\n' "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID"
+            echo
+            echo "请维护者确认文件移动、命名、manifest 元数据和公开边界后再合并。"
+          } > "$body_file"
+          pr_url="$(gh pr create \
+            --base "$BASE_BRANCH" \
+            --head "$REVIEW_BRANCH" \
+            --title "review(material): archive as $TARGET_ROLE" \
+            --body-file "$body_file")"
+          printf '### 资料复核 PR\n\n%s\n' "$pr_url" >> "$GITHUB_STEP_SUMMARY"
