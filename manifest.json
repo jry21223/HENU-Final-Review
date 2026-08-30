@@ -3,6 +3,31 @@
   "generatedAt": "2026-08-22T14:27:57.836Z",
   "subjects": [
     {
+      "name": "高等数学A（一）",
+      "note": "收录高等数学A（一）相关资料，当前教材仍在待复核区。",
+      "assets": [
+        {
+          "subject": "高等数学A（一）",
+          "role": "待复核资料",
+          "title": "高等数学A（一）_待复核_高等数学上册第八版.pdf",
+          "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_高等数学上册第八版.pdf",
+          "bytes": 89408866,
+          "sha256": "3934a64a80cefdd0d61061f8805fba7203d31f5fe2f04de85fa13ea14ac33a29",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only",
+          "sourceType": "other",
+          "sourceNote": "同济版《高等数学》第八版上册，课程归属已核对为高等数学A（一），公开再分发授权待确认。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "name": "高等数学A（二）",
       "note": "收录当前已整理的高数课程 PPT 课件、考前复习讲义和2021-2025年高数A/B卷真题。",
       "assets": [
@@ -506,32 +531,14 @@
         {
           "subject": "高等数学A（二）",
           "role": "待复核资料",
-          "title": "高等数学A（二）_待复核_高等数学上册第八版.pdf",
-          "publicPath": "高等数学A（二）/待复核资料/高等数学A（二）_待复核_高等数学上册第八版.pdf",
-          "bytes": 89408866,
-          "sha256": "3934a64a80cefdd0d61061f8805fba7203d31f5fe2f04de85fa13ea14ac33a29",
-          "containsPersonalInfo": false,
-          "sourceType": "other",
-          "sourceNote": "同济版高等数学第八版上册，与仓库已有下册配套。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "public_boundary_uncertain",
-          "attribution": {
-            "collectors": [
-              "程芷嘉"
-            ]
-          }
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "待复核资料",
-          "title": "高等数学A（二）_待复核_河南大学出版社下册.pdf",
-          "publicPath": "高等数学A（二）/待复核资料/高等数学A（二）_待复核_河南大学出版社下册.pdf",
+          "title": "高等数学A（二）_待复核_高等数学下册河南大学版.pdf",
+          "publicPath": "高等数学A（二）/待复核资料/高等数学A（二）_待复核_高等数学下册河南大学版.pdf",
           "bytes": 49332699,
           "sha256": "1c6ba91ee4d59f0d874056af28cc8d6f813af103514769b8df174d3d41dcd861",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "public-review-only",
           "sourceType": "unknown-reviewing",
-          "sourceNote": "河南大学出版社自编教材，来源与公开边界待确认。",
+          "sourceNote": "《高等数学》下册河南大学版，河南大学出版社，2019年第1版、2021年第3次印刷；公开再分发授权待确认。",
           "reviewStatus": "needs_review",
           "uncertainty": "source_uncertain",
           "attribution": {
@@ -2794,13 +2801,14 @@
         {
           "subject": "计算机组成原理",
           "role": "待复核资料",
-          "title": "计算机组成原理_待复核_第3版唐朔飞.pdf",
-          "publicPath": "计算机组成原理/待复核资料/计算机组成原理_待复核_第3版唐朔飞.pdf",
+          "title": "计算机组成原理_待复核_计算机组成原理第3版（唐朔飞）.pdf",
+          "publicPath": "计算机组成原理/待复核资料/计算机组成原理_待复核_计算机组成原理第3版（唐朔飞）.pdf",
           "bytes": 25516665,
           "sha256": "43c04ae23d8e7698436d29d6e2a83cd557e1741a97d3c899e234ebfb809219a1",
           "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only",
           "sourceType": "other",
-          "sourceNote": "课程教材电子版，公开边界待维护者复核。",
+          "sourceNote": "《计算机组成原理》第3版（唐朔飞）教材电子版，书名与版本已核对，公开再分发授权待确认。",
           "reviewStatus": "needs_review",
           "uncertainty": "public_boundary_uncertain",
           "attribution": {
@@ -3626,14 +3634,14 @@
         {
           "subject": "Python程序设计",
           "role": "待复核资料",
-          "title": "Python程序设计_待复核_流畅Python进阶指南.pdf",
-          "publicPath": "Python程序设计/待复核资料/Python程序设计_待复核_流畅Python进阶指南.pdf",
+          "title": "Python程序设计_待复核_Pythonic开发进阶指南.pdf",
+          "publicPath": "Python程序设计/待复核资料/Python程序设计_待复核_Pythonic开发进阶指南.pdf",
           "bytes": 549721,
           "sha256": "032081aa1956d2ec14d3fa431a63e2b1ac1ed2f1668ae6458f0623e6ffb1d328",
           "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
+          "licenseStatus": "public-review-only",
           "sourceType": "unknown-reviewing",
-          "sourceNote": "文件内容待确认（疑似《流畅的Python》相关整理笔记）。",
+          "sourceNote": "19页 Pythonic 进阶学习指南，原创作者与许可待确认。",
           "reviewStatus": "needs_review",
           "uncertainty": "content_uncertain",
           "attribution": {
@@ -7041,18 +7049,19 @@
     },
     {
       "name": "数据结构",
-      "note": "",
+      "note": "收录数据结构课程相关资料，当前教材仍在待复核区。",
       "assets": [
         {
           "subject": "数据结构",
           "role": "待复核资料",
-          "title": "数据结构_待复核_C语言版严蔚敏.pdf",
-          "publicPath": "数据结构/待复核资料/数据结构_待复核_C语言版严蔚敏.pdf",
+          "title": "数据结构_待复核_数据结构C语言版（严蔚敏、吴伟民）.pdf",
+          "publicPath": "数据结构/待复核资料/数据结构_待复核_数据结构C语言版（严蔚敏、吴伟民）.pdf",
           "bytes": 19673284,
           "sha256": "bce3d6d54eafffedb63cf80a7e2e7267250573b71e622a6c9e50829142114a8b",
           "containsPersonalInfo": false,
-          "sourceType": "other",
-          "sourceNote": "数据结构课程经典教材电子版，公开边界待维护者复核。",
+          "licenseStatus": "public-review-only",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "严蔚敏、吴伟民编著《数据结构（C语言版）》，清华大学出版社，2007年版；书名、作者与版本已核对，公开再分发授权待确认。",
           "reviewStatus": "needs_review",
           "uncertainty": "public_boundary_uncertain",
           "attribution": {
@@ -7065,18 +7074,19 @@
     },
     {
       "name": "汇编语言",
-      "note": "",
+      "note": "收录汇编语言课程相关资料，当前教材仍在待复核区。",
       "assets": [
         {
           "subject": "汇编语言",
           "role": "待复核资料",
-          "title": "汇编语言_待复核_第4版王爽.pdf",
-          "publicPath": "汇编语言/待复核资料/汇编语言_待复核_第4版王爽.pdf",
+          "title": "汇编语言_待复核_汇编语言第4版（王爽）.pdf",
+          "publicPath": "汇编语言/待复核资料/汇编语言_待复核_汇编语言第4版（王爽）.pdf",
           "bytes": 92563516,
           "sha256": "93d39d77ea31b4ecc6214af0b082b3b1d36853892e36767f8edf6e62c9959170",
           "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only",
           "sourceType": "other",
-          "sourceNote": "汇编语言课程经典教材电子版，公开边界待维护者复核。",
+          "sourceNote": "《汇编语言》第4版（王爽）教材电子版，书名与版本已核对，公开再分发授权待确认。",
           "reviewStatus": "needs_review",
           "uncertainty": "public_boundary_uncertain",
           "attribution": {
