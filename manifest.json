@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T17:37:44.821Z",
+  "generatedAt": "2026-09-09T17:38:00.786Z",
   "subjects": [
     {
       "name": "高等数学A（一）",
@@ -1490,48 +1490,12 @@
             ]
           },
           "licenseStatus": "authorized-redistribution"
-        },
-        {
-          "subject": "大学物理",
-          "role": "电子版教材",
-          "title": "大学物理_教材_普通物理实验（刘平安）_第1部分.pdf",
-          "publicPath": "大学物理/电子版教材/大学物理_教材_普通物理实验（刘平安）_第1部分.pdf",
-          "bytes": 71867379,
-          "sha256": "1c970c7412ea104f92c750ca129280c21a457aa68d763b9dcb19d6392cb684a0",
-          "containsPersonalInfo": false,
-          "licenseStatus": "authorized-redistribution",
-          "sourceType": "other",
-          "reviewStatus": "verified",
-          "sourceNote": "因GitHub单文件限制拆分；两部分页码156接157，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
-          "attribution": {
-            "collectors": [
-              "程芷嘉"
-            ]
-          }
-        },
-        {
-          "subject": "大学物理",
-          "role": "电子版教材",
-          "title": "大学物理_教材_普通物理实验（刘平安）_第2部分.pdf",
-          "publicPath": "大学物理/电子版教材/大学物理_教材_普通物理实验（刘平安）_第2部分.pdf",
-          "bytes": 68893776,
-          "sha256": "ed42e0cb7c2c123d347d7aeb5c2061d284145b3e5bb871ae7d8d736babc57fa9",
-          "containsPersonalInfo": false,
-          "licenseStatus": "authorized-redistribution",
-          "sourceType": "other",
-          "reviewStatus": "verified",
-          "sourceNote": "因GitHub单文件限制拆分；两部分页码156接157，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
-          "attribution": {
-            "collectors": [
-              "程芷嘉"
-            ]
-          }
         }
       ]
     },
     {
       "name": "大学物理实验",
-      "note": "收录 25 级实验报告 12 份，涵盖电学、光学、力学实验及测量不确定度评定；来源及公开授权待复核。",
+      "note": "收录 25 级实验报告 12 份，涵盖电学、光学、力学实验及测量不确定度评定（来源及公开授权待复核），以及《普通物理实验》（刘平安主编）电子版教材（分两部分存放）。",
       "assets": [
         {
           "subject": "大学物理实验",
@@ -1712,6 +1676,42 @@
           "licenseStatus": "public-review-only",
           "bytes": 6496061,
           "sha256": "509833c3fff25436b25f97f46352e3c82a1c29de1b1fc91db1f0706f2d46f21d"
+        },
+        {
+          "subject": "大学物理实验",
+          "role": "电子版教材",
+          "title": "大学物理实验_教材_普通物理实验（刘平安）_第1部分.pdf",
+          "publicPath": "大学物理实验/电子版教材/大学物理实验_教材_普通物理实验（刘平安）_第1部分.pdf",
+          "bytes": 71867379,
+          "sha256": "1c970c7412ea104f92c750ca129280c21a457aa68d763b9dcb19d6392cb684a0",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "sourceType": "other",
+          "reviewStatus": "verified",
+          "sourceNote": "《普通物理实验》（刘平安主编，河南大学出版社 2021 年 5 月第 1 版，ISBN 978-7-5649-4720-0），原挂在“大学物理”课程下，经复核确认为大学物理实验课程教材，本次迁移至本课程。因GitHub单文件限制拆分；两部分页码156接157，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
+        },
+        {
+          "subject": "大学物理实验",
+          "role": "电子版教材",
+          "title": "大学物理实验_教材_普通物理实验（刘平安）_第2部分.pdf",
+          "publicPath": "大学物理实验/电子版教材/大学物理实验_教材_普通物理实验（刘平安）_第2部分.pdf",
+          "bytes": 68893776,
+          "sha256": "ed42e0cb7c2c123d347d7aeb5c2061d284145b3e5bb871ae7d8d736babc57fa9",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "sourceType": "other",
+          "reviewStatus": "verified",
+          "sourceNote": "《普通物理实验》（刘平安主编，河南大学出版社 2021 年 5 月第 1 版，ISBN 978-7-5649-4720-0），原挂在“大学物理”课程下，经复核确认为大学物理实验课程教材，本次迁移至本课程。因GitHub单文件限制拆分；两部分页码156接157，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
