@@ -2851,7 +2851,7 @@
     },
     {
       "name": "计算机组成原理",
-      "note": "包含考前复习讲义、计算机组成原理课程 PDF 课件、笔记与复习题。",
+      "note": "包含考前复习讲义、计算机组成原理课程 PDF 课件、笔记、复习题与待复核思维导图。",
       "assets": [
         {
           "subject": "计算机组成原理",
@@ -2992,6 +2992,20 @@
               "程芷嘉"
             ]
           }
+        },
+        {
+          "subject": "计算机组成原理",
+          "role": "待复核资料",
+          "title": "计算机组成原理_待复核_章节思维导图.pdf",
+          "publicPath": "计算机组成原理/待复核资料/计算机组成原理_待复核_章节思维导图.pdf",
+          "bytes": 743985,
+          "sha256": "7eda53c84df9b90a08b9a5e01829f5bed81e997630e9137f758db3da7e57ae86",
+          "containsPersonalInfo": false,
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "6页章节思维导图，涵盖第1、2、3、4、6、7章；未发现个人信息，原作者、来源与公开再分发边界待维护者确认。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "source_uncertain",
+          "licenseStatus": "public-review-only"
         }
       ]
     },
