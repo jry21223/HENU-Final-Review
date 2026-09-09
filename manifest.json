@@ -7273,6 +7273,41 @@
       ]
     },
     {
+      "name": "软件定义网络",
+      "note": "收录河南大学软件学院课程课件与知识点整理，来源及公开边界待维护者复核。",
+      "assets": [
+        {
+          "subject": "软件定义网络",
+          "role": "待复核资料",
+          "title": "软件定义网络_待复核_河南大学课程课件.pdf",
+          "publicPath": "软件定义网络/待复核资料/软件定义网络_待复核_河南大学课程课件.pdf",
+          "bytes": 70095672,
+          "sha256": "2034c2cd411434cd1bfba0fc2b458cd3b8b686946b906c45133ae590d9d8ac7d",
+          "college": "软件学院",
+          "containsPersonalInfo": false,
+          "sourceType": "teacher-courseware",
+          "sourceNote": "文件内容标注为河南大学软件学院软件定义网络课程课件，任课教师为申凌峰；公开再分发边界待维护者确认。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "licenseStatus": "public-review-only"
+        },
+        {
+          "subject": "软件定义网络",
+          "role": "待复核资料",
+          "title": "软件定义网络_待复核_课程知识点整理.pdf",
+          "publicPath": "软件定义网络/待复核资料/软件定义网络_待复核_课程知识点整理.pdf",
+          "bytes": 4040956,
+          "sha256": "c590991c6d4f2d76ec9119b49ce3fcd3d8be35baf335479b4455f9f89c921b3f",
+          "containsPersonalInfo": false,
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "由贡献者从本地软件定义网络课程资料目录提供；内容为课程知识点整理，具体整理者与来源待确认。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "source_uncertain",
+          "licenseStatus": "public-review-only"
+        }
+      ]
+    },
+    {
       "name": "汇编语言",
       "note": "收录汇编语言课程电子版教材。",
       "assets": [
