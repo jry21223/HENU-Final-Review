@@ -2812,7 +2812,7 @@
     },
     {
       "name": "计算机组成原理",
-      "note": "包含考前复习讲义、计算机组成原理课程 PDF 课件、笔记与复习题。",
+      "note": "包含考前复习讲义、计算机组成原理课程 PDF 课件、笔记、章节思维导图与复习题。",
       "assets": [
         {
           "subject": "计算机组成原理",
@@ -2953,6 +2953,19 @@
               "程芷嘉"
             ]
           }
+        },
+        {
+          "subject": "计算机组成原理",
+          "role": "笔记总结",
+          "title": "计算机组成原理_笔记_章节思维导图.pdf",
+          "publicPath": "计算机组成原理/笔记总结/计算机组成原理_笔记_章节思维导图.pdf",
+          "bytes": 743985,
+          "sha256": "7eda53c84df9b90a08b9a5e01829f5bed81e997630e9137f758db3da7e57ae86",
+          "containsPersonalInfo": false,
+          "sourceType": "other",
+          "sourceNote": "复核前记录：6页章节思维导图，涵盖第1、2、3、4、6、7章；未发现个人信息，原作者、来源与公开再分发边界待维护者确认。 复核结论：资料维护者已人工复核课程归属、来源、隐私风险与公开边界。 复核依据：维护者已授权放行本批：教师课件、同学自行整理的笔记与讲义、以及学生凭记忆整理的「回忆版」考题。出版教材、答案与全解、题库、真实试卷卷面不在本次授权范围，保持待复核。",
+          "reviewStatus": "basic-reviewed",
+          "licenseStatus": "learning-reference"
         }
       ]
     },
@@ -7225,6 +7238,27 @@
           "reviewStatus": "needs_review",
           "uncertainty": "public_boundary_uncertain",
           "licenseStatus": "public-review-only"
+        }
+      ]
+    },
+    {
+      "name": "移动应用开发技术（鸿蒙）",
+      "note": "收录移动应用开发技术（鸿蒙）2025 年课程课件，维护者已确认为本校教师课件并授权公开。",
+      "assets": [
+        {
+          "subject": "移动应用开发技术（鸿蒙）",
+          "role": "课件",
+          "title": "移动应用开发技术（鸿蒙）_课件_2025课程课件.pdf",
+          "publicPath": "移动应用开发技术（鸿蒙）/课件/移动应用开发技术（鸿蒙）_课件_2025课程课件.pdf",
+          "bytes": 48152606,
+          "sha256": "35d44721c298a4f16ccfab4ca749a9e9a7735719ad95eacfdb6bf26dfa3787b4",
+          "year": 2025,
+          "college": "软件学院",
+          "containsPersonalInfo": false,
+          "sourceType": "teacher-courseware",
+          "sourceNote": "复核前记录：文件内容标注为河南大学软件学院移动应用开发技术课程课件，日期为2025年2月18日；公开再分发边界待维护者确认。 复核结论：资料维护者已人工复核课程归属、来源、隐私风险与公开边界。 复核依据：维护者已授权放行本批：教师课件、同学自行整理的笔记与讲义、以及学生凭记忆整理的「回忆版」考题。出版教材、答案与全解、题库、真实试卷卷面不在本次授权范围，保持待复核。 第127页含教师本机路径，维护者已知悉并决定保留原文件不作遮挡。",
+          "reviewStatus": "basic-reviewed",
+          "licenseStatus": "learning-reference"
         }
       ]
     },
