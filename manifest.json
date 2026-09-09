@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T17:01:35.436Z",
+  "generatedAt": "2026-09-09T17:38:24.574Z",
   "subjects": [
     {
       "name": "高等数学A（一）",
@@ -93,14 +93,6 @@
           "publicPath": "高等数学A（二）/课件/高等数学A（二）_课件_D11-2对坐标的曲线积分.ppt",
           "bytes": 2510848,
           "sha256": "99ca26aa3dc454110520e4ac35abafd13fbdd18b6d5e3a7a9888f5119a32c26a"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件",
-          "title": "高等数学A（二）_课件_D11-2对坐标的曲线积分_02.ppt",
-          "publicPath": "高等数学A（二）/课件/高等数学A（二）_课件_D11-2对坐标的曲线积分_02.ppt",
-          "bytes": 2513408,
-          "sha256": "eab805f1503c23580be52fdf2cd38a47ee5db18ed88373c1f15e7bba82e2174e"
         },
         {
           "subject": "高等数学A（二）",
@@ -1498,48 +1490,12 @@
             ]
           },
           "licenseStatus": "authorized-redistribution"
-        },
-        {
-          "subject": "大学物理",
-          "role": "电子版教材",
-          "title": "大学物理_教材_普通物理实验（刘平安）_第1部分.pdf",
-          "publicPath": "大学物理/电子版教材/大学物理_教材_普通物理实验（刘平安）_第1部分.pdf",
-          "bytes": 71867379,
-          "sha256": "1c970c7412ea104f92c750ca129280c21a457aa68d763b9dcb19d6392cb684a0",
-          "containsPersonalInfo": false,
-          "licenseStatus": "authorized-redistribution",
-          "sourceType": "other",
-          "reviewStatus": "verified",
-          "sourceNote": "因GitHub单文件限制拆分；两部分页码156接157，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
-          "attribution": {
-            "collectors": [
-              "程芷嘉"
-            ]
-          }
-        },
-        {
-          "subject": "大学物理",
-          "role": "电子版教材",
-          "title": "大学物理_教材_普通物理实验（刘平安）_第2部分.pdf",
-          "publicPath": "大学物理/电子版教材/大学物理_教材_普通物理实验（刘平安）_第2部分.pdf",
-          "bytes": 68893776,
-          "sha256": "ed42e0cb7c2c123d347d7aeb5c2061d284145b3e5bb871ae7d8d736babc57fa9",
-          "containsPersonalInfo": false,
-          "licenseStatus": "authorized-redistribution",
-          "sourceType": "other",
-          "reviewStatus": "verified",
-          "sourceNote": "因GitHub单文件限制拆分；两部分页码156接157，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
-          "attribution": {
-            "collectors": [
-              "程芷嘉"
-            ]
-          }
         }
       ]
     },
     {
       "name": "大学物理实验",
-      "note": "收录 25 级实验报告 12 份，涵盖电学、光学、力学实验及测量不确定度评定；来源及公开授权待复核。",
+      "note": "收录 25 级实验报告 12 份，涵盖电学、光学、力学实验及测量不确定度评定（来源及公开授权待复核），以及《普通物理实验》（刘平安主编）电子版教材（分两部分存放）。",
       "assets": [
         {
           "subject": "大学物理实验",
@@ -1720,6 +1676,42 @@
           "licenseStatus": "public-review-only",
           "bytes": 6496061,
           "sha256": "509833c3fff25436b25f97f46352e3c82a1c29de1b1fc91db1f0706f2d46f21d"
+        },
+        {
+          "subject": "大学物理实验",
+          "role": "电子版教材",
+          "title": "大学物理实验_教材_普通物理实验（刘平安）_第1部分.pdf",
+          "publicPath": "大学物理实验/电子版教材/大学物理实验_教材_普通物理实验（刘平安）_第1部分.pdf",
+          "bytes": 71867379,
+          "sha256": "1c970c7412ea104f92c750ca129280c21a457aa68d763b9dcb19d6392cb684a0",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "sourceType": "other",
+          "reviewStatus": "verified",
+          "sourceNote": "《普通物理实验》（刘平安主编，河南大学出版社 2021 年 5 月第 1 版，ISBN 978-7-5649-4720-0），原挂在“大学物理”课程下，经复核确认为大学物理实验课程教材，本次迁移至本课程。因GitHub单文件限制拆分；两部分页码156接157，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
+        },
+        {
+          "subject": "大学物理实验",
+          "role": "电子版教材",
+          "title": "大学物理实验_教材_普通物理实验（刘平安）_第2部分.pdf",
+          "publicPath": "大学物理实验/电子版教材/大学物理实验_教材_普通物理实验（刘平安）_第2部分.pdf",
+          "bytes": 68893776,
+          "sha256": "ed42e0cb7c2c123d347d7aeb5c2061d284145b3e5bb871ae7d8d736babc57fa9",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "sourceType": "other",
+          "reviewStatus": "verified",
+          "sourceNote": "《普通物理实验》（刘平安主编，河南大学出版社 2021 年 5 月第 1 版，ISBN 978-7-5649-4720-0），原挂在“大学物理”课程下，经复核确认为大学物理实验课程教材，本次迁移至本课程。因GitHub单文件限制拆分；两部分页码156接157，连续组成完整教材且内容无损失。资料维护者已确认取得本文件的公开再分发授权。",
+          "attribution": {
+            "collectors": [
+              "程芷嘉"
+            ]
+          }
         }
       ]
     },
@@ -2073,20 +2065,6 @@
           "licenseStatus": "public_review_only",
           "bytes": 622741,
           "sha256": "032936a8f93100884aea522083c1c670c314f5d64e2dd4a003ddceda793783cf"
-        },
-        {
-          "subject": "Java程序设计",
-          "role": "待复核资料",
-          "title": "Java程序设计_待复核_面向对象程序设计题库.docx",
-          "publicPath": "Java程序设计/待复核资料/Java程序设计_待复核_面向对象程序设计题库.docx",
-          "sourceType": "unknown_reviewing",
-          "sourceNote": "Downloads 中的课程资料，来源、课程版本或公开边界待复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "source_uncertain",
-          "containsPersonalInfo": false,
-          "licenseStatus": "public_review_only",
-          "bytes": 132899,
-          "sha256": "765113f59aade0fff3592b8a7398af30c3d31754badb7217b8c23835614ac447"
         },
         {
           "subject": "Java程序设计",
@@ -3252,25 +3230,6 @@
           "publicPath": "软件工程/复习讲义/软件工程_复习讲义_课堂笔记整理zhy.docx",
           "bytes": 1895977,
           "sha256": "a4beda61ee443bea487046c9cbb05cdfc1b2cc7828e4f7d4111de25d5211f760",
-          "sourceType": "community-note",
-          "sourceNote": "同学整理的复习资料。",
-          "college": "河南大学",
-          "reviewStatus": "basic-reviewed",
-          "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
-          "attribution": {
-            "collectors": [
-              "李浩宇"
-            ]
-          }
-        },
-        {
-          "subject": "软件工程",
-          "role": "复习讲义",
-          "title": "软件工程_复习讲义_软工PPT概述.docx",
-          "publicPath": "软件工程/复习讲义/软件工程_复习讲义_软工PPT概述.docx",
-          "bytes": 6255458,
-          "sha256": "c3b934bfd34bbf454b9489b0e1ae385834bf17da81a533c475a2816041229d9b",
           "sourceType": "community-note",
           "sourceNote": "同学整理的复习资料。",
           "college": "河南大学",
@@ -4579,7 +4538,7 @@
     },
     {
       "name": "机器学习与智能数据处理",
-      "note": "包含机器学习与智能数据处理课程章节 PPT/PDF 课件、课程知识点总结、2023-2024 期末真题与回忆版。",
+      "note": "包含机器学习与智能数据处理课程章节 PPT 课件、同学整理的章节笔记（思维导图 PDF）、课程知识点总结、2023-2024 期末真题与回忆版。",
       "assets": [
         {
           "subject": "机器学习与智能数据处理",
@@ -4869,13 +4828,13 @@
         },
         {
           "subject": "机器学习与智能数据处理",
-          "role": "课件",
-          "title": "机器学习与智能数据处理_课件_第一章机器学习基础.pdf",
-          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第一章机器学习基础.pdf",
+          "role": "笔记总结",
+          "title": "机器学习与智能数据处理_笔记_第一章机器学习基础.pdf",
+          "publicPath": "机器学习与智能数据处理/笔记总结/机器学习与智能数据处理_笔记_第一章机器学习基础.pdf",
           "bytes": 1131333,
           "sha256": "b345f5ce7edf52f02850cc5cb28c677de509f894ee7b224fa96407aeec80ea11",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -4888,13 +4847,13 @@
         },
         {
           "subject": "机器学习与智能数据处理",
-          "role": "课件",
-          "title": "机器学习与智能数据处理_课件_第七章集成学习.pdf",
-          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第七章集成学习.pdf",
+          "role": "笔记总结",
+          "title": "机器学习与智能数据处理_笔记_第七章集成学习.pdf",
+          "publicPath": "机器学习与智能数据处理/笔记总结/机器学习与智能数据处理_笔记_第七章集成学习.pdf",
           "bytes": 257363,
           "sha256": "764714b6ea4b3c45c1834688552c4a8d02269880cdc8bed9db4bc42dcb9e1227",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -4907,13 +4866,13 @@
         },
         {
           "subject": "机器学习与智能数据处理",
-          "role": "课件",
-          "title": "机器学习与智能数据处理_课件_第三章KNN.pdf",
-          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第三章KNN.pdf",
+          "role": "笔记总结",
+          "title": "机器学习与智能数据处理_笔记_第三章KNN.pdf",
+          "publicPath": "机器学习与智能数据处理/笔记总结/机器学习与智能数据处理_笔记_第三章KNN.pdf",
           "bytes": 435276,
           "sha256": "42f6f62375d3e4c036edd0a62f0619fc9e2db55f5e9743e1122c42b3d057e7b9",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -4926,13 +4885,13 @@
         },
         {
           "subject": "机器学习与智能数据处理",
-          "role": "课件",
-          "title": "机器学习与智能数据处理_课件_第九章PCA降维.pdf",
-          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第九章PCA降维.pdf",
+          "role": "笔记总结",
+          "title": "机器学习与智能数据处理_笔记_第九章PCA降维.pdf",
+          "publicPath": "机器学习与智能数据处理/笔记总结/机器学习与智能数据处理_笔记_第九章PCA降维.pdf",
           "bytes": 277808,
           "sha256": "b023d7959f5682d3c3943a1386d8ba97569f62ab7e6e65d36b932e8a87b2473c",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -4945,13 +4904,13 @@
         },
         {
           "subject": "机器学习与智能数据处理",
-          "role": "课件",
-          "title": "机器学习与智能数据处理_课件_第二章.pdf",
-          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第二章.pdf",
+          "role": "笔记总结",
+          "title": "机器学习与智能数据处理_笔记_第二章.pdf",
+          "publicPath": "机器学习与智能数据处理/笔记总结/机器学习与智能数据处理_笔记_第二章.pdf",
           "bytes": 1519841,
           "sha256": "7d3b3cdf03c27fd09d3730b95896fb626c25b47eb10e9c381cf88fb2d7c25d69",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -4964,13 +4923,13 @@
         },
         {
           "subject": "机器学习与智能数据处理",
-          "role": "课件",
-          "title": "机器学习与智能数据处理_课件_第五章朴素贝叶斯分类器.pdf",
-          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第五章朴素贝叶斯分类器.pdf",
+          "role": "笔记总结",
+          "title": "机器学习与智能数据处理_笔记_第五章朴素贝叶斯分类器.pdf",
+          "publicPath": "机器学习与智能数据处理/笔记总结/机器学习与智能数据处理_笔记_第五章朴素贝叶斯分类器.pdf",
           "bytes": 1815436,
           "sha256": "6181f4eb87c92b763211fea63b7cfa511b7bba310873520b58a67751737c4b82",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -4983,13 +4942,13 @@
         },
         {
           "subject": "机器学习与智能数据处理",
-          "role": "课件",
-          "title": "机器学习与智能数据处理_课件_第六章支持向量机.pdf",
-          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第六章支持向量机.pdf",
+          "role": "笔记总结",
+          "title": "机器学习与智能数据处理_笔记_第六章支持向量机.pdf",
+          "publicPath": "机器学习与智能数据处理/笔记总结/机器学习与智能数据处理_笔记_第六章支持向量机.pdf",
           "bytes": 2130346,
           "sha256": "cae02510f298ecc6c8006fc2705c08e98ed855b7bd39da583108850b843d6cec",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -5002,13 +4961,13 @@
         },
         {
           "subject": "机器学习与智能数据处理",
-          "role": "课件",
-          "title": "机器学习与智能数据处理_课件_第四章决策树算法.pdf",
-          "publicPath": "机器学习与智能数据处理/课件/机器学习与智能数据处理_课件_第四章决策树算法.pdf",
+          "role": "笔记总结",
+          "title": "机器学习与智能数据处理_笔记_第四章决策树算法.pdf",
+          "publicPath": "机器学习与智能数据处理/笔记总结/机器学习与智能数据处理_笔记_第四章决策树算法.pdf",
           "bytes": 989444,
           "sha256": "8b984ade111ce3abf1fd1e71f3ba06cde545a634a0fd1bb89d455b99b03ffba8",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -6104,7 +6063,7 @@
     },
     {
       "name": "软件质量与测试",
-      "note": "包含软件质量与测试课程课件 PPT/PDF、测试工具使用说明、雨课堂作业、笔记和选择题回忆版真题。",
+      "note": "包含软件质量与测试课程 PPT 课件、测试工具使用说明、雨课堂作业、同学整理的章节笔记与选择题回忆版真题。",
       "assets": [
         {
           "subject": "软件质量与测试",
@@ -6544,13 +6503,13 @@
         },
         {
           "subject": "软件质量与测试",
-          "role": "课件",
-          "title": "软件质量与测试_课件_第一章引论.pdf",
-          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_第一章引论.pdf",
+          "role": "笔记总结",
+          "title": "软件质量与测试_笔记_第一章引论.pdf",
+          "publicPath": "软件质量与测试/笔记总结/软件质量与测试_笔记_第一章引论.pdf",
           "bytes": 1586582,
           "sha256": "cc787e02f50a40322e4b65636a5c262e613e9e4f3f8cd64176739d3bce4e0482",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -6563,13 +6522,13 @@
         },
         {
           "subject": "软件质量与测试",
-          "role": "课件",
-          "title": "软件质量与测试_课件_第七章专项测试.pdf",
-          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_第七章专项测试.pdf",
+          "role": "笔记总结",
+          "title": "软件质量与测试_笔记_第七章专项测试.pdf",
+          "publicPath": "软件质量与测试/笔记总结/软件质量与测试_笔记_第七章专项测试.pdf",
           "bytes": 3695098,
           "sha256": "03695a843b4d9711a879a1c7e2b81b29c092fc4452a627b4946c54524d9fb63b",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -6582,13 +6541,13 @@
         },
         {
           "subject": "软件质量与测试",
-          "role": "课件",
-          "title": "软件质量与测试_课件_第三章软件测试方法.pdf",
-          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_第三章软件测试方法.pdf",
+          "role": "笔记总结",
+          "title": "软件质量与测试_笔记_第三章软件测试方法.pdf",
+          "publicPath": "软件质量与测试/笔记总结/软件质量与测试_笔记_第三章软件测试方法.pdf",
           "bytes": 11386648,
           "sha256": "a92a43674e5565bca907a62cd6d443fe3736d54ce9f66ce8d43fcea12cca499a",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -6601,13 +6560,13 @@
         },
         {
           "subject": "软件质量与测试",
-          "role": "课件",
-          "title": "软件质量与测试_课件_第二章软件测试基本概念.pdf",
-          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_第二章软件测试基本概念.pdf",
+          "role": "笔记总结",
+          "title": "软件质量与测试_笔记_第二章软件测试基本概念.pdf",
+          "publicPath": "软件质量与测试/笔记总结/软件质量与测试_笔记_第二章软件测试基本概念.pdf",
           "bytes": 4156858,
           "sha256": "1ad2c5f7b5bdad339809413670e5d0141b04151bd31368ed2d87e1eda2a5beeb",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -6620,13 +6579,13 @@
         },
         {
           "subject": "软件质量与测试",
-          "role": "课件",
-          "title": "软件质量与测试_课件_第五章单元测试与集成测试.pdf",
-          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_第五章单元测试与集成测试.pdf",
+          "role": "笔记总结",
+          "title": "软件质量与测试_笔记_第五章单元测试与集成测试.pdf",
+          "publicPath": "软件质量与测试/笔记总结/软件质量与测试_笔记_第五章单元测试与集成测试.pdf",
           "bytes": 2482324,
           "sha256": "77033b3f80aa293fd733aab6a037cddd601416c741543c4c2719f53655797059",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
@@ -6639,13 +6598,13 @@
         },
         {
           "subject": "软件质量与测试",
-          "role": "课件",
-          "title": "软件质量与测试_课件_第四章软件测试流程和规范.pdf",
-          "publicPath": "软件质量与测试/课件/软件质量与测试_课件_第四章软件测试流程和规范.pdf",
+          "role": "笔记总结",
+          "title": "软件质量与测试_笔记_第四章软件测试流程和规范.pdf",
+          "publicPath": "软件质量与测试/笔记总结/软件质量与测试_笔记_第四章软件测试流程和规范.pdf",
           "bytes": 2915030,
           "sha256": "206941d02f51bb1684942236adde1a9fc8f599873b8aca7ff6f5147661626a54",
-          "sourceType": "teacher-courseware",
-          "sourceNote": "同学提供的课程公开课件。",
+          "sourceType": "community-note",
+          "sourceNote": "同学整理的章节笔记，内容为对应章节课件的浓缩重排版；原按课件归类，经复核后调整为笔记总结。",
           "college": "河南大学",
           "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
