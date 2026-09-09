@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T17:38:24.574Z",
+  "generatedAt": "2026-09-09T18:01:09.946Z",
   "subjects": [
     {
       "name": "高等数学A（一）",
@@ -885,7 +885,7 @@
     },
     {
       "name": "大学物理",
-      "note": "包含 23 真题、24 练习、考前复习讲义、PDF 与 PPT 课件资料（含第 16-20 章电磁学分节课件）和期末复习总结。",
+      "note": "包含 23 真题、2025 届回忆版真题、24 练习、考前复习讲义、PDF 与 PPT 课件资料（含第 16-20 章电磁学分节课件）和期末复习总结。",
       "assets": [
         {
           "subject": "大学物理",
@@ -1334,15 +1334,14 @@
         },
         {
           "subject": "大学物理",
-          "role": "待复核资料",
-          "title": "大学物理_待复核_2025届真题回忆整理版.pdf",
-          "publicPath": "大学物理/待复核资料/大学物理_待复核_2025届真题回忆整理版.pdf",
+          "role": "往年真题",
+          "title": "大学物理_真题_2025届真题回忆整理版.pdf",
+          "publicPath": "大学物理/往年真题/大学物理_真题_2025届真题回忆整理版.pdf",
           "sourceType": "student_recall",
-          "sourceNote": "无水印更新版大学物理 2025 届期末真题回忆整理，来源待进一步核对。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "source_uncertain",
+          "sourceNote": "复核前记录：无水印更新版大学物理 2025 届期末真题回忆整理，来源待进一步核对。 复核结论：资料维护者已人工复核课程归属、来源、隐私风险与公开边界。 复核依据：2025 届期末真题回忆整理版为 LaTeX 重新排版的同学回忆版重建稿，正文载明仅恢复目前能够确认的题目与考点、不根据常见试卷自行补题，示意图依据文字描述重绘而非原卷图片；全文未见第三方水印、署名品牌或个人身份信息。回忆版真题属于本仓库允许公开收录的范围。",
+          "reviewStatus": "basic-reviewed",
           "containsPersonalInfo": false,
-          "licenseStatus": "public_review_only",
+          "licenseStatus": "learning-reference",
           "year": "2025",
           "bytes": 147640,
           "sha256": "7f51058042b26eae54d5412195bee81b561d78ff4c1113ad90c440943078d9cf"
