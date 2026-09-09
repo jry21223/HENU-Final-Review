@@ -7356,6 +7356,27 @@
           "licenseStatus": "public-review-only"
         }
       ]
+    },
+    {
+      "name": "Rust网络编程",
+      "note": "收录 Rust 网络编程课程待复核资料。",
+      "assets": [
+        {
+          "subject": "Rust网络编程",
+          "role": "待复核资料",
+          "title": "Rust网络编程_待复核_网络软件设计与实现_2024.pdf",
+          "publicPath": "Rust网络编程/待复核资料/Rust网络编程_待复核_网络软件设计与实现_2024.pdf",
+          "bytes": 9812470,
+          "sha256": "ce5c5e32d06297b27ee57b00bfed9a36077190ea316cd2d2491a51f8c2c7804f",
+          "year": 2024,
+          "containsPersonalInfo": false,
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "302页《基于Rust的网络软件设计与实现》2024-12-03版，正文标注为编写中样稿；未发现学生身份信息，原作者、课程来源与公开再分发边界待维护者确认。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "licenseStatus": "public-review-only"
+        }
+      ]
     }
   ]
 }

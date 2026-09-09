@@ -390,6 +390,12 @@ C++语言学习教材（C++ Primer Plus 等）。
 收录操作系统课程待复核 Linux 基础笔记，课程归属与公开再分发边界待维护者确认。
 
 - 待复核资料: [操作系统_待复核_Linux基础笔记.pdf](%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E5%BE%85%E5%A4%8D%E6%A0%B8%E8%B5%84%E6%96%99/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F_%E5%BE%85%E5%A4%8D%E6%A0%B8_Linux%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0.pdf)
+
+### Rust网络编程
+
+收录 Rust 网络编程课程待复核资料。
+
+- 待复核资料: [Rust网络编程_待复核_网络软件设计与实现_2024.pdf](Rust%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/%E5%BE%85%E5%A4%8D%E6%A0%B8%E8%B5%84%E6%96%99/Rust%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B_%E5%BE%85%E5%A4%8D%E6%A0%B8_%E7%BD%91%E7%BB%9C%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0_2024.pdf)
 <!-- MATERIALS:END -->
 
 ## 友情链接
