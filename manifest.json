@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-09-09T17:01:35.436Z",
+  "generatedAt": "2026-09-09T17:37:44.821Z",
   "subjects": [
     {
       "name": "高等数学A（一）",
@@ -93,14 +93,6 @@
           "publicPath": "高等数学A（二）/课件/高等数学A（二）_课件_D11-2对坐标的曲线积分.ppt",
           "bytes": 2510848,
           "sha256": "99ca26aa3dc454110520e4ac35abafd13fbdd18b6d5e3a7a9888f5119a32c26a"
-        },
-        {
-          "subject": "高等数学A（二）",
-          "role": "课件",
-          "title": "高等数学A（二）_课件_D11-2对坐标的曲线积分_02.ppt",
-          "publicPath": "高等数学A（二）/课件/高等数学A（二）_课件_D11-2对坐标的曲线积分_02.ppt",
-          "bytes": 2513408,
-          "sha256": "eab805f1503c23580be52fdf2cd38a47ee5db18ed88373c1f15e7bba82e2174e"
         },
         {
           "subject": "高等数学A（二）",
@@ -2077,20 +2069,6 @@
         {
           "subject": "Java程序设计",
           "role": "待复核资料",
-          "title": "Java程序设计_待复核_面向对象程序设计题库.docx",
-          "publicPath": "Java程序设计/待复核资料/Java程序设计_待复核_面向对象程序设计题库.docx",
-          "sourceType": "unknown_reviewing",
-          "sourceNote": "Downloads 中的课程资料，来源、课程版本或公开边界待复核。",
-          "reviewStatus": "needs_review",
-          "uncertainty": "source_uncertain",
-          "containsPersonalInfo": false,
-          "licenseStatus": "public_review_only",
-          "bytes": 132899,
-          "sha256": "765113f59aade0fff3592b8a7398af30c3d31754badb7217b8c23835614ac447"
-        },
-        {
-          "subject": "Java程序设计",
-          "role": "待复核资料",
           "title": "Java程序设计_待复核_Java程序设计2022-2023期末试卷.pdf",
           "publicPath": "Java程序设计/待复核资料/Java程序设计_待复核_Java程序设计2022-2023期末试卷.pdf",
           "sourceType": "unknown_reviewing",
@@ -3252,25 +3230,6 @@
           "publicPath": "软件工程/复习讲义/软件工程_复习讲义_课堂笔记整理zhy.docx",
           "bytes": 1895977,
           "sha256": "a4beda61ee443bea487046c9cbb05cdfc1b2cc7828e4f7d4111de25d5211f760",
-          "sourceType": "community-note",
-          "sourceNote": "同学整理的复习资料。",
-          "college": "河南大学",
-          "reviewStatus": "basic-reviewed",
-          "containsPersonalInfo": false,
-          "licenseStatus": "learning-reference",
-          "attribution": {
-            "collectors": [
-              "李浩宇"
-            ]
-          }
-        },
-        {
-          "subject": "软件工程",
-          "role": "复习讲义",
-          "title": "软件工程_复习讲义_软工PPT概述.docx",
-          "publicPath": "软件工程/复习讲义/软件工程_复习讲义_软工PPT概述.docx",
-          "bytes": 6255458,
-          "sha256": "c3b934bfd34bbf454b9489b0e1ae385834bf17da81a533c475a2816041229d9b",
           "sourceType": "community-note",
           "sourceNote": "同学整理的复习资料。",
           "college": "河南大学",
