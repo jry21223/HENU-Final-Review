@@ -7273,6 +7273,28 @@
       ]
     },
     {
+      "name": "移动应用开发技术（鸿蒙）",
+      "note": "收录移动应用开发技术（鸿蒙）课程待复核课件，公开再分发边界待维护者确认。",
+      "assets": [
+        {
+          "subject": "移动应用开发技术（鸿蒙）",
+          "role": "待复核资料",
+          "title": "移动应用开发技术（鸿蒙）_待复核_2025课程课件.pdf",
+          "publicPath": "移动应用开发技术（鸿蒙）/待复核资料/移动应用开发技术（鸿蒙）_待复核_2025课程课件.pdf",
+          "bytes": 48152606,
+          "sha256": "35d44721c298a4f16ccfab4ca749a9e9a7735719ad95eacfdb6bf26dfa3787b4",
+          "year": 2025,
+          "college": "软件学院",
+          "containsPersonalInfo": false,
+          "sourceType": "teacher-courseware",
+          "sourceNote": "文件内容标注为河南大学软件学院移动应用开发技术课程课件，日期为2025年2月18日；公开再分发边界待维护者确认。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "licenseStatus": "public-review-only"
+        }
+      ]
+    },
+    {
       "name": "汇编语言",
       "note": "收录汇编语言课程电子版教材。",
       "assets": [
