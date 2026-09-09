@@ -7353,6 +7353,27 @@
           "sourceNote": "内容为 Linux 常用命令、用户与权限、文件操作、打包压缩与系统管理基础笔记；正文以 VMware/CentOS/Xshell/Xftp 为环境，并涉及 Tomcat、war 包、JDK、mariadb、httpd 等部署主题，与既有「计算机操作系统」课程（教材：汤小丹《计算机操作系统》第四版）的理论内容不一致，课程归属仍待维护者确认。维护者已确认公开再分发授权，但课程归属未定，故仍保留在待复核资料。",
           "reviewStatus": "needs_review",
           "uncertainty": "course_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only"
+        }
+      ]
+    },
+    {
+      "name": "云计算",
+      "note": "收录云计算课程待复核总结资料。",
+      "assets": [
+        {
+          "bytes": 646634,
+          "sha256": "42bd8cfac2a4a451110b12393eefd34de082b35374dc22c315dc8ad2d2785f69",
+          "subject": "云计算",
+          "role": "待复核资料",
+          "title": "云计算_待复核_课程总结.pdf",
+          "publicPath": "云计算/待复核资料/云计算_待复核_课程总结.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "30页云计算课程总结，涵盖云计算发展、Google/Amazon云计算、虚拟化与Windows Azure等内容；原作者与公开再分发边界未核实，需人工复核。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "containsPersonalInfo": false,
           "licenseStatus": "public-review-only"
         }
       ]
