@@ -6982,7 +6982,7 @@
     },
     {
       "name": "概率论与数理统计",
-      "note": "收录概率论与数理统计待复核资料与已复核电子版教材。",
+      "note": "收录概率论与数理统计待复核试卷、习题指南、复习笔记与已复核电子版教材。",
       "assets": [
         {
           "bytes": 870381,
@@ -7007,6 +7007,20 @@
           "publicPath": "概率论与数理统计/待复核资料/概率论与数理统计_待复核_习题全解指南.pdf",
           "sourceType": "unknown-reviewing",
           "sourceNote": "《概率论与数理统计》(浙大第5版)配套习题全解指南(盛骤、谢式千等,高等教育出版社)电子版,来源为下载站,商业出版物再分发授权未核实,需人工复核。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only"
+        },
+        {
+          "bytes": 8450603,
+          "sha256": "3b05d5362419702ecc0b3783bc59a57697c4f53620f8128077af0f8f3d1870e8",
+          "subject": "概率论与数理统计",
+          "role": "待复核资料",
+          "title": "概率论与数理统计_待复核_复习笔记.pdf",
+          "publicPath": "概率论与数理统计/待复核资料/概率论与数理统计_待复核_复习笔记.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "96页概率论与数理统计复习笔记，页面带中国大学MOOC水印；原始课程与作者信息、公开再分发授权均未核实，需人工复核。",
           "reviewStatus": "needs_review",
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
