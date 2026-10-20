@@ -7664,6 +7664,143 @@
           "uncertainty": "content_uncertain"
         }
       ]
+    },
+    {
+      "name": "H3C认证",
+      "note": "收录老师提供、资料提供者确认可公开的H3C认证历史练习资料，涵盖GB0-192、GB0-330、GB0-372、GB0-382、GB0-392，共9份原始PDF。保留原卷答案与说明；存在缺题、缺图及答案冲突，尚未逐题核验，使用时请对照产品版本和学习要求。资料仅作学习参考，不代表当前官方考试范围或答案保证。",
+      "assets": [
+        {
+          "subject": "H3C认证",
+          "role": "题库练习",
+          "title": "H3C认证_题库_GB0-192_模拟练习附答案详解.pdf",
+          "publicPath": "H3C认证/题库练习/H3C认证_题库_GB0-192_模拟练习附答案详解.pdf",
+          "sourceType": "teacher-handout",
+          "sourceNote": "老师提供的H3C认证练习资料；资料提供者于2026年10月20日明确确认“来自老师发的题库，确认可以公开”。原文件名：1_H3CNE-GB0-192题库(附答案详解).pdf。保留原始PDF字节、原卷答案及说明。封面为H3CNE考试模拟试题；PDF元数据为2019年，不能据此认定题目适用年份。原卷包含部分答案和说明，尚未逐题校核。全文文字检查及19页版面抽样未见个人信息或推广内容；未作777页逐页视觉审查。公开许可依据为资料提供者的明确确认，未附独立许可证，不推断原作者或官方现行考试身份。",
+          "reviewStatus": "basic-reviewed",
+          "uncertainty": "content_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 3514451,
+          "sha256": "aff21f8ba16585b0ac4d1bd774f7a10bb40c71e4cc20924e88146c644776fe58"
+        },
+        {
+          "subject": "H3C认证",
+          "role": "题库练习",
+          "title": "H3C认证_题库_GB0-330_IPv6练习_202410.pdf",
+          "publicPath": "H3C认证/题库练习/H3C认证_题库_GB0-330_IPv6练习_202410.pdf",
+          "sourceType": "teacher-handout",
+          "sourceNote": "老师提供的H3C认证练习资料；资料提供者于2026年10月20日明确确认“来自老师发的题库，确认可以公开”。原文件名：GB0-330题目202410.pdf。保留原始PDF字节、原卷答案及说明。保留原文件名中的202410版本标记；包含原答案，未见完整逐题解析。全文文字检查及19页版面抽样未见个人信息或推广内容；未作777页逐页视觉审查。公开许可依据为资料提供者的明确确认，未附独立许可证，不推断原作者或官方现行考试身份。",
+          "reviewStatus": "basic-reviewed",
+          "uncertainty": "content_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "year": "2024-10（原文件名标记）",
+          "bytes": 379349,
+          "sha256": "ef1ca46ab59e5409db93de201a99fddb7ef3e33c193f1a75a81094575f8de620"
+        },
+        {
+          "subject": "H3C认证",
+          "role": "题库练习",
+          "title": "H3C认证_题库_GB0-372_H3CSE-RS+.pdf",
+          "publicPath": "H3C认证/题库练习/H3C认证_题库_GB0-372_H3CSE-RS+.pdf",
+          "sourceType": "teacher-handout",
+          "sourceNote": "老师提供的H3C认证练习资料；资料提供者于2026年10月20日明确确认“来自老师发的题库，确认可以公开”。原文件名：H3CSE RS+_372.pdf。保留原始PDF字节、原卷答案及说明。保留H3CSE RS+版本标记；PDF元数据为2023年，不能据此认定题目适用年份。原题编号有重启，包含部分参考说明；与补充卷存在答案冲突，尚未逐题校核。全文文字检查及19页版面抽样未见个人信息或推广内容；未作777页逐页视觉审查。公开许可依据为资料提供者的明确确认，未附独立许可证，不推断原作者或官方现行考试身份。",
+          "reviewStatus": "basic-reviewed",
+          "uncertainty": "content_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 2057345,
+          "sha256": "6c3f345940368dc724d376522dedb3a0b77d5b1b19f68828d859f99bb2636113"
+        },
+        {
+          "subject": "H3C认证",
+          "role": "题库练习",
+          "title": "H3C认证_题库_GB0-382_H3CSE-RS+.pdf",
+          "publicPath": "H3C认证/题库练习/H3C认证_题库_GB0-382_H3CSE-RS+.pdf",
+          "sourceType": "teacher-handout",
+          "sourceNote": "老师提供的H3C认证练习资料；资料提供者于2026年10月20日明确确认“来自老师发的题库，确认可以公开”。原文件名：H3CSE RS+_382.pdf。保留原始PDF字节、原卷答案及说明。保留H3CSE RS+版本标记；PDF元数据为2023年，不能据此认定题目适用年份。包含部分参考说明，答案与图题尚未逐题校核。全文文字检查及19页版面抽样未见个人信息或推广内容；未作777页逐页视觉审查。公开许可依据为资料提供者的明确确认，未附独立许可证，不推断原作者或官方现行考试身份。",
+          "reviewStatus": "basic-reviewed",
+          "uncertainty": "content_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 2443302,
+          "sha256": "9925351d78dca2d9d71a5076341ca0d229fe5ecd30a56e6ef22b5c08c520feae"
+        },
+        {
+          "subject": "H3C认证",
+          "role": "题库练习",
+          "title": "H3C认证_题库_GB0-392_H3CSE-RS+.pdf",
+          "publicPath": "H3C认证/题库练习/H3C认证_题库_GB0-392_H3CSE-RS+.pdf",
+          "sourceType": "teacher-handout",
+          "sourceNote": "老师提供的H3C认证练习资料；资料提供者于2026年10月20日明确确认“来自老师发的题库，确认可以公开”。原文件名：H3CSE RS+_392.pdf。保留原始PDF字节、原卷答案及说明。保留H3CSE RS+版本标记；PDF元数据为2023年，不能据此认定题目适用年份。包含部分参考说明，答案尚未逐题校核。全文文字检查及19页版面抽样未见个人信息或推广内容；未作777页逐页视觉审查。公开许可依据为资料提供者的明确确认，未附独立许可证，不推断原作者或官方现行考试身份。",
+          "reviewStatus": "basic-reviewed",
+          "uncertainty": "content_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "bytes": 958403,
+          "sha256": "89cfa23333aab837977160682697a43a01167a305e4b6084987a020448f95a44"
+        },
+        {
+          "subject": "H3C认证",
+          "role": "题库练习",
+          "title": "H3C认证_题库_GB0-192_补充题_20240707.pdf",
+          "publicPath": "H3C认证/题库练习/H3C认证_题库_GB0-192_补充题_20240707.pdf",
+          "sourceType": "teacher-handout",
+          "sourceNote": "老师提供的H3C认证练习资料；资料提供者于2026年10月20日明确确认“来自老师发的题库，确认可以公开”。原文件名：新增GB0-192（20240707）（52题）.pdf。保留原始PDF字节、原卷答案及说明。保留原文件名中的20240707标记；原名写52题，实际缺第26题且部分题干残缺。保留原答案，尚未逐题校核。全文文字检查及19页版面抽样未见个人信息或推广内容；未作777页逐页视觉审查。公开许可依据为资料提供者的明确确认，未附独立许可证，不推断原作者或官方现行考试身份。",
+          "reviewStatus": "basic-reviewed",
+          "uncertainty": "content_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "year": "2024-07-07（原文件名标记）",
+          "bytes": 340453,
+          "sha256": "752d4044292b2ebed312766da9eebc617b01f96fa0f58a800c975c0d703e5da4"
+        },
+        {
+          "subject": "H3C认证",
+          "role": "题库练习",
+          "title": "H3C认证_题库_GB0-372_补充题_20240719.pdf",
+          "publicPath": "H3C认证/题库练习/H3C认证_题库_GB0-372_补充题_20240719.pdf",
+          "sourceType": "teacher-handout",
+          "sourceNote": "老师提供的H3C认证练习资料；资料提供者于2026年10月20日明确确认“来自老师发的题库，确认可以公开”。原文件名：新增GB0-372（20240719）（41题）.pdf。保留原始PDF字节、原卷答案及说明。保留原文件名中的20240719标记；原名题量与正文编号不完全一致，存在跨页同题、无编号题、缺图、缺答案及与主卷的答案冲突。尚未逐题校核。全文文字检查及19页版面抽样未见个人信息或推广内容；未作777页逐页视觉审查。公开许可依据为资料提供者的明确确认，未附独立许可证，不推断原作者或官方现行考试身份。",
+          "reviewStatus": "basic-reviewed",
+          "uncertainty": "content_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "year": "2024-07-19（原文件名标记）",
+          "bytes": 384988,
+          "sha256": "85bc5fad5616d705cca3943e77fe83e2b00f5dc34ccb88987d376a71e4ae4864"
+        },
+        {
+          "subject": "H3C认证",
+          "role": "题库练习",
+          "title": "H3C认证_题库_GB0-382_补充题_20240718.pdf",
+          "publicPath": "H3C认证/题库练习/H3C认证_题库_GB0-382_补充题_20240718.pdf",
+          "sourceType": "teacher-handout",
+          "sourceNote": "老师提供的H3C认证练习资料；资料提供者于2026年10月20日明确确认“来自老师发的题库，确认可以公开”。原文件名：新增GB0-382（20240718）（21题）.pdf。保留原始PDF字节、原卷答案及说明。保留原文件名中的20240718标记；部分题目缺答案或缺图，原文已注明答案不一致。尚未逐题校核。全文文字检查及19页版面抽样未见个人信息或推广内容；未作777页逐页视觉审查。公开许可依据为资料提供者的明确确认，未附独立许可证，不推断原作者或官方现行考试身份。",
+          "reviewStatus": "basic-reviewed",
+          "uncertainty": "content_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "year": "2024-07-18（原文件名标记）",
+          "bytes": 255230,
+          "sha256": "822a51c42afd8f32964fb0e49e38cb6a9c206829d83390cfc27c7cecfad5fda1"
+        },
+        {
+          "subject": "H3C认证",
+          "role": "题库练习",
+          "title": "H3C认证_题库_GB0-392_补充题_20230518.pdf",
+          "publicPath": "H3C认证/题库练习/H3C认证_题库_GB0-392_补充题_20230518.pdf",
+          "sourceType": "teacher-handout",
+          "sourceNote": "老师提供的H3C认证练习资料；资料提供者于2026年10月20日明确确认“来自老师发的题库，确认可以公开”。原文件名：新增GB0-392（20230518）.pdf。保留原始PDF字节、原卷答案及说明。保留原文件名中的20230518标记；保留原答案，尚未逐题校核。全文文字检查及19页版面抽样未见个人信息或推广内容；未作777页逐页视觉审查。公开许可依据为资料提供者的明确确认，未附独立许可证，不推断原作者或官方现行考试身份。",
+          "reviewStatus": "basic-reviewed",
+          "uncertainty": "content_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "authorized-redistribution",
+          "year": "2023-05-18（原文件名标记）",
+          "bytes": 133300,
+          "sha256": "aed3afd3567cabefd47e969262fa5c0353bf4114a809cda3fb78332fe52faadc"
+        }
+      ]
     }
   ]
 }
