@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T07:44:07.257Z",
+  "generatedAt": "2026-10-25T00:00:00.000Z",
   "subjects": [
     {
       "name": "高等数学A（一）",
-      "note": "收录高等数学A（一）电子版教材。",
+      "note": "收录高等数学A（一）电子版教材；另有学年、完整性与公开边界待核的试题局部重建稿。",
       "assets": [
         {
           "subject": "高等数学A（一）",
@@ -23,6 +23,35 @@
               "程芷嘉"
             ]
           }
+        },
+        {
+          "subject": "高等数学A（一）",
+          "role": "待复核资料",
+          "title": "高等数学A（一）_待复核_学年不详试题局部重建稿.pdf",
+          "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_学年不详试题局部重建稿.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "由用户提供的扫描图人工转录重排；扫描图标注来源为“河南大学小过儿/河南大学考试墙”，原图中的联系方式未复制到重建稿。学年、完整性、题目文字及公开再分发边界尚未独立核实，故仅列入待复核资料。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only",
+          "bytes": 4857,
+          "sha256": "af2b91e2f5cf6ef5446012ef67000c865da2dfe933f9d605d28c2b76bd264f7f"
+        },
+        {
+          "subject": "高等数学A（一）",
+          "role": "待复核资料",
+          "title": "高等数学A（一）_待复核_2019年大题局部重建稿.pdf",
+          "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_2019年大题局部重建稿.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "由用户提供的扫描图人工转录重排；扫描图标注来源为“河南大学小过儿/河南大学考试墙”，原图中的联系方式未复制到重建稿。学年、完整性、题目文字及公开再分发边界尚未独立核实，故仅列入待复核资料。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "public_boundary_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only",
+          "year": "2019（扫描图标注，待核）",
+          "bytes": 3794,
+          "sha256": "27e74c0083c3ee8af74f82f612ebaece92513a0e3528991d462265b5cdd8e304"
         }
       ]
     },
