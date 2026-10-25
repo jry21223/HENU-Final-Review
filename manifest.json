@@ -4,7 +4,7 @@
   "subjects": [
     {
       "name": "高等数学A（一）",
-      "note": "收录高等数学A（一）电子版教材；另有五份扫描试卷重建稿及建筑学院期中试题与参考答案，来源与公开边界待复核。",
+      "note": "收录高等数学A（一）电子版教材；另有五份扫描试卷重建稿（含明确标注的推定补全）及建筑学院期中试题与参考答案，来源与公开边界待复核。",
       "assets": [
         {
           "subject": "高等数学A（一）",
@@ -30,13 +30,13 @@
           "title": "高等数学A（一）_待复核_2019年期末大题重建稿.pdf",
           "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_2019年期末大题重建稿.pdf",
           "sourceType": "unknown-reviewing",
-          "sourceNote": "用户提供扫描图人工转录重排。来源标注为河南大学小过儿、河南大学考试墙；原图联络信息未复制。学年及被遮挡题目在稿内说明，公开再分发边界待复核。",
+          "sourceNote": "用户提供扫描图人工转录重排。来源标注为河南大学小过儿、河南大学考试墙；原图联络信息未复制。学年及被遮挡题目在稿内说明，公开再分发边界待复核。 按提供者要求包含明确标注的推定补全或补配选项，不能视为逐字原题恢复。",
           "reviewStatus": "needs_review",
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
-          "bytes": 32224,
-          "sha256": "5aed84de4f7449440c8389819599677199b3f1462ca414951ea2accee3832ee7",
+          "bytes": 32489,
+          "sha256": "4ffcbb1b7828c7f7853c365cf327f9ea3f48a2aac826148ef7829bec46d1ac58",
           "year": "2019（原图标注）"
         },
         {
@@ -59,13 +59,13 @@
           "title": "高等数学A（一）_待复核_学年不详期末A卷02重建稿.pdf",
           "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_学年不详期末A卷02重建稿.pdf",
           "sourceType": "unknown-reviewing",
-          "sourceNote": "用户提供扫描图人工转录重排。来源标注为河南大学小过儿、河南大学考试墙；原图联络信息未复制。学年及被遮挡题目在稿内说明，公开再分发边界待复核。",
+          "sourceNote": "用户提供扫描图人工转录重排。来源标注为河南大学小过儿、河南大学考试墙；原图联络信息未复制。学年及被遮挡题目在稿内说明，公开再分发边界待复核。 按提供者要求包含明确标注的推定补全或补配选项，不能视为逐字原题恢复。",
           "reviewStatus": "needs_review",
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
-          "bytes": 50253,
-          "sha256": "586d0ffcc5bab6098e3bb794bbf2ed4cbe1b097091bbf5e8a44bc326fce24d37"
+          "bytes": 51635,
+          "sha256": "84bdd49223c15d33008569afb607ce20ddddb46b0c8d1ec8f9a5cd6296f34b46"
         },
         {
           "subject": "高等数学A（一）",
@@ -73,13 +73,13 @@
           "title": "高等数学A（一）_待复核_学年不详期末A卷03重建稿.pdf",
           "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_学年不详期末A卷03重建稿.pdf",
           "sourceType": "unknown-reviewing",
-          "sourceNote": "用户提供扫描图人工转录重排。来源标注为河南大学小过儿、河南大学考试墙；原图联络信息未复制。学年及被遮挡题目在稿内说明，公开再分发边界待复核。",
+          "sourceNote": "用户提供扫描图人工转录重排。来源标注为河南大学小过儿、河南大学考试墙；原图联络信息未复制。学年及被遮挡题目在稿内说明，公开再分发边界待复核。 按提供者要求包含明确标注的推定补全或补配选项，不能视为逐字原题恢复。",
           "reviewStatus": "needs_review",
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
-          "bytes": 62243,
-          "sha256": "c814875724ebb1951de0d826762fa24d03afc39328668d3b4fbade80bf499e18"
+          "bytes": 63298,
+          "sha256": "ece343627fd68af1e3e4b6009eb59cfaa89206e239e5cc15cfd0a419ffb417fc"
         },
         {
           "subject": "高等数学A（一）",
@@ -87,13 +87,13 @@
           "title": "高等数学A（一）_待复核_学年不详期末A卷04重建稿.pdf",
           "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_学年不详期末A卷04重建稿.pdf",
           "sourceType": "unknown-reviewing",
-          "sourceNote": "用户提供扫描图人工转录重排。来源标注为河南大学小过儿、河南大学考试墙；原图联络信息未复制。学年及被遮挡题目在稿内说明，公开再分发边界待复核。",
+          "sourceNote": "用户提供扫描图人工转录重排。来源标注为河南大学小过儿、河南大学考试墙；原图联络信息未复制。学年及被遮挡题目在稿内说明，公开再分发边界待复核。 按提供者要求包含明确标注的推定补全或补配选项，不能视为逐字原题恢复。",
           "reviewStatus": "needs_review",
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
-          "bytes": 59801,
-          "sha256": "6a6dbd7aa9c8365764230f72b3d0cdc6176bd0993781992d21e9a0b00897df2e"
+          "bytes": 59890,
+          "sha256": "cdd17ae08f6220c1dd3efd839fe3275013e58065bfee82fcbb100d4c58ef21ad"
         },
         {
           "subject": "高等数学A（一）",
