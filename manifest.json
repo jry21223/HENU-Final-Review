@@ -35,8 +35,8 @@
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
-          "bytes": 33153,
-          "sha256": "13786b2823798c9e7bf3da6034366c7857d8b1f3fa9ac032e3668dbc799c7540",
+          "bytes": 32224,
+          "sha256": "5aed84de4f7449440c8389819599677199b3f1462ca414951ea2accee3832ee7",
           "year": "2019（原图标注）"
         },
         {
@@ -50,8 +50,8 @@
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
-          "bytes": 50215,
-          "sha256": "38f6cf2ed64433b3af67a397c56ed8e0d36c2d1a899c5f0b94361b43232a6787"
+          "bytes": 52961,
+          "sha256": "688f4712ab4404e772b54ca0b51b03ccd40a2a6d62127e8fdfcd8dc14ef7c09f"
         },
         {
           "subject": "高等数学A（一）",
@@ -64,8 +64,8 @@
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
-          "bytes": 49355,
-          "sha256": "3696fb4f9711a18da13bf3eaa323b76326a4c9bc98c03dd055975d6efc63af7c"
+          "bytes": 50253,
+          "sha256": "586d0ffcc5bab6098e3bb794bbf2ed4cbe1b097091bbf5e8a44bc326fce24d37"
         },
         {
           "subject": "高等数学A（一）",
@@ -78,8 +78,8 @@
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
-          "bytes": 62241,
-          "sha256": "7466e6ed5a08d833fc3f621d1e7b30b6c3767f6be0266db7bc7bd1dc9ec59fc2"
+          "bytes": 62243,
+          "sha256": "c814875724ebb1951de0d826762fa24d03afc39328668d3b4fbade80bf499e18"
         },
         {
           "subject": "高等数学A（一）",
@@ -92,8 +92,8 @@
           "uncertainty": "public_boundary_uncertain",
           "containsPersonalInfo": false,
           "licenseStatus": "public-review-only",
-          "bytes": 52967,
-          "sha256": "7c553110618fd596e6192dae0d3e7d17dd59c8274bbecb7e26d09feef6cc6d6d"
+          "bytes": 59801,
+          "sha256": "6a6dbd7aa9c8365764230f72b3d0cdc6176bd0993781992d21e9a0b00897df2e"
         },
         {
           "subject": "高等数学A（一）",
