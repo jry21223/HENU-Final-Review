@@ -447,4 +447,3 @@ C++语言学习教材（C++ Primer Plus 等）。
 ## 友情链接
 
 - [Henu-Kaguya/Henu-Kaguya](https://github.com/Henu-Kaguya/Henu-Kaguya)：河南大学计算机科学与技术资料合集。
-
