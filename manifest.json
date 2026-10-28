@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-13T07:44:07.257Z",
+  "generatedAt": "2026-10-25T00:00:00.000Z",
   "subjects": [
     {
       "name": "高等数学A（一）",
-      "note": "收录高等数学A（一）电子版教材。",
+      "note": "收录高等数学A（一）电子版教材；另有五份扫描试卷重建稿及建筑学院期中卷，六份均附整理版参考答案，推定内容明确标注，来源与公开边界待复核。",
       "assets": [
         {
           "subject": "高等数学A（一）",
@@ -23,6 +23,94 @@
               "程芷嘉"
             ]
           }
+        },
+        {
+          "subject": "高等数学A（一）",
+          "role": "待复核资料",
+          "title": "高等数学A（一）_待复核_2019年期末大题重建稿及参考答案.pdf",
+          "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_2019年期末大题重建稿及参考答案.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "用户提供试卷扫描图，图中有河南大学考试墙、河南大学小过儿来源标记，联络信息未复制。题面转录并对推定补全、补配选项与原题疑点明确说明；参考答案为整理者推导核对的整理版，非官方标准答案。题面、答案与排版内容复核已完成（2026-10-27）；原始出处及学年仍未独立核实。 用户确认可按标明推定内容的重建版公开分发；该确认不证明原始出处或被遮挡原文。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "source_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only",
+          "bytes": 99263,
+          "sha256": "cd4e31a6aecc4eb5ea0ae0541615b9d26ac00b6ad5174751a3962c1b720dd23d",
+          "year": "2019（原图标注）"
+        },
+        {
+          "subject": "高等数学A（一）",
+          "role": "待复核资料",
+          "title": "高等数学A（一）_待复核_学年不详期末A卷01重建稿及参考答案.pdf",
+          "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_学年不详期末A卷01重建稿及参考答案.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "用户提供试卷扫描图，图中有河南大学考试墙、河南大学小过儿来源标记，联络信息未复制。题面转录并对推定补全、补配选项与原题疑点明确说明；参考答案为整理者推导核对的整理版，非官方标准答案。题面、答案与排版内容复核已完成（2026-10-27）；原始出处及学年仍未独立核实。 用户确认可按标明推定内容的重建版公开分发；该确认不证明原始出处或被遮挡原文。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "source_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only",
+          "bytes": 130285,
+          "sha256": "aa111ea0a1353ebe8001850d46e5a37ccc9a0c14eb9b65fc19cc85a22305004b"
+        },
+        {
+          "subject": "高等数学A（一）",
+          "role": "待复核资料",
+          "title": "高等数学A（一）_待复核_学年不详期末A卷02重建稿及参考答案.pdf",
+          "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_学年不详期末A卷02重建稿及参考答案.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "用户提供试卷扫描图，图中有河南大学考试墙、河南大学小过儿来源标记，联络信息未复制。题面转录并对推定补全、补配选项与原题疑点明确说明；参考答案为整理者推导核对的整理版，非官方标准答案。题面、答案与排版内容复核已完成（2026-10-27）；原始出处及学年仍未独立核实。 用户确认可按标明推定内容的重建版公开分发；该确认不证明原始出处或被遮挡原文。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "source_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only",
+          "bytes": 120060,
+          "sha256": "f6945bc5c9cdbed613946285f0fc082f6fc624841960f0e584896474bfaef98e"
+        },
+        {
+          "subject": "高等数学A（一）",
+          "role": "待复核资料",
+          "title": "高等数学A（一）_待复核_学年不详期末A卷03重建稿及参考答案.pdf",
+          "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_学年不详期末A卷03重建稿及参考答案.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "用户提供试卷扫描图，图中有河南大学考试墙、河南大学小过儿来源标记，联络信息未复制。题面转录并对推定补全、补配选项与原题疑点明确说明；参考答案为整理者推导核对的整理版，非官方标准答案。题面、答案与排版内容复核已完成（2026-10-27）；原始出处及学年仍未独立核实。 用户确认可按标明推定内容的重建版公开分发；该确认不证明原始出处或被遮挡原文。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "source_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only",
+          "bytes": 144924,
+          "sha256": "111808dd2c70ede19eac65e52f9a116e99fa0584d28440d3682c1b19d9001f11"
+        },
+        {
+          "subject": "高等数学A（一）",
+          "role": "待复核资料",
+          "title": "高等数学A（一）_待复核_学年不详期末A卷04重建稿及参考答案.pdf",
+          "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_学年不详期末A卷04重建稿及参考答案.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "用户提供试卷扫描图，图中有河南大学考试墙、河南大学小过儿来源标记，联络信息未复制。题面转录并对推定补全、补配选项与原题疑点明确说明；参考答案为整理者推导核对的整理版，非官方标准答案。题面、答案与排版内容复核已完成（2026-10-27）；原始出处及学年仍未独立核实。 用户确认可按标明推定内容的重建版公开分发；该确认不证明原始出处或被遮挡原文。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "source_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only",
+          "bytes": 129813,
+          "sha256": "d6c90774bd4d732d6cb2fcc7e45bf8f0928638143e1a069029e5d43f718748d7"
+        },
+        {
+          "subject": "高等数学A（一）",
+          "role": "待复核资料",
+          "title": "高等数学A（一）_待复核_建筑学院期中试题及参考答案_2023-2024学年第一学期.pdf",
+          "publicPath": "高等数学A（一）/待复核资料/高等数学A（一）_待复核_建筑学院期中试题及参考答案_2023-2024学年第一学期.pdf",
+          "sourceType": "unknown-reviewing",
+          "sourceNote": "题面来自用户提供的Word；高等数学A（一）与建筑学院归类由提供者确认。卷头为2023级土木工程专业，学年取原文件名2023-2024上。参考答案按原附答案核对后重新整理，非官方标准答案。题面、答案与排版内容复核已完成（2026-10-27）；原始出处未独立核实。 用户确认可按标明推定内容的重建版公开分发；该确认不证明原始出处或被遮挡原文。 选择第5题按大O原文无必然正确选项，小o仅为假设。",
+          "reviewStatus": "needs_review",
+          "uncertainty": "source_uncertain",
+          "containsPersonalInfo": false,
+          "licenseStatus": "public-review-only",
+          "bytes": 1422830,
+          "sha256": "4488df2fb938069f9c3911b1d092e1a30deff2f8d2689b0fb7021f47087a7b44",
+          "year": "2023-2024",
+          "college": "建筑学院",
+          "major": "土木工程"
         }
       ]
     },
