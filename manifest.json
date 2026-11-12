@@ -7152,6 +7152,21 @@
           "licenseStatus": "authorized-redistribution",
           "bytes": 89628080,
           "sha256": "9bb8120780f14ce5dfbd341fe3ebc39f5034445c5a227c2007d3ca426090b7e3"
+        },
+        {
+          "subject": "线性代数",
+          "role": "笔记总结",
+          "title": "线性代数_笔记总结_WeHuster线性代数入门非官方答案外部索引.md",
+          "publicPath": "线性代数/笔记总结/线性代数_笔记总结_WeHuster线性代数入门非官方答案外部索引.md",
+          "sourceType": "community-note",
+          "sourceNote": "自行整理的外部资源导航；入口 https://www.wehuster.com/linear_algebra，2026-11-12 核对分类与页面说明。仅收录本索引，无原站文件转载。仅作跨校、自学参考；使用前先核对教材版本、题号和解答，不视为河南大学课程标准答案。",
+          "reviewStatus": "basic-reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "bytes": 1111,
+          "sha256": "16e5864b6445cd90d78913542a0113d786d91d5dbbe76198596af121ca91a357",
+          "year": "2026（索引整理年份，非试卷年份）",
+          "college": "不适用（外部资源导航，非河南大学院系资料）"
         }
       ]
     },
@@ -7887,6 +7902,69 @@
           "year": "2023-05-18（原文件名标记）",
           "bytes": 133300,
           "sha256": "aed3afd3567cabefd47e969262fa5c0353bf4114a809cda3fb78332fe52faadc"
+        }
+      ]
+    },
+    {
+      "name": "大学英语四级",
+      "note": "全国性英语考试备考参考，不是河南大学课程试卷或官方考试网站。 本科目当前收录外部资源导航，不包含原站资料文件。",
+      "assets": [
+        {
+          "subject": "大学英语四级",
+          "role": "笔记总结",
+          "title": "大学英语四级_笔记总结_WeHuster四级真题外部资源索引.md",
+          "publicPath": "大学英语四级/笔记总结/大学英语四级_笔记总结_WeHuster四级真题外部资源索引.md",
+          "sourceType": "community-note",
+          "sourceNote": "自行整理的外部资源导航；入口 https://www.wehuster.com/cet4，2026-11-12 核对分类与页面说明。仅收录本索引，无原站文件转载。全国性英语考试备考参考，不是河南大学课程试卷或官方考试网站。",
+          "reviewStatus": "basic-reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "bytes": 1044,
+          "sha256": "300fb62c3a97a05f929d4acd40acae5733d07344e69390aabf284bbfbc78cf26",
+          "year": "2026（索引整理年份，非试卷年份）",
+          "college": "不适用（外部资源导航，非河南大学院系资料）"
+        }
+      ]
+    },
+    {
+      "name": "大学英语六级",
+      "note": "全国性英语考试备考参考，不是河南大学课程试卷或官方考试网站。 本科目当前收录外部资源导航，不包含原站资料文件。",
+      "assets": [
+        {
+          "subject": "大学英语六级",
+          "role": "笔记总结",
+          "title": "大学英语六级_笔记总结_WeHuster六级真题外部资源索引.md",
+          "publicPath": "大学英语六级/笔记总结/大学英语六级_笔记总结_WeHuster六级真题外部资源索引.md",
+          "sourceType": "community-note",
+          "sourceNote": "自行整理的外部资源导航；入口 https://www.wehuster.com/cet6，2026-11-12 核对分类与页面说明。仅收录本索引，无原站文件转载。全国性英语考试备考参考，不是河南大学课程试卷或官方考试网站。",
+          "reviewStatus": "basic-reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "bytes": 1044,
+          "sha256": "84a3420912efc73197a2749f59ae44e80191b60c3b9ca45864ab6b0aab97e8f9",
+          "year": "2026（索引整理年份，非试卷年份）",
+          "college": "不适用（外部资源导航，非河南大学院系资料）"
+        }
+      ]
+    },
+    {
+      "name": "微积分",
+      "note": "这是华中科技大学资料，不是河南大学试卷。课程内容、教材与考试范围可能不同，仅作跨校练习参考。 本科目当前收录外部资源导航，不包含原站资料文件。",
+      "assets": [
+        {
+          "subject": "微积分",
+          "role": "笔记总结",
+          "title": "微积分_笔记总结_WeHuster华科微积分跨校试卷外部索引.md",
+          "publicPath": "微积分/笔记总结/微积分_笔记总结_WeHuster华科微积分跨校试卷外部索引.md",
+          "sourceType": "community-note",
+          "sourceNote": "自行整理的外部资源导航；入口 https://www.wehuster.com/calculus，2026-11-12 核对分类与页面说明。仅收录本索引，无原站文件转载。这是华中科技大学资料，不是河南大学试卷。课程内容、教材与考试范围可能不同，仅作跨校练习参考。",
+          "reviewStatus": "basic-reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "bytes": 1064,
+          "sha256": "b9ee9d53b5d214aa20bc428572d559471dd9de2839e4ebf16f89f072067bcca5",
+          "year": "2026（索引整理年份，非试卷年份）",
+          "college": "不适用（外部资源导航，非河南大学院系资料）"
         }
       ]
     }
