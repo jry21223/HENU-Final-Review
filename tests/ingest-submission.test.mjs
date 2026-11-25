@@ -40,8 +40,21 @@ test('validateNaming enforces docs/naming.md path safety, canonical roles, and e
   assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', proposedFilename: '未命名.pdf' }));
   assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', proposedFilename: '讲义_副本.pdf' }));
 
-  // Legacy role dirs rejected for new submissions
+  // Legacy and non-publishable review-only roles rejected for submissions
   assert.throws(() => validateNaming({ subject: '离散数学', role: '课件PPT', proposedFilename: '离散数学_课件_第1章.pptx' }));
+  assert.throws(() => validateNaming({ subject: '离散数学', role: '待复核资料', proposedFilename: '离散数学_待复核.pdf' }));
+
+  // material_type <-> role 1:1 mapping enforced when materialType is provided
+  assert.equal(
+    validateNaming({ subject: '离散数学', role: '往年真题', materialType: 'exam', proposedFilename: '离散数学_真题_2025.pdf' }).publicPath,
+    '离散数学/往年真题/离散数学_真题_2025.pdf',
+  );
+  assert.throws(() => validateNaming({
+    subject: '离散数学',
+    role: '课件',
+    materialType: 'exam',
+    proposedFilename: '离散数学_课件_第1章.pdf',
+  }), /does not match role/);
 
   // Disallowed extension rejected
   assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', proposedFilename: '离散数学_课件_脚本.exe' }));
@@ -155,6 +168,7 @@ test('appendManifestEntry records named collector/author attribution and omits a
   assert.throws(() => appendManifestEntry(baseManifest(), {
     subject: '数据库系统',
     role: '电子版教材',
+    material_type: 'textbook',
     title: '数据库系统_教材_概论.pdf',
     proposed_filename: '数据库系统_教材_概论.pdf',
     source_type: 'other',
@@ -166,6 +180,58 @@ test('appendManifestEntry records named collector/author attribution and omits a
     attribution_role: 'collector',
     public_display_name: '',
   }, { bytes: 100, sha256: 'e'.repeat(64) }), /Electronic textbooks/);
+
+  // Accepts verified and authorized electronic textbook
+  const textbookManifest = baseManifest();
+  const { entry: textbookEntry } = appendManifestEntry(textbookManifest, {
+    subject: '数据库系统',
+    role: '电子版教材',
+    material_type: 'textbook',
+    title: '数据库系统_开源教材_2025.pdf',
+    proposed_filename: '数据库系统_开源教材_2025.pdf',
+    source_type: 'other',
+    source_note: 'CC-BY-4.0 开源教材，作者公开授权再分发。',
+    review_status: 'verified',
+    license_status: 'authorized-redistribution',
+    contains_personal_info: false,
+    attribution_mode: 'anonymous',
+    attribution_role: 'collector',
+    public_display_name: '',
+  }, { bytes: 1024, sha256: '1'.repeat(64) });
+  assert.equal(textbookEntry.reviewStatus, 'verified');
+  assert.equal(textbookEntry.licenseStatus, 'authorized-redistribution');
+
+  // Rejects 待复核资料 and unknown-reviewing in submission flow
+  assert.throws(() => appendManifestEntry(baseManifest(), {
+    subject: '高等数学',
+    role: '待复核资料',
+    title: '高等数学_待复核.pdf',
+    proposed_filename: '高等数学_待复核.pdf',
+    source_type: 'other',
+    source_note: '测试。',
+    review_status: 'basic-reviewed',
+    license_status: 'learning-reference',
+    contains_personal_info: false,
+    attribution_mode: 'anonymous',
+    attribution_role: 'collector',
+    public_display_name: '',
+  }, { bytes: 100, sha256: '2'.repeat(64) }), /7 publishable canonical/);
+
+  assert.throws(() => appendManifestEntry(baseManifest(), {
+    subject: '高等数学',
+    role: '复习讲义',
+    material_type: 'handout',
+    title: '高等数学_讲义_未知来源.pdf',
+    proposed_filename: '高等数学_讲义_未知来源.pdf',
+    source_type: 'unknown-reviewing',
+    source_note: '来源待确认。',
+    review_status: 'basic-reviewed',
+    license_status: 'learning-reference',
+    contains_personal_info: false,
+    attribution_mode: 'anonymous',
+    attribution_role: 'collector',
+    public_display_name: '',
+  }, { bytes: 100, sha256: '3'.repeat(64) }), /Unsupported submission source_type/);
 
   // Rejects duplicate sha256
   assert.throws(() => appendManifestEntry(namedCollectorManifest, {

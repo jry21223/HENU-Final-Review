@@ -19,15 +19,32 @@ import { pathToFileURL } from 'node:url';
 
 export const MAX_SUBMISSION_BYTES = 100_000_000;
 
-export const CANONICAL_ROLES = new Set([
-  '复习讲义',
-  '往年真题',
-  '课件',
-  '题库练习',
-  '答案解析',
-  '笔记总结',
-  '电子版教材',
-  '待复核资料',
+export const MATERIAL_TYPE_TO_ROLE = Object.freeze({
+  handout: '复习讲义',
+  exam: '往年真题',
+  slides: '课件',
+  exercise: '题库练习',
+  answer: '答案解析',
+  note: '笔记总结',
+  textbook: '电子版教材',
+});
+
+export const CANONICAL_ROLES = new Set(Object.values(MATERIAL_TYPE_TO_ROLE));
+
+export const ALLOWED_SUBMISSION_SOURCE_TYPES = new Set([
+  'teacher-courseware',
+  'teacher-handout',
+  'course-group',
+  'student-recall',
+  'community-note',
+  'personal-note',
+  'doc-converted',
+  'other',
+]);
+
+export const ALLOWED_SUBMISSION_REVIEW_STATUSES = new Set([
+  'basic-reviewed',
+  'verified',
 ]);
 
 export const LEGACY_ROLE_ALIASES = new Set([
@@ -35,6 +52,7 @@ export const LEGACY_ROLE_ALIASES = new Set([
   '课件资料',
   '课件资料包',
   '待复核课件PPT',
+  '待复核资料',
 ]);
 
 export const ALLOWED_EXTENSIONS = new Set([
@@ -121,7 +139,7 @@ export function containsContactDetails(value) {
   return typeof value === 'string' && CONTACT_DETAIL_PATTERNS.some((pattern) => pattern.test(value));
 }
 
-export function validateNaming({ subject, role, proposedFilename }) {
+export function validateNaming({ subject, role, materialType, proposedFilename }) {
   if (typeof subject !== 'string' || subject.trim() !== subject || subject.length === 0 || subject.length > 160) {
     throw new Error('subject must be a trimmed non-empty string up to 160 characters.');
   }
@@ -135,7 +153,13 @@ export function validateNaming({ subject, role, proposedFilename }) {
   }
 
   if (typeof role !== 'string' || LEGACY_ROLE_ALIASES.has(role) || !CANONICAL_ROLES.has(role)) {
-    throw new Error(`role '${role}' must be one of the 8 canonical material types.`);
+    throw new Error(`role '${role}' must be one of the 7 publishable canonical material types.`);
+  }
+  if (materialType !== undefined) {
+    const expectedRole = MATERIAL_TYPE_TO_ROLE[materialType];
+    if (!expectedRole || expectedRole !== role) {
+      throw new Error(`material_type '${materialType}' does not match role '${role}'.`);
+    }
   }
 
   if (
@@ -206,11 +230,15 @@ export function appendManifestEntry(manifest, submission, verifiedFile) {
   const { subject, role, proposedFilename, publicPath } = validateNaming({
     subject: submission.subject,
     role: submission.role,
+    materialType: submission.material_type,
     proposedFilename: submission.proposed_filename,
   });
 
   if (submission.contains_personal_info !== false) {
     throw new Error('Submission must declare contains_personal_info=false.');
+  }
+  if (typeof submission.source_type !== 'string' || !ALLOWED_SUBMISSION_SOURCE_TYPES.has(submission.source_type)) {
+    throw new Error(`Unsupported submission source_type '${submission.source_type}'.`);
   }
   if (typeof submission.source_note !== 'string' || submission.source_note.trim() === '') {
     throw new Error('Submission must include a non-empty source_note.');
@@ -220,6 +248,9 @@ export function appendManifestEntry(manifest, submission, verifiedFile) {
   }
 
   const reviewStatus = submission.review_status || 'basic-reviewed';
+  if (!ALLOWED_SUBMISSION_REVIEW_STATUSES.has(reviewStatus)) {
+    throw new Error(`Unsupported submission review_status '${reviewStatus}'.`);
+  }
   const licenseStatus = submission.license_status || 'learning-reference';
   if (role === '电子版教材') {
     if (reviewStatus !== 'verified' || licenseStatus !== 'authorized-redistribution') {
@@ -426,6 +457,7 @@ async function runFetchAndApply() {
     const naming = validateNaming({
       subject: payload.subject,
       role: payload.role,
+      materialType: payload.material_type,
       proposedFilename: payload.proposed_filename,
     });
 
