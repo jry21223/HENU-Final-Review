@@ -648,7 +648,7 @@
     },
     {
       "name": "离散数学",
-      "note": "包含 23 级真题、考前复习讲义、期末复习自总结，以及雨课堂导出的分节课程课件与章节知识总结。",
+      "note": "包含 23 级真题、考前复习讲义、期末复习自总结，以及雨课堂导出的分节课程课件与章节知识总结。 新增 2026 年期末复习总结（Markdown 与 PDF）。",
       "assets": [
         {
           "subject": "离散数学",
@@ -989,6 +989,34 @@
           "licenseStatus": "authorized-redistribution",
           "bytes": 88665343,
           "sha256": "c3b08872d1508d7d5afaa26394a9e82fab59fc5484b8e1f1112a622be69739c6"
+        },
+        {
+          "subject": "离散数学",
+          "role": "笔记总结",
+          "title": "离散数学_笔记_期末复习总结_2026.md",
+          "publicPath": "离散数学/笔记总结/离散数学_笔记_期末复习总结_2026.md",
+          "year": "2026",
+          "sourceType": "community-note",
+          "sourceNote": "同学共同整理的期末复习知识点总结，部分借助 AI，参考获准公开使用的课堂笔记；资料提供者已确认可公开分享。非官方资料。",
+          "reviewStatus": "basic-reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "bytes": 19984,
+          "sha256": "9d9f3d87240ea5c424465f322506126222ce0c943042aa6a56880389ff2cdda8"
+        },
+        {
+          "subject": "离散数学",
+          "role": "笔记总结",
+          "title": "离散数学_笔记_期末复习总结_2026.pdf",
+          "publicPath": "离散数学/笔记总结/离散数学_笔记_期末复习总结_2026.pdf",
+          "year": "2026",
+          "sourceType": "community-note",
+          "sourceNote": "同学共同整理的期末复习知识点总结，部分借助 AI，参考获准公开使用的课堂笔记；资料提供者已确认可公开分享。非官方资料。",
+          "reviewStatus": "basic-reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "bytes": 567489,
+          "sha256": "6e22b3c425c9c51700eeaf40349a4363432c38716a7689e60bdf196f88a10529"
         }
       ]
     },
@@ -2900,7 +2928,7 @@
     },
     {
       "name": "计算机网络",
-      "note": "包含考前复习讲义和样卷练习资料。",
+      "note": "包含考前复习讲义和样卷练习资料。 新增 2026 年期末复习总结（Markdown 与 PDF）。",
       "assets": [
         {
           "subject": "计算机网络",
@@ -2968,6 +2996,34 @@
               "程芷嘉"
             ]
           }
+        },
+        {
+          "subject": "计算机网络",
+          "role": "笔记总结",
+          "title": "计算机网络_笔记_期末复习总结_2026.md",
+          "publicPath": "计算机网络/笔记总结/计算机网络_笔记_期末复习总结_2026.md",
+          "year": "2026",
+          "sourceType": "community-note",
+          "sourceNote": "同学共同整理的期末复习知识点总结，部分借助 AI，参考获准公开使用的课堂笔记；资料提供者已确认可公开分享。非官方资料。",
+          "reviewStatus": "basic-reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "bytes": 79096,
+          "sha256": "f33c46e9ffaecb4112cd7e11b77e2fddc5cd0d015e5846d21b502d1f362acabb"
+        },
+        {
+          "subject": "计算机网络",
+          "role": "笔记总结",
+          "title": "计算机网络_笔记_期末复习总结_2026.pdf",
+          "publicPath": "计算机网络/笔记总结/计算机网络_笔记_期末复习总结_2026.pdf",
+          "year": "2026",
+          "sourceType": "community-note",
+          "sourceNote": "同学共同整理的期末复习知识点总结，部分借助 AI，参考获准公开使用的课堂笔记；资料提供者已确认可公开分享。非官方资料。",
+          "reviewStatus": "basic-reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "bytes": 1693182,
+          "sha256": "0eefde4cb198d8265e3352d6754066ec381c95f8a057460caab8e42598c6ea16"
         }
       ]
     },
@@ -7479,7 +7535,7 @@
     },
     {
       "name": "数据结构",
-      "note": "收录数据结构课程电子版教材与期末复习总结笔记。",
+      "note": "收录数据结构课程电子版教材与期末复习总结笔记。 新增覆盖绪论至排序的 2026 年期末复习总结（Markdown），保留既有第 1–2 章版本。",
       "assets": [
         {
           "subject": "数据结构",
@@ -7519,6 +7575,20 @@
               "于子倬"
             ]
           }
+        },
+        {
+          "subject": "数据结构",
+          "role": "笔记总结",
+          "title": "数据结构_笔记_期末复习总结_2026.md",
+          "publicPath": "数据结构/笔记总结/数据结构_笔记_期末复习总结_2026.md",
+          "year": "2026",
+          "sourceType": "community-note",
+          "sourceNote": "同学共同整理的期末复习知识点总结，部分借助 AI，参考获准公开使用的课堂笔记；资料提供者已确认可公开分享。非官方资料。",
+          "reviewStatus": "basic-reviewed",
+          "containsPersonalInfo": false,
+          "licenseStatus": "learning-reference",
+          "bytes": 111404,
+          "sha256": "26158ddd253716db4697d1dfaa21b271a1d927867500a5e680a60b94ca069acb"
         }
       ]
     },
