@@ -52,6 +52,9 @@ export const LEGACY_ROLE_ALIASES = new Set([
   '课件资料',
   '课件资料包',
   '待复核课件PPT',
+]);
+
+export const NON_PUBLISHABLE_ROLES = new Set([
   '待复核资料',
 ]);
 
@@ -139,6 +142,20 @@ export function containsContactDetails(value) {
   return typeof value === 'string' && CONTACT_DETAIL_PATTERNS.some((pattern) => pattern.test(value));
 }
 
+export function normalizeApiBase(rawBase) {
+  const value = String(rawBase || '').trim();
+  let parsed;
+  try {
+    parsed = new URL(value);
+  } catch {
+    throw new Error('INGEST_API_BASE must be a valid https:// URL.');
+  }
+  if (parsed.protocol !== 'https:' || !parsed.hostname) {
+    throw new Error('INGEST_API_BASE must use the https:// scheme.');
+  }
+  return value.replace(/\/+$/, '');
+}
+
 export function validateNaming({ subject, role, materialType, proposedFilename }) {
   if (typeof subject !== 'string' || subject.trim() !== subject || subject.length === 0 || subject.length > 160) {
     throw new Error('subject must be a trimmed non-empty string up to 160 characters.');
@@ -152,14 +169,14 @@ export function validateNaming({ subject, role, materialType, proposedFilename }
     throw new Error(`Invalid subject directory '${subject}'.`);
   }
 
-  if (typeof role !== 'string' || LEGACY_ROLE_ALIASES.has(role) || !CANONICAL_ROLES.has(role)) {
+  if (typeof role !== 'string' || NON_PUBLISHABLE_ROLES.has(role) || LEGACY_ROLE_ALIASES.has(role) || !CANONICAL_ROLES.has(role)) {
     throw new Error(`role '${role}' must be one of the 7 publishable canonical material types.`);
   }
-  if (materialType !== undefined) {
-    const expectedRole = MATERIAL_TYPE_TO_ROLE[materialType];
-    if (!expectedRole || expectedRole !== role) {
-      throw new Error(`material_type '${materialType}' does not match role '${role}'.`);
-    }
+  if (typeof materialType !== 'string' || !Object.prototype.hasOwnProperty.call(MATERIAL_TYPE_TO_ROLE, materialType)) {
+    throw new Error(`material_type '${materialType}' is required and must be one of the 7 publishable canonical material types.`);
+  }
+  if (MATERIAL_TYPE_TO_ROLE[materialType] !== role) {
+    throw new Error(`material_type '${materialType}' does not match role '${role}'.`);
   }
 
   if (
@@ -326,28 +343,48 @@ export function appendManifestEntry(manifest, submission, verifiedFile) {
   return { publicPath, entry };
 }
 
+function renderSafeCodeFence(text) {
+  const normalized = String(text ?? '')
+    .replace(/\r\n?/g, '\n')
+    .replace(/`{3,}/g, (match) => match.split('').join('\u200b'))
+    .replace(/~{3,}/g, (match) => match.split('').join('\u200b'));
+  return ['````text', normalized, '````'].join('\n');
+}
+
 export function buildPrBody(submission, { publicPath, sha256, bytes, runUrl }) {
-  const attributionLine = submission.attribution_mode === 'named'
-    ? `${submission.attribution_role === 'author' ? '原创作者' : '资料提供者'}: \`${submission.public_display_name}\``
+  const attributionLabel = submission.attribution_mode === 'named'
+    ? (submission.attribution_role === 'author' ? '原创作者' : '资料提供者')
     : '匿名投稿（不写入 manifest attribution）';
+  const metadataLines = [
+    `课程: ${submission.subject}`,
+    `标题: ${submission.title || submission.proposed_filename || ''}`,
+    `Canonical 类型: ${submission.role}`,
+    `仓库路径: ${publicPath}`,
+    `文件大小: ${bytes} bytes`,
+    ...(submission.year ? [`年份/适用范围: ${submission.year}`] : []),
+    ...(submission.college ? [`学院: ${submission.college}`] : []),
+    `来源类别: ${submission.source_type || 'other'}`,
+    `授权边界: ${submission.license_status || 'learning-reference'}`,
+    `复核状态: ${submission.review_status || 'basic-reviewed'}`,
+    `署名方式: ${attributionLabel}`,
+    ...(submission.attribution_mode === 'named' && submission.public_display_name
+      ? [`署名名称: ${submission.public_display_name}`]
+      : []),
+  ];
   const lines = [
     '## 学生投稿自动入库',
     '',
     `Submission-ID: ${submission.submission_id}`,
     `SHA-256: ${sha256}`,
     '',
-    `- 课程: \`${submission.subject}\``,
-    `- Canonical 类型: \`${submission.role}\``,
-    `- 仓库路径: \`${publicPath}\``,
-    `- 文件大小: \`${bytes}\` bytes`,
-    ...(submission.year ? [`- 年份/适用范围: \`${submission.year}\``] : []),
-    ...(submission.college ? [`- 学院: \`${submission.college}\``] : []),
-    `- 来源类别: \`${submission.source_type || 'other'}\``,
-    `- 来源说明: ${submission.source_note}`,
-    `- 授权边界: \`${submission.license_status || 'learning-reference'}\``,
-    `- 复核状态: \`${submission.review_status || 'basic-reviewed'}\``,
-    `- 署名致谢: ${attributionLine}`,
-    ...(runUrl ? [`- 工作流记录: ${runUrl}`] : []),
+    '### 投稿元数据',
+    '',
+    renderSafeCodeFence(metadataLines.join('\n')),
+    '',
+    '### 来源说明',
+    '',
+    renderSafeCodeFence(submission.source_note || ''),
+    ...(runUrl ? ['', `- 工作流记录: ${runUrl}`] : []),
     '',
     '请维护者核对文件命名、内容边界与 manifest 元数据后合并；合并后将自动同步至 HENU Kit `/library` 并记入贡献榜。',
   ];
@@ -379,9 +416,10 @@ function ensureInsideRepo(repoRoot, targetPath) {
 }
 
 async function fetchJsonSigned({ apiBase, requestPath, payload, secret }) {
+  const safeBase = normalizeApiBase(apiBase);
   const rawBody = JSON.stringify(payload);
   const signed = signHmacRequest({ method: 'POST', requestPath, rawBody, secret });
-  const url = `${apiBase.replace(/\/+$/, '')}${requestPath}`;
+  const url = `${safeBase}${requestPath}`;
   const response = await fetch(url, {
     method: 'POST',
     headers: {
@@ -429,7 +467,7 @@ async function runFetchAndApply() {
   const ingestToken = String(process.env.INGEST_TOKEN || '').trim();
   if (!ingestToken) throw new Error('INGEST_TOKEN is required.');
   const secret = String(process.env.CALLBACK_SECRET || '').trim();
-  const apiBase = String(process.env.INGEST_API_BASE || 'https://henukit.cn').trim();
+  const apiBase = normalizeApiBase(process.env.INGEST_API_BASE || 'https://henukit.cn');
   const repoRoot = process.cwd();
 
   const requestPath = `/api/v1/library/internal/submissions/${submissionId}/ingest-payload`;
@@ -474,13 +512,12 @@ async function runFetchAndApply() {
     copyFileSync(tempFile, targetPath);
     writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
 
-    const shortId = submissionId.slice(0, 8);
-    const branch = `submission/${shortId}`;
+    const branch = `submission/${submissionId}`;
     const prTitle = `add(${naming.subject}): ${entry.title}`;
     const runUrl = process.env.GITHUB_SERVER_URL && process.env.GITHUB_REPOSITORY && process.env.GITHUB_RUN_ID
       ? `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`
       : '';
-    const bodyFile = path.join(tmpdir(), `submission-${shortId}-pr-body.md`);
+    const bodyFile = path.join(tmpdir(), `submission-${submissionId}-pr-body.md`);
     writeFileSync(
       bodyFile,
       buildPrBody({ ...payload, submission_id: submissionId }, { publicPath, sha256: verified.sha256, bytes: verified.bytes, runUrl }),
@@ -518,7 +555,7 @@ function parseCallbackArgs(argv) {
 async function runCallback(argv) {
   const submissionId = validateSubmissionId(process.env.SUBMISSION_ID);
   const secret = String(process.env.CALLBACK_SECRET || '').trim();
-  const apiBase = String(process.env.INGEST_API_BASE || 'https://henukit.cn').trim();
+  const apiBase = normalizeApiBase(process.env.INGEST_API_BASE || 'https://henukit.cn');
   const args = parseCallbackArgs(argv);
   const outcome = args.outcome;
   if (outcome !== 'pr_open' && outcome !== 'pr_failed') {

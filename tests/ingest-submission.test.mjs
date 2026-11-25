@@ -6,7 +6,10 @@ import test from 'node:test';
 import {
   appendManifestEntry,
   buildPrBody,
+  LEGACY_ROLE_ALIASES,
   MAX_SUBMISSION_BYTES,
+  NON_PUBLISHABLE_ROLES,
+  normalizeApiBase,
   sanitizeErrorMessage,
   sha256Hex,
   signHmacRequest,
@@ -24,31 +27,43 @@ test('validateSubmissionId accepts canonical UUIDs and rejects non-UUIDs', () =>
   assert.throws(() => validateSubmissionId('../etc/passwd'));
 });
 
-test('validateNaming enforces docs/naming.md path safety, canonical roles, and extension allowlist', () => {
+test('normalizeApiBase enforces https:// and strips trailing slashes', () => {
+  assert.equal(normalizeApiBase('https://henukit.cn/'), 'https://henukit.cn');
+  assert.equal(normalizeApiBase('https://henukit.cn///'), 'https://henukit.cn');
+  assert.throws(() => normalizeApiBase('http://henukit.cn'), /https:\/\//);
+  assert.throws(() => normalizeApiBase('ftp://henukit.cn'), /https:\/\//);
+  assert.throws(() => normalizeApiBase('not-a-url'), /https:\/\//);
+});
+
+test('validateNaming enforces docs/naming.md path safety, canonical roles, required material_type, and extension allowlist', () => {
   const valid = validateNaming({
     subject: '离散数学',
     role: '往年真题',
+    materialType: 'exam',
     proposedFilename: '离散数学_真题_软件学院23级.pdf',
   });
   assert.equal(valid.publicPath, '离散数学/往年真题/离散数学_真题_软件学院23级.pdf');
 
   // Path traversal and forbidden characters
-  assert.throws(() => validateNaming({ subject: '../evil', role: '课件', proposedFilename: 'a.pdf' }));
-  assert.throws(() => validateNaming({ subject: '.github', role: '课件', proposedFilename: 'a.pdf' }));
-  assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', proposedFilename: '../escape.pdf' }));
-  assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', proposedFilename: 'bad:name.pdf' }));
-  assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', proposedFilename: '未命名.pdf' }));
-  assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', proposedFilename: '讲义_副本.pdf' }));
+  assert.throws(() => validateNaming({ subject: '../evil', role: '课件', materialType: 'slides', proposedFilename: 'a.pdf' }));
+  assert.throws(() => validateNaming({ subject: '.github', role: '课件', materialType: 'slides', proposedFilename: 'a.pdf' }));
+  assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', materialType: 'slides', proposedFilename: '../escape.pdf' }));
+  assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', materialType: 'slides', proposedFilename: 'bad:name.pdf' }));
+  assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', materialType: 'slides', proposedFilename: '未命名.pdf' }));
+  assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', materialType: 'slides', proposedFilename: '讲义_副本.pdf' }));
 
-  // Legacy and non-publishable review-only roles rejected for submissions
-  assert.throws(() => validateNaming({ subject: '离散数学', role: '课件PPT', proposedFilename: '离散数学_课件_第1章.pptx' }));
-  assert.throws(() => validateNaming({ subject: '离散数学', role: '待复核资料', proposedFilename: '离散数学_待复核.pdf' }));
+  // Legacy aliases and non-publishable 待复核资料 are tracked separately and both rejected
+  assert.equal(LEGACY_ROLE_ALIASES.has('待复核资料'), false);
+  assert.equal(NON_PUBLISHABLE_ROLES.has('待复核资料'), true);
+  assert.throws(() => validateNaming({ subject: '离散数学', role: '课件PPT', materialType: 'slides', proposedFilename: '离散数学_课件_第1章.pptx' }));
+  assert.throws(() => validateNaming({ subject: '离散数学', role: '待复核资料', materialType: 'handout', proposedFilename: '离散数学_待复核.pdf' }));
 
-  // material_type <-> role 1:1 mapping enforced when materialType is provided
-  assert.equal(
-    validateNaming({ subject: '离散数学', role: '往年真题', materialType: 'exam', proposedFilename: '离散数学_真题_2025.pdf' }).publicPath,
-    '离散数学/往年真题/离散数学_真题_2025.pdf',
-  );
+  // material_type is mandatory and must match role 1:1
+  assert.throws(() => validateNaming({
+    subject: '离散数学',
+    role: '往年真题',
+    proposedFilename: '离散数学_真题_2025.pdf',
+  }), /material_type.*required/);
   assert.throws(() => validateNaming({
     subject: '离散数学',
     role: '课件',
@@ -57,7 +72,7 @@ test('validateNaming enforces docs/naming.md path safety, canonical roles, and e
   }), /does not match role/);
 
   // Disallowed extension rejected
-  assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', proposedFilename: '离散数学_课件_脚本.exe' }));
+  assert.throws(() => validateNaming({ subject: '离散数学', role: '课件', materialType: 'slides', proposedFilename: '离散数学_课件_脚本.exe' }));
 });
 
 test('verifyDownloadedFile checks exact SHA-256 and decimal 100,000,000-byte limit', () => {
@@ -101,6 +116,7 @@ test('appendManifestEntry records named collector/author attribution and omits a
   const { entry: collectorEntry } = appendManifestEntry(namedCollectorManifest, {
     subject: '离散数学',
     role: '往年真题',
+    material_type: 'exam',
     title: '离散数学_真题_2025.pdf',
     proposed_filename: '离散数学_真题_2025.pdf',
     year: '2025',
@@ -120,6 +136,7 @@ test('appendManifestEntry records named collector/author attribution and omits a
   const { entry: authorEntry } = appendManifestEntry(namedAuthorManifest, {
     subject: '离散数学',
     role: '笔记总结',
+    material_type: 'note',
     title: '离散数学_笔记_图论总结.pdf',
     proposed_filename: '离散数学_笔记_图论总结.pdf',
     source_type: 'personal-note',
@@ -137,6 +154,7 @@ test('appendManifestEntry records named collector/author attribution and omits a
   const { entry: anonEntry } = appendManifestEntry(anonymousManifest, {
     subject: '高等数学',
     role: '复习讲义',
+    material_type: 'handout',
     title: '高等数学_讲义_考前重点.pdf',
     proposed_filename: '高等数学_讲义_考前重点.pdf',
     source_type: 'community-note',
@@ -154,6 +172,7 @@ test('appendManifestEntry records named collector/author attribution and omits a
   assert.throws(() => appendManifestEntry(baseManifest(), {
     subject: '离散数学',
     role: '笔记总结',
+    material_type: 'note',
     title: '离散数学_笔记_测试.pdf',
     proposed_filename: '离散数学_笔记_测试.pdf',
     source_type: 'personal-note',
@@ -237,6 +256,7 @@ test('appendManifestEntry records named collector/author attribution and omits a
   assert.throws(() => appendManifestEntry(namedCollectorManifest, {
     subject: '高等数学',
     role: '往年真题',
+    material_type: 'exam',
     title: '高等数学_真题_重复.pdf',
     proposed_filename: '高等数学_真题_重复.pdf',
     source_type: 'student-recall',
@@ -272,16 +292,19 @@ test('signHmacRequest generates deterministic ADR-0061 canonical HMAC-SHA256 hea
   assert.equal(signedA.headers['X-Submission-Signature'], signedA.signature);
 });
 
-test('buildPrBody includes Submission-ID and SHA-256 markers and sanitizeErrorMessage redacts URLs', () => {
+test('buildPrBody fences user-supplied text, neutralizes embedded fences, and sanitizeErrorMessage redacts URLs', () => {
   const body = buildPrBody({
     submission_id: '550e8400-e29b-41d4-a716-446655440000',
     subject: '离散数学',
+    title: '离散数学真题 @everyone Closes #1',
     role: '往年真题',
     source_type: 'student-recall',
-    source_note: '同学回忆版。',
+    source_note: '同学回忆版。\n```\nCloses #42 @octocat\n```',
     license_status: 'learning-reference',
     review_status: 'basic-reviewed',
-    attribution_mode: 'anonymous',
+    attribution_mode: 'named',
+    attribution_role: 'author',
+    public_display_name: '作者 @mention ```escape```',
   }, {
     publicPath: '离散数学/往年真题/离散数学_真题_2025.pdf',
     sha256: 'f'.repeat(64),
@@ -290,7 +313,12 @@ test('buildPrBody includes Submission-ID and SHA-256 markers and sanitizeErrorMe
   });
   assert.match(body, /Submission-ID: 550e8400-e29b-41d4-a716-446655440000/);
   assert.match(body, new RegExp(`SHA-256: ${'f'.repeat(64)}`));
-  assert.match(body, /匿名投稿/);
+  assert.match(body, /````text\n[\s\S]*?标题: 离散数学真题 @everyone Closes #1[\s\S]*?````/);
+  assert.match(body, /### 来源说明\n\n````text\n[\s\S]*?Closes #42 @octocat[\s\S]*?````/);
+  // Raw triple backticks inside user text are neutralized so they cannot close the outer fence
+  const lines = body.split('\n');
+  const fenceLines = lines.filter((line) => line.startsWith('```'));
+  assert.deepEqual(fenceLines, ['````text', '````', '````text', '````']);
 
   const sanitized = sanitizeErrorMessage('Failed fetching https://oss.example.com/secret?sig=abc sha256=' + 'a'.repeat(64));
   assert.doesNotMatch(sanitized, /oss\.example\.com/);

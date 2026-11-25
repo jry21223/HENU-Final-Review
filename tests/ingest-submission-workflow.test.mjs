@@ -12,11 +12,32 @@ test('accepts only submission_id and ingest_token workflow_dispatch inputs', () 
   assert.doesNotMatch(workflow, /pull_request_target:/);
 });
 
-test('passes untrusted inputs strictly via env rather than shell interpolation', () => {
+test('passes untrusted inputs strictly via env rather than shell interpolation and scopes secrets per step', () => {
+  assert.match(workflow, /concurrency:\n  group: ingest-submission-\$\{\{ inputs\.submission_id \}\}\n  cancel-in-progress: false/);
   assert.match(workflow, /SUBMISSION_ID: \$\{\{ inputs\.submission_id \}\}/);
   assert.match(workflow, /INGEST_TOKEN: \$\{\{ inputs\.ingest_token \}\}/);
   assert.match(workflow, /CALLBACK_SECRET: \$\{\{ secrets\.HENUKIT_SUBMISSION_CALLBACK_SECRET \}\}/);
-  assert.doesNotMatch(workflow, /run:[\s\S]*?\$\{\{\s*inputs\./);
+  assert.match(workflow, /echo "::add-mask::\$INGEST_TOKEN"/);
+  // No shell `run:` block may interpolate `${{ inputs.* }}` directly
+  const runBlocks = [...workflow.matchAll(/^[ \t]+run:[ \t]*(?:\|\n((?:[ \t]{10,}.*\n|\n)*)|([^\n]+))/gm)];
+  assert.ok(runBlocks.length >= 6);
+  for (const match of runBlocks) {
+    const scriptBody = match[1] ?? match[2] ?? '';
+    assert.doesNotMatch(scriptBody, /\$\{\{\s*inputs\./);
+  }
+
+  // Job-level env must not carry INGEST_TOKEN or CALLBACK_SECRET
+  const jobHeader = workflow.split('    steps:')[0];
+  assert.doesNotMatch(jobHeader, /INGEST_TOKEN:/);
+  assert.doesNotMatch(jobHeader, /CALLBACK_SECRET:/);
+
+  // INGEST_TOKEN must appear in exactly one step (fetch-and-apply)
+  const ingestTokenMatches = workflow.match(/INGEST_TOKEN:\s*\$\{\{/g) || [];
+  assert.equal(ingestTokenMatches.length, 1);
+
+  // CALLBACK_SECRET must appear only in the 3 HTTP-signing steps (fetch-and-apply, success callback, failure callback)
+  const callbackSecretMatches = workflow.match(/CALLBACK_SECRET:\s*\$\{\{/g) || [];
+  assert.equal(callbackSecretMatches.length, 3);
 });
 
 test('uses least-privilege permissions, pinned checkout, repo validators, and success/failure callbacks', () => {

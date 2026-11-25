@@ -16,6 +16,10 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: ingest-submission-${{ inputs.submission_id }}
+  cancel-in-progress: false
+
 jobs:
   ingest:
     name: Fetch, validate, and open submission PR
@@ -23,8 +27,6 @@ jobs:
     timeout-minutes: 20
     env:
       SUBMISSION_ID: ${{ inputs.submission_id }}
-      INGEST_TOKEN: ${{ inputs.ingest_token }}
-      CALLBACK_SECRET: ${{ secrets.HENUKIT_SUBMISSION_CALLBACK_SECRET }}
       INGEST_API_BASE: ${{ vars.HENUKIT_INGEST_API_BASE || 'https://henukit.cn' }}
       BASE_BRANCH: ${{ github.event.repository.default_branch }}
     steps:
@@ -44,7 +46,12 @@ jobs:
 
       - name: Fetch verified submission payload and apply to workspace
         id: apply
-        run: node scripts/ingest-submission.mjs fetch-and-apply
+        env:
+          INGEST_TOKEN: ${{ inputs.ingest_token }}
+          CALLBACK_SECRET: ${{ secrets.HENUKIT_SUBMISSION_CALLBACK_SECRET }}
+        run: |
+          echo "::add-mask::$INGEST_TOKEN"
+          node scripts/ingest-submission.mjs fetch-and-apply
 
       - name: Refresh metadata, regenerate README, and run authoritative validators
         run: |
@@ -99,6 +106,7 @@ jobs:
 
       - name: Report PR creation success to HENU Kit Library
         env:
+          CALLBACK_SECRET: ${{ secrets.HENUKIT_SUBMISSION_CALLBACK_SECRET }}
           PR_NUMBER: ${{ steps.pr.outputs.pr_number }}
           PR_URL: ${{ steps.pr.outputs.pr_url }}
           SUBMISSION_BRANCH: ${{ steps.apply.outputs.branch }}
@@ -110,10 +118,15 @@ jobs:
             --branch "$SUBMISSION_BRANCH"
 
       - name: Report failure callback to HENU Kit Library
-        if: failure() && env.CALLBACK_SECRET != ''
+        if: failure()
         env:
+          CALLBACK_SECRET: ${{ secrets.HENUKIT_SUBMISSION_CALLBACK_SECRET }}
           FAILURE_REASON: ${{ env.INGEST_FAILURE_REASON || 'Submission ingestion workflow failed during validation or PR creation.' }}
         run: |
+          if [ -z "${CALLBACK_SECRET:-}" ]; then
+            echo "CALLBACK_SECRET is not set; skipping failure callback." >&2
+            exit 0
+          fi
           node scripts/ingest-submission.mjs callback \
             --outcome pr_failed \
             --error "$FAILURE_REASON"
